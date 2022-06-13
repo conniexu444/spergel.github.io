@@ -82,7 +82,7 @@ d3.json("all_data.json", function(error, graph) {
       .style('font-size',8)
       .style("fill", "white")
       .text(function (d) {return d.name;})
-      .on("click", function(d){clicked_name(d);})
+      .on("click", function(d){clicked_name(d);});
 
   simulation
     .nodes(graph.nodes)
