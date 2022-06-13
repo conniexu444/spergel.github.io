@@ -64,6 +64,7 @@ d3.json("all_data.json", function(error, graph) {
       		})
       .style("stroke", function(d){return "#969696"})
       .style("stroke-width", "1px")
+      .on("click", function(d){clicked_name(d);})
       .call(d3.drag()
               .on("start", dragstarted)
               .on("drag", dragged)
@@ -80,6 +81,7 @@ d3.json("all_data.json", function(error, graph) {
       .style('font-size',8)
       .style("fill", "white")
       .text(function (d) {return d.name;})
+      .on("click", function(d){clicked_name(d);})
       .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
@@ -151,6 +153,21 @@ function clicked(d) {
 
     $("#dialog").dialog();
     $('#body').text("Letters from " + d.from + " to " + d.to);
+    for (let i = 0; i < d.pgpids.length; i++) {
+      let curPGPID = d.pgpids[i].toString()
+      let string = "https://geniza.princeton.edu/en/documents/" + curPGPID
+      $('#body').append("\n")
+      $('#body').append('&nbsp;<a href='+string+'>'+curPGPID+'</a>'+ "\n")
+    }
+        
+  });
+}
+function clicked_name(d) {
+  
+  $( function() {
+
+    $("#dialog").dialog();
+    $('#body').text("Letters to or from " + d.name);
     for (let i = 0; i < d.pgpids.length; i++) {
       let curPGPID = d.pgpids[i].toString()
       let string = "https://geniza.princeton.edu/en/documents/" + curPGPID

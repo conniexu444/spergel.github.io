@@ -36,7 +36,7 @@ body {
   button, input{
       display: inline-block;
   }
-  #body{
+  #dialogue{
     background-color: wheat;
   }
   .nodes, .labels:hover{
