@@ -36,7 +36,9 @@ body {
   button, input{
       display: inline-block;
   }
-  
+  #body{
+    background-color: wheat;
+  }
   .nodes, .labels:hover{
     cursor: pointer;
   }
