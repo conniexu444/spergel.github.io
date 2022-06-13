@@ -52,7 +52,8 @@ d3.json("all_data.json", function(error, graph) {
                 .data(graph.links)
                 .style("stroke-width", function(d){return d.pgpids.length})
                 .enter().append("line")
-                .on("click", function(d){clicked(d);});
+                .on("click", function(d){clicked(d);})
+
   var node = svg.append("g")
             .attr("class", "nodes")
   .selectAll("circle")
@@ -82,11 +83,6 @@ d3.json("all_data.json", function(error, graph) {
       .style("fill", "white")
       .text(function (d) {return d.name;})
       .on("click", function(d){clicked_name(d);})
-      .call(d3.drag()
-                .on("start", dragstarted)
-                .on("drag", dragged)
-                .on("end", dragended));
-  
 
   simulation
     .nodes(graph.nodes)
