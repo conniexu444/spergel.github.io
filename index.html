@@ -59,7 +59,7 @@ d3.json("all_data.json", function(error, graph) {
   .selectAll("circle")
             .data(graph.nodes)
   .enter().append("circle")
-      .attr("r", 5)
+      .attr("r", 8)
       .style("fill", function(d){
       		return "#f7adb4";
       		})
@@ -79,7 +79,7 @@ d3.json("all_data.json", function(error, graph) {
       .enter().append("text")
       .attr('text-anchor', 'middle')
       .attr('dominant-baseline', 'central')
-      .style('font-size',8)
+      .style('font-size',7)
       .style("fill", "white")
       .text(function (d) {return d.name;})
       .on("click", function(d){clicked_name(d);});
@@ -158,21 +158,43 @@ function clicked(d) {
         
   });
 }
-function clicked_name(d) {
-  
-  $( function() {
+function get_all_from_or_to(d, letters) {
 
-    $("#dialog").dialog();
-    $('#body').text("Letters to or from " + d.name);
-    for (let i = 0; i < d.pgpids.length; i++) {
-      let curPGPID = d.pgpids[i].toString()
+    for (let i = 0; i < letters.length; i++) {
+      let curPGPID = letters[i].toString()
+      console.log(curPGPID);
       let string = "https://geniza.princeton.edu/en/documents/" + curPGPID
       $('#body').append("\n")
       $('#body').append('&nbsp;<a href='+string+'>'+curPGPID+'</a>'+ "\n")
     }
-        
+}
+function clicked_name(d) {
+
+  $( function() {
+    $("#dialog").dialog();
+    $('#body').text("");
+    if(d.letters_from != null) {
+      $('#body').append("Letters from " + d.name);
+      get_all_from_or_to(d, d.letters_from)
+    }
+    if(d.letters_to != null) {
+      $('#body').append("Letters to " + d.name);
+      get_all_from_or_to(d, d.letters_to)
+    }
   });
 }
+$(function explainer(){
+    $('#dialog').dialog({
+          autoOpen: true,
+          buttons: {
+              "Ok": function() {
+                $(this).dialog("close");
+            }
+        }
+      });
+    $('#body').text("Click on a link between two nodes to get a list of the letters between those two people.");
+    $('#body').append("Click on the names to get a list of the letters sent to and from that person");
+});
 </script>
 <div id="dialog">
   <div id="body"></div>
