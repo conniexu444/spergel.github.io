@@ -162,7 +162,6 @@ function get_all_from_or_to(d, letters) {
 
     for (let i = 0; i < letters.length; i++) {
       let curPGPID = letters[i].toString()
-      console.log(curPGPID);
       let string = "https://geniza.princeton.edu/en/documents/" + curPGPID
       $('#body').append("\n")
       $('#body').append('&nbsp;<a href='+string+'>'+curPGPID+'</a>'+ "\n")
