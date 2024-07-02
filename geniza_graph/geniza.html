@@ -1,48 +1,259 @@
 <!DOCTYPE html>
-<html>
-<meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geniza Network Graph</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #graph-container {
+            width: 100%;
+            height: 100%;
+        }
+        .back-arrow {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            font-size: 24px;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 50%;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .back-arrow:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        #mode-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        /* Light mode */
+        body.light-mode {
+            background-color: #ffffff;
+            color: #333333;
+        }
+        .light-mode .back-arrow {
+            color: #333333;
+        }
+        .light-mode #mode-toggle {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        /* Dark mode */
+        body.dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+        .dark-mode .back-arrow {
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .dark-mode #mode-toggle {
+            background-color: #ffffff;
+            color: #333333;
+        }
+    </style>
+</head>
+<body class="light-mode">
+    <a href="/" class="back-arrow">&#8592;</a>
+    <button id="mode-toggle">Switch to Dark Mode</button>
+    <div id="graph-container"></div>
+    <div id="dialog">
+        <div id="dialog-body"></div>
+    </div>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    (function() {
+        const widthFactor = 4;
+        const heightFactor = 4;
+        const width = window.innerWidth * widthFactor;
+        const height = window.innerHeight * heightFactor;
+        const radius = 8;  // Radius of the nodes
 
-<!-- These are for fucking around with the textbox popup-->
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
-<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
-<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-<link rel="stylesheet" href="style.css">
+        const svg = d3.select("#graph-container")
+            .append("svg")
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .attr("viewBox", `0 0 ${width} ${height}`)
+            .call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", function () {
+                svg.attr("transform", d3.event.transform);
+            }))
+            .append("g");
 
-<style>
-    .back-arrow {
-        position: fixed;
-        top: 20px;
-        left: 20px;
-        z-index: 1000;
-        font-size: 24px;
-        color: #333;
-        text-decoration: none;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 10px;
-        border-radius: 50%;
-    }
-    .back-arrow:hover {
-        background-color: rgba(255, 255, 255, 0.9);
-    }
-</style>
+        const simulation = d3.forceSimulation()
+            .force("link", d3.forceLink().id(d => d.id).distance(100))
+            .force("charge", d3.forceManyBody().strength(-500))
+            .force("center", d3.forceCenter(width / 2, height / 2));
 
-<body>
-  
-<a href="/" class="back-arrow">&#8592;</a>
+        function getLabelColor() {
+            return document.body.classList.contains('dark-mode') ? 'white' : 'black';
+        }
 
-<script src="https://d3js.org/d3.v4.min.js"></script>
+        d3.json("all_data.json", function(error, graph) {
+            if (error) throw error;
 
-<script>
-  
-// ... (rest of your JavaScript code remains unchanged)
+            const link = svg.append("g")
+                .attr("class", "links")
+                .selectAll("line")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("stroke", "#aaa")
+                .attr("stroke-width", d => Math.sqrt(d.pgpids.length));
 
-</script>
-<div id="dialog">
-  <div id="body"></div>
-</div>
-</body> 
+            const node = svg.append("g")
+                .attr("class", "nodes")
+                .selectAll("circle")
+                .data(graph.nodes)
+                .enter().append("circle")
+                .attr("r", radius)
+                .attr("fill", "#f7adb4")
+                .attr("stroke", "#969696")
+                .attr("stroke-width", "1px")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            const label = svg.append("g")
+                .attr("class", "labels")
+                .selectAll("text")
+                .data(graph.nodes)
+                .enter().append("text")
+                .attr("text-anchor", "middle")
+                .attr("dominant-baseline", "central")
+                .attr("font-size", 7)
+                .attr("fill", getLabelColor)
+                .text(d => d.name);
+
+            node.on("click", clicked_name);
+            label.on("click", clicked_name);
+
+            simulation
+                .nodes(graph.nodes)
+                .on("tick", ticked);
+
+            simulation.force("link")
+                .links(graph.links);
+
+            function ticked() {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                label
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y);
+            }
+        });
+
+        function dragstarted(d) {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+        }
+
+        function dragended(d) {
+            if (!d3.event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        function clicked_name(d) {
+            $("#dialog").dialog({
+                autoOpen: true,
+                width: 400,
+                height: 300
+            });
+            $('#dialog-body').html('');
+            if (d.letters_from) {
+                $('#dialog-body').append(`<h3>Letters from ${d.name}</h3>`);
+                d.letters_from.forEach(pgpid => {
+                    $('#dialog-body').append(`<a href="https://geniza.princeton.edu/en/documents/${pgpid}" target="_blank">${pgpid}</a><br>`);
+                });
+            }
+            if (d.letters_to) {
+                $('#dialog-body').append(`<h3>Letters to ${d.name}</h3>`);
+                d.letters_to.forEach(pgpid => {
+                    $('#dialog-body').append(`<a href="https://geniza.princeton.edu/en/documents/${pgpid}" target="_blank">${pgpid}</a><br>`);
+                });
+            }
+        }
+
+        $(function() {
+            $("#dialog").dialog({
+                autoOpen: false,
+                buttons: {
+                    "Ok": function() {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+            $('#dialog-body').html(`
+                <p>Click on a node or name to get a list of the letters sent to and from that person.</p>
+            `);
+        });
+
+        // Mode toggle functionality
+        const body = document.body;
+        const modeToggle = document.getElementById('mode-toggle');
+
+        function setMode(mode) {
+            if (mode === 'dark') {
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+                modeToggle.textContent = 'Switch to Light Mode';
+            } else {
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+                modeToggle.textContent = 'Switch to Dark Mode';
+            }
+            localStorage.setItem('mode', mode);
+            
+            // Update label colors
+            svg.selectAll('.labels text').attr('fill', getLabelColor);
+        }
+
+        modeToggle.addEventListener('click', () => {
+            const currentMode = body.classList.contains('dark-mode') ? 'light' : 'dark';
+            setMode(currentMode);
+        });
+
+        // Check for saved mode preference or use default (light)
+        const savedMode = localStorage.getItem('mode') || 'light';
+        setMode(savedMode);
+
+    })();
+    </script>
+</body>
 </html>
