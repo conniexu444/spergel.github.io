@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #game-container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+        #original-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #e6e6e6;
+            border-radius: 5px;
+        }
+        #translations {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .translation-container {
+            width: 48%;
+        }
+        .translation-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            height: 150px;
+            overflow-y: auto;
+            text-align: left;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #next {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Translation Guessing Game</h1>
+        <div id="original-text"></div>
+        <div id="translations">
+            <div class="translation-container">
+                <div class="translation-box" id="translation1-box"></div>
+                <button id="translation1-button">Human Translation</button>
+            </div>
+            <div class="translation-container">
+                <div class="translation-box" id="translation2-box"></div>
+                <button id="translation2-button">Human Translation</button>
+            </div>
+        </div>
+        <div id="result"></div>
+        <button id="next">Next</button>
+    </div>
+
+    <script>
+        let translations = [];
+        let currentIndex = 0;
+
+        async function loadTranslations() {
+            const response = await fetch('translations.json');
+            translations = await response.json();
+            showTranslation();
+        }
+
+        function showTranslation() {
+            const current = translations[currentIndex];
+            document.getElementById('original-text').textContent = current.judeo_arabic_text;
+
+            const isHumanFirst = Math.random() < 0.5;
+            document.getElementById('translation1-box').textContent = isHumanFirst ? current.human_translation : current.ai_translation;
+            document.getElementById('translation2-box').textContent = isHumanFirst ? current.ai_translation : current.human_translation;
+
+            document.getElementById('translation1-button').onclick = () => checkAnswer(isHumanFirst);
+            document.getElementById('translation2-button').onclick = () => checkAnswer(!isHumanFirst);
+
+            document.getElementById('result').textContent = '';
+            document.getElementById('next').style.display = 'none';
+        }
+
+        function checkAnswer(isCorrect) {
+            const resultElement = document.getElementById('result');
+            resultElement.textContent = isCorrect ? 'Correct!' : 'Incorrect. The other translation was human.';
+            document.getElementById('next').style.display = 'block';
+        }
+
+        document.getElementById('next').onclick = () => {
+            currentIndex = (currentIndex + 1) % translations.length;
+            showTranslation();
+        };
+
+        loadTranslations();
+    </script>
+</body>
+</html>

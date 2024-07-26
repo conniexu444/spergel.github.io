@@ -1,0 +1,53 @@
+For my second blog post. I want to go over the original method I used to make the network graph. 
+
+1. Dataset:
+
+We start out with letters in the Cairo Geniza. [write a bit about the origin of these letters]
+
+I was extremely lucky that so much work had already gone into collecting data about documents in the Cairo Geniza by others. 
+
+Over 35 years of research, S.D. Goitein created over 35,000 index cards detailing his notes on the Cairo Geniza. Most of these index cards have a description of a single fragment from the Cairo Geniza. Information from these index cards are the basis of the network graph I created. Here is an example of one {images/sd-index-card04-393-1.jpg}. 
+
+Obviously, it would be impossible get almost any structured information from an image like that. Due to the incredibly dedicated work of the people at the Princeton Geniza Lab, these notecards have been digitized and their text has been made machine readable. 
+
+
+Data Collection:
+
+
+
+So we start out with the text version of these cards, we have thousands of index cards with descriptions of documents. 
+
+
+
+After a few failed attempts to collect the data at scale with named entity recognition (I tried a couple of methods of collecting data from the notecards that did not work. I will write about them as an appendix but basically, I was not smart enough to make named entity recognition work for getting names in the Cairo Geniza). 
+
+Luckily, S.D. Goitein tended to have a fairly consistent method of writing notes for letter documents. He would write that letters are "from" a sender and then "to" the recipient. This means that instead of writing a complex machine learning algorithm to try to determine the names within the documents, we can just take the documents as is. While this massively simplifies the operation, it means that there is substantially more data cleaning by hand (I'll get to that in a moment) and a massive loss of potential data. 
+
+
+Take for example, this letter:
+Letter from Faraḥ b. Yosef, in Alexandria, to Yehuda b. Menashshe, in Fustat. Dating: May 12, 1069. Regarding shipments of gold and exchange of dinars for dirhams. Mentions the ships that sailed from Alexandria to the west, probably the first ones after the winter. The writer asks the addressee to drop a debt of 40 dinars that he borrowed from Abu Naser Thibt b. Sadan al-Bagdadi, a person who came to Alexandria in order to travel to the Maghreb, but missed the ship and returned to Fustat. Also Mentions details about the situation in Sicily and the battles there, especially the rise to power of the last Muslim ruler of Palermo, Ibn al-Baʿbāʿ. (Information from Gil, Kingdom, Vol. 3, #520) VMR
+
+An algorithm which only gets the text from after "from" to "to" returns "Farah b Yosef, in Alexandria"
+
+An additional algorithm which only gets the text from after "from" until the subsequent punctuation mark (with the exception of the "b." in Yehuda's name) would return "Yehuda b. Menashshe, in Fustat".
+
+I then cleaned the name data. There were two basic types of cleaning I had to do
+1. Making all the names consistent. For some reason, it seems that Goitein wrote different names for the same people at different times. For example, 5559 and 5601 have Musa b. Yishak b. Hisdai (5559) and Musa b. Yishak b. Hisda (5601) write to Yosef b. Ya’aqov b. Awkal. However, Hisdai and Hisda would not appear as the same person without rigorous text cleaning. Similarly, while both documents use the same name for b. Awkal, there are many other documents with him where he is only noted as "Ibn Awkal" or 
+
+
+While this can easily be cleaned into a data format that would allow us to make a network graph of letter writers, it means we miss a lot of other good data. It also forces the question of what the goal of collect data and making a letter network should be?
+
+The basic version that I created did exactly what is listed above. I got the name of the author and the name of the 
+
+First, there is additional person mentioned in the document, "Abu Naser Thibt b. Sadan al-Bagdadi." He is not the sender of the letter nor the recipient, however he is known to both of them. If the purpose of the network is just to show who sent letters to who, he should obviously be excluded. However, that's not really the purpose of a letter network, is it? Ultimately, we want to know who knows who and what the community at the time would have been. If we want to show a interpersonal map of 11th century networks as expressed in the Cairo Geniza, he should be equally expressed as a character in the network graph. This leads us to the question of how he should be represented? It's ultimately a shortcoming of my visualization capabilities that I honestly don't know. I think the graph would be an untangleable mess if every connection on every document is shown but ultimately "an untangleable mess" is pretty accurate for these networks! There is not a great solution to this.
+
+The other thing this document shows is the difficulty of these documents. In my more complete list of documents which collects all people, not just the sender and receiver, "Abu Naser Thibt b. Sadan al-Bagdadi" seems to appear only in this letter. This appears to be the only time Thibt b. Sadan is ever mentioned. All we will ever know of him is that he "came to Alexandria" with the intention to travel to the Maghreb but missed a ship and returned to Fustat, had 40 dinars which he lent out.
+
+
+I was surprised that someone with capital like 40 dinars would not have been mentioned elsewhere. So I looked for the components of his name. There is no other "Thibt" in the text. However, there are twenty "Thabit(s)" and eleven "Sadan(s)." Going through them, I find a "Sadan b. Thabit ha-Levi," who is almost the same person as "Sadan b. Thabit Baghdadi," who is almost certainly the same guy as "Sadan B. Thabit Levi Baghdadi." However, "Sadan b. Thabit" seems to not have sent a letter until 1135, 66 years after the letter where Thabit b. Sadan had been mentioned. These guys clearly seem like different people. There is also the incredible fact that one of Sadan b. Thabit's letters was only identified by Goitein as Sadan b. Thabit based on Sadan b. Thabit's handwriting!
+
+This kind of discovery is fundamentally why it has been so difficult to quickly get clean information out of the Cairo Geniza. There are tons of different ways that people address each other and lots of similar names. Sometimes, they have to be checked by hand. The most exciting moments are where I discover a new way that someone spelled a name and it turns out that there are two relatively common ways to spell the same name and after recompiling the documents, it turns out that several people as listed in the documents are actually the same people, but with different honorifics in different letters. 
+
+
+Cleaning Names:
+
