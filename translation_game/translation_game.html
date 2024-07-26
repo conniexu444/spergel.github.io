@@ -7,84 +7,81 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 20px;
             background-color: #f0f0f0;
         }
         #game-container {
-            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
             background-color: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            max-width: 800px;
-            width: 100%;
         }
-        #original-text {
-            font-size: 18px;
+        h1, h2 {
+            text-align: center;
+        }
+        .text-box {
+            border: 1px solid #ccc;
+            padding: 15px;
             margin-bottom: 20px;
-            padding: 10px;
-            background-color: #e6e6e6;
             border-radius: 5px;
+            background-color: #f9f9f9;
         }
         #translations {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
         }
         .translation-container {
             width: 48%;
         }
-        .translation-box {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            height: 150px;
-            overflow-y: auto;
-            text-align: left;
-        }
         button {
-            margin: 5px;
-            padding: 10px 20px;
+            display: block;
+            width: 100%;
+            padding: 10px;
             font-size: 16px;
             cursor: pointer;
             background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 5px;
-            width: 100%;
+            margin-top: 10px;
         }
         button:hover {
             background-color: #45a049;
         }
         #result {
+            text-align: center;
             margin-top: 20px;
             font-weight: bold;
         }
         #next {
             display: none;
-            margin-top: 20px;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
     <div id="game-container">
         <h1>Translation Guessing Game</h1>
-        <div id="original-text"></div>
+        
+        <h2>Original Text</h2>
+        <div id="original-text" class="text-box"></div>
+        
         <div id="translations">
             <div class="translation-container">
-                <div class="translation-box" id="translation1-box"></div>
-                <button id="translation1-button">Human Translation</button>
+                <h2>Translation 1</h2>
+                <div id="translation1-box" class="text-box"></div>
+                <button id="translation1-button">I think this is the human translation</button>
             </div>
             <div class="translation-container">
-                <div class="translation-box" id="translation2-box"></div>
-                <button id="translation2-button">Human Translation</button>
+                <h2>Translation 2</h2>
+                <div id="translation2-box" class="text-box"></div>
+                <button id="translation2-button">I think this is the human translation</button>
             </div>
         </div>
+        
         <div id="result"></div>
         <button id="next">Next</button>
     </div>
