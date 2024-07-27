@@ -7,31 +7,34 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-        #game-container {
+            line-height: 1.6;
+            color: #333;
             max-width: 1000px;
             margin: 0 auto;
-            background-color: white;
             padding: 20px;
+            background-color: #f4f4f4;
+        }
+        #game-container {
+            background-color: white;
             border-radius: 10px;
+            padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1, h2 {
-            text-align: center;
+            color: #2c3e50;
         }
         .text-box {
-            border: 1px solid #ccc;
+            border: 1px solid #ddd;
             padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
+            margin-bottom: 15px;
+            white-space: pre-wrap;
             background-color: #f9f9f9;
+            border-radius: 5px;
         }
         #translations {
             display: flex;
             justify-content: space-between;
+            margin-top: 20px;
         }
         .translation-container {
             width: 48%;
@@ -40,21 +43,21 @@
             display: block;
             width: 100%;
             padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
+            margin-top: 10px;
+            background-color: #3498db;
             color: white;
             border: none;
             border-radius: 5px;
-            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #2980b9;
         }
         #result {
-            text-align: center;
-            margin-top: 20px;
             font-weight: bold;
+            margin-top: 20px;
+            text-align: center;
         }
         #next {
             display: none;
@@ -93,16 +96,24 @@
         async function loadTranslations() {
             const response = await fetch('translations.json');
             translations = await response.json();
+            shuffleTranslations();
             showTranslation();
+        }
+
+        function shuffleTranslations() {
+            for (let i = translations.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [translations[i], translations[j]] = [translations[j], translations[i]];
+            }
         }
 
         function showTranslation() {
             const current = translations[currentIndex];
-            document.getElementById('original-text').textContent = current.judeo_arabic_text;
+            document.getElementById('original-text').textContent = current.Transcription;
 
             const isHumanFirst = Math.random() < 0.5;
-            document.getElementById('translation1-box').textContent = isHumanFirst ? current.human_translation : current.ai_translation;
-            document.getElementById('translation2-box').textContent = isHumanFirst ? current.ai_translation : current.human_translation;
+            document.getElementById('translation1-box').textContent = isHumanFirst ? current.Human_Translation : current.AI_Transcription;
+            document.getElementById('translation2-box').textContent = isHumanFirst ? current.AI_Transcription : current.Human_Translation;
 
             document.getElementById('translation1-button').onclick = () => checkAnswer(isHumanFirst);
             document.getElementById('translation2-button').onclick = () => checkAnswer(!isHumanFirst);
