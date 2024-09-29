@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Calendar Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>University Calendar Events</h1>
+    </header>
+    <main>
+        <div id="calendar-container">
+            <div id="calendar-header">
+                <button id="prev-month">&lt;</button>
+                <h2 id="current-month"></h2>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div id="calendar"></div>
+        </div>
+        <div id="events-container">
+            <h2>Events</h2>
+            <div id="events-list"></div>
+        </div>
+    </main>
+    <div id="filter-container" class="floating-filter">
+        <div id="source-filters"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.3/purify.min.js"></script>
+    <script src="filter.js"></script>
+    <script src="header.js"></script>
+    <script src="utils.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

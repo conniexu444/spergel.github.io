@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: block;  /* Changed from flex to block */
+    padding: 1rem;
+    margin-right: 250px;  /* Make space for the floating filter */
+}
+
+#events-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.event {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+}
+
+.event h2 {
+    margin-top: 0;
+    color: #003366;
+}
+
+.event-description {
+    margin-top: 15px;
+}
+
+.event-description p {
+    margin: 10px 0;
+}
+
+.event a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.event a:hover {
+    text-decoration: underline;
+}
+
+.floating-filter {
+    position: fixed;
+    top: 80px;  /* Adjusted to be below the header */
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-height: calc(100vh - 100px);  /* Adjusted to fit below header */
+    overflow-y: auto;
+    width: 200px;  /* Set a fixed width */
+}
+
+#source-filters {
+    display: flex;
+    flex-direction: column;
+}
+
+.source-filter {
+    margin-bottom: 5px;
+}
+
+.department-filter {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#source-filters h3 {
+    margin-top: 20px;
+}
+
+/* Styles for the calendar page */
+#calendar-container, #events-container {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calendar-day.has-events {
+    background-color: #e6f3ff;
+}
+
+.calendar-day.selected {
+    background-color: #003366;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin-right: 0;  /* Remove margin on small screens */
+    }
+
+    .floating-filter {
+        position: static;  /* Make filter non-floating on small screens */
+        width: auto;
+        max-height: none;
+        margin-bottom: 20px;
+    }
+}
+
+.custom-header {
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.custom-header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+.nav-button.active {
+    background-color: #003d80;
+}
+
+.university-container {
+    margin-bottom: 10px;
+}
+
+.department-container {
+    margin-left: 20px;
+    display: none;
+}
+
+.university-container > label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.department-container label {
+    font-weight: normal;
+}

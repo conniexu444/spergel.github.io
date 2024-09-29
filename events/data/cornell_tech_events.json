@@ -1,0 +1,64 @@
+{
+  "events": [
+    {
+      "title": "Fighting Online Abuse in the Age of AI",
+      "start_date": "2024-09-24T18:00:00",
+      "end_date": "2024-09-24T20:30:00",
+      "location": "Tata Innovation Center Room 123 / Cornell Tech Campus / NYC",
+      "description": "",
+      "url": "https://tech.cornell.edu/events/fighting-online-abuse-in-the-age-of-ai/",
+      "source": "Cornell Tech",
+      "university": "Cornell Tech",
+      "image_url": "https://tech.cornell.edu/wp-content/uploads/2024/09/CORNELL-TECH-4_LINKEDIN2-1440x957.png",
+      "tags": [
+        "Fireside Chat",
+        "Public"
+      ]
+    },
+    {
+      "title": "Towards Interpretable and Generalizable Time Series Deep Learning Models",
+      "start_date": "2024-10-01T12:00:00",
+      "end_date": "2024-10-01T13:00:00",
+      "location": "Via Zoom // In Person: 425 E 61st Street, 3rd Fl Conference Room, New York, NY 10065",
+      "description": "",
+      "url": "https://tech.cornell.edu/events/towards-interpretable-and-generalizable-time-series-deep-learning-models/",
+      "source": "Cornell Tech",
+      "university": "Cornell Tech",
+      "image_url": "https://tech.cornell.edu/wp-content/uploads/2024/09/1662476185756.png",
+      "tags": [
+        "Weill Cornell",
+        "Public"
+      ]
+    },
+    {
+      "title": "Urban Tech Summit 2024: Intelligence for Climate Adaptation | Day 1: Hazards, Risks, and Technology Solutions",
+      "start_date": "2024-11-19T10:00:00",
+      "end_date": "2024-11-19T17:00:00",
+      "location": "Verizon Executive Education Center / Cornell Tech Campus / NYC",
+      "description": "",
+      "url": "https://tech.cornell.edu/events/urban-tech-summit-2024-intelligence-for-climate-adaptation-day-1/",
+      "source": "Cornell Tech",
+      "university": "Cornell Tech",
+      "image_url": "https://tech.cornell.edu/wp-content/uploads/2024/09/1716912505468-2.png",
+      "tags": [
+        "Urban Tech",
+        "Public"
+      ]
+    },
+    {
+      "title": "Urban Tech Summit 2024: Intelligence for Climate Adaptation | Day 2: Building Resilient Urban Systems",
+      "start_date": "2024-11-20T10:00:00",
+      "end_date": "2024-11-20T17:00:00",
+      "location": "Verizon Executive Education Center / Cornell Tech Campus / NYC",
+      "description": "",
+      "url": "https://tech.cornell.edu/events/urban-tech-summit-2024-intelligence-for-climate-adaptation-day-2/",
+      "source": "Cornell Tech",
+      "university": "Cornell Tech",
+      "image_url": "https://tech.cornell.edu/wp-content/uploads/2024/09/1716912505468-2.png",
+      "tags": [
+        "Urban Tech",
+        "Public"
+      ]
+    }
+  ]
+}

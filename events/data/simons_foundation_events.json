@@ -1,0 +1,229 @@
+{
+  "events": [
+    {
+      "title": "CCA Colloquium: Phil Hopkins",
+      "start_date": "2024-10-04T15:00:00",
+      "end_date": "2024-10-04T16:00:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Colloquium"
+      ],
+      "url": "https://www.simonsfoundation.org/event/109499-2024-05-10-356-71-640/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Center for Computational Astrophysics",
+      "all_day": false
+    },
+    {
+      "title": "Machine Learning at the Flatiron Institute Seminar:  Aditi Krishnapriyan",
+      "start_date": "2024-10-08T15:00:00",
+      "end_date": "2024-10-08T16:00:00",
+      "location": "Ingrid Daubechies Auditorium (IDA)",
+      "tags": [
+        "Seminar"
+      ],
+      "url": "https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-seminar/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "AstroFest/FRF Orientation",
+      "start_date": "2024-10-11T09:00:00",
+      "end_date": "2024-10-11T17:30:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Meeting"
+      ],
+      "url": "https://www.simonsfoundation.org/event/astrofest-frf-orientation-2/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "EPRV Pipelines Meeting",
+      "start_date": "2024-10-14T08:00:00",
+      "end_date": "2024-10-17T17:00:00",
+      "location": "Marion T. Greenup Conference Center",
+      "tags": [
+        "Meeting"
+      ],
+      "url": "https://www.simonsfoundation.org/event/eprv-pipelines-meeting/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "JAXtronomy",
+      "start_date": "2024-10-14T09:00:00",
+      "end_date": "2024-10-18T15:00:00",
+      "location": "Flatiron Institute, 162 Fifth Avenue",
+      "tags": [
+        "Workshop"
+      ],
+      "url": "https://www.simonsfoundation.org/event/jaxtronomy/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "Machine Learning at the Flatiron Institute Seminar:  Siamak Ravanbaksh",
+      "start_date": "2024-10-15T15:00:00",
+      "end_date": "2024-10-15T16:00:00",
+      "location": "Ingrid Daubechies Auditorium (IDA)",
+      "tags": [
+        "Seminar"
+      ],
+      "url": "https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-seminar-siamak-ravanbaksh/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "CCA Colloquium: Dylan Nelson",
+      "start_date": "2024-10-18T15:00:00",
+      "end_date": "2024-10-18T16:00:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Colloquium"
+      ],
+      "url": "https://www.simonsfoundation.org/event/109499-2024-05-10-356-71-212/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Center for Computational Astrophysics",
+      "all_day": false
+    },
+    {
+      "title": "CCA Colloquium: Tony Mezzacappa",
+      "start_date": "2024-10-25T15:00:00",
+      "end_date": "2024-10-25T16:00:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Colloquium"
+      ],
+      "url": "https://www.simonsfoundation.org/event/109499-2024-05-10-356-71-212-195/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Center for Computational Astrophysics",
+      "all_day": false
+    },
+    {
+      "title": "Machine Learning at the Flatiron Institute Seminar: Andrea Liu",
+      "start_date": "2024-10-29T15:00:00",
+      "end_date": "2024-10-29T16:00:00",
+      "location": "Ingrid Daubechies Auditorium (IDA)",
+      "tags": [
+        "Seminar"
+      ],
+      "url": "https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-seminar-andrea-liu/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "Simons Observatory Meeting",
+      "start_date": "2024-10-31T09:00:00",
+      "end_date": "2024-11-01T17:00:00",
+      "location": "Online",
+      "tags": [
+        "Meeting"
+      ],
+      "url": "https://www.simonsfoundation.org/event/simons-observatory-meeting-2/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "CCA Colloquium: Tjitske Starkenburg",
+      "start_date": "2024-11-01T15:00:00",
+      "end_date": "2024-11-01T16:00:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Colloquium"
+      ],
+      "url": "https://www.simonsfoundation.org/event/109499-2024-05-10-356-71-212-195-220/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Center for Computational Astrophysics",
+      "all_day": false
+    },
+    {
+      "title": "CCA Colloquium: Anthony Pullen",
+      "start_date": "2024-11-08T15:00:00",
+      "end_date": "2024-11-08T16:00:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Colloquium"
+      ],
+      "url": "https://www.simonsfoundation.org/event/109499-2024-05-10-356-71-212-195-921/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Center for Computational Astrophysics",
+      "all_day": false
+    },
+    {
+      "title": "Machine Learning at the Flatiron Institute Seminar:  Ziming Liu",
+      "start_date": "2024-11-12T15:00:00",
+      "end_date": "2024-11-12T16:00:00",
+      "location": "Ingrid Daubechies Auditorium (IDA)",
+      "tags": [
+        "Seminar"
+      ],
+      "url": "https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-seminar-ziming-liu/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    },
+    {
+      "title": "CCA Colloquium: Vicky Kalogera",
+      "start_date": "2024-11-22T15:00:00",
+      "end_date": "2024-11-22T16:00:00",
+      "location": "162 Fifth Avenue, 5th Floor Classroom",
+      "tags": [
+        "Colloquium"
+      ],
+      "url": "https://www.simonsfoundation.org/event/109499-2024-05-10-356-71-212-195-921-646/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Center for Computational Astrophysics",
+      "all_day": false
+    },
+    {
+      "title": "Machine Learning at the Flatiron Institute Seminar:  Nick Boffi",
+      "start_date": "2024-12-03T15:00:00",
+      "end_date": "2024-12-03T16:00:00",
+      "location": "Ingrid Daubechies Auditorium (IDA)",
+      "tags": [
+        "Seminar"
+      ],
+      "url": "https://www.simonsfoundation.org/event/machine-learning-at-the-flatiron-institute-seminar-nick-boffi/",
+      "source": "Simons Foundation",
+      "university": "Simons Foundation",
+      "image_url": "",
+      "department": "Unknown",
+      "all_day": false
+    }
+  ]
+}
