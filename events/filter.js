@@ -1,29 +1,34 @@
 let selectedUniversities = new Set();
-let selectedDepartments = new Set();
+let selectedTags = new Set();
+let selectedCategories = new Set();
+let selectedAcademicTopics = new Set();
 
 function createSourceFilters(events, onFilterChange) {
     const sourceFiltersEl = document.getElementById('source-filters');
-    const universityDepartments = {};
+    const universities = new Set();
+    const tags = new Set();
+    const categories = new Set();
+    const academicTopics = new Set();
     
-    // Group departments by university
+    // Collect unique values for each filter
     events.forEach(event => {
-        const university = event.university || event.source;
-        const department = event.department || event['department-program'];
-        if (!universityDepartments[university]) {
-            universityDepartments[university] = new Set();
-        }
-        if (department) {
-            universityDepartments[university].add(department);
-        }
+        if (event.university) universities.add(event.university);
+        if (event.assigned_tags) event.assigned_tags.forEach(tag => tags.add(tag));
+        if (event.main_category) categories.add(event.main_category);
+        if (event.academic_topics) event.academic_topics.forEach(topic => academicTopics.add(topic));
     });
 
-    sourceFiltersEl.innerHTML = '<h3>Filter by University and Department</h3>';
+    sourceFiltersEl.innerHTML = '<h3>Filter Events</h3>';
     
     // Load saved filters from localStorage
     const savedUniversities = JSON.parse(localStorage.getItem('selectedUniversities')) || [];
-    const savedDepartments = JSON.parse(localStorage.getItem('selectedDepartments')) || [];
+    const savedTags = JSON.parse(localStorage.getItem('selectedTags')) || [];
+    const savedCategories = JSON.parse(localStorage.getItem('selectedCategories')) || [];
+    const savedAcademicTopics = JSON.parse(localStorage.getItem('selectedAcademicTopics')) || [];
     selectedUniversities = new Set(savedUniversities);
-    selectedDepartments = new Set(savedDepartments);
+    selectedTags = new Set(savedTags);
+    selectedCategories = new Set(savedCategories);
+    selectedAcademicTopics = new Set(savedAcademicTopics);
 
     // Add "Select All" and "Clear All" buttons for all filters
     const allButtonContainer = document.createElement('div');
@@ -34,69 +39,23 @@ function createSourceFilters(events, onFilterChange) {
     `;
     sourceFiltersEl.appendChild(allButtonContainer);
 
-    // Create university dropdowns with department checkboxes
-    Object.keys(universityDepartments).forEach(university => {
-        const uniContainer = document.createElement('div');
-        uniContainer.className = 'university-container';
-        
-        const uniCheckbox = document.createElement('input');
-        uniCheckbox.type = 'checkbox';
-        uniCheckbox.id = `uni-${university}`;
-        uniCheckbox.value = university;
-        uniCheckbox.checked = selectedUniversities.has(university) || selectedUniversities.size === 0;
-        
-        const uniLabel = document.createElement('label');
-        uniLabel.htmlFor = `uni-${university}`;
-        uniLabel.textContent = university;
-        
-        const deptContainer = document.createElement('div');
-        deptContainer.className = 'department-container';
-        deptContainer.style.display = uniCheckbox.checked ? 'block' : 'none';
-        
-        universityDepartments[university].forEach(department => {
-            const deptCheckbox = document.createElement('input');
-            deptCheckbox.type = 'checkbox';
-            deptCheckbox.id = `dept-${university}-${department}`;
-            deptCheckbox.value = department;
-            deptCheckbox.checked = selectedDepartments.has(department) || selectedDepartments.size === 0;
-            
-            const deptLabel = document.createElement('label');
-            deptLabel.htmlFor = `dept-${university}-${department}`;
-            deptLabel.textContent = department;
-            
-            deptContainer.appendChild(deptCheckbox);
-            deptContainer.appendChild(deptLabel);
-            deptContainer.appendChild(document.createElement('br'));
-        });
-        
-        uniContainer.appendChild(uniCheckbox);
-        uniContainer.appendChild(uniLabel);
-        uniContainer.appendChild(deptContainer);
-        sourceFiltersEl.appendChild(uniContainer);
-        
-        // Toggle department visibility when university checkbox is clicked
-        uniCheckbox.addEventListener('change', () => {
-            deptContainer.style.display = uniCheckbox.checked ? 'block' : 'none';
-            updateFilters(onFilterChange);
-        });
-    });
-    
+    // Create filter sections
+    createFilterSection('Universities', universities, selectedUniversities, sourceFiltersEl);
+    createFilterSection('Tags', tags, selectedTags, sourceFiltersEl);
+    createFilterSection('Categories', categories, selectedCategories, sourceFiltersEl);
+    createFilterSection('Academic Topics', academicTopics, selectedAcademicTopics, sourceFiltersEl);
+
     // Event listener for checkboxes
     sourceFiltersEl.addEventListener('change', (e) => {
         if (e.target.type === 'checkbox') {
-            const university = e.target.closest('.university-container')?.querySelector('input[type="checkbox"]').value;
-            if (e.target.id.startsWith('uni-')) {
-                if (e.target.checked) {
-                    selectedUniversities.add(university);
-                } else {
-                    selectedUniversities.delete(university);
-                }
-            } else if (e.target.id.startsWith('dept-')) {
-                if (e.target.checked) {
-                    selectedDepartments.add(e.target.value);
-                } else {
-                    selectedDepartments.delete(e.target.value);
-                }
+            const filterType = e.target.getAttribute('data-filter-type');
+            const value = e.target.value;
+            const selectedSet = getSelectedSetByType(filterType);
+
+            if (e.target.checked) {
+                selectedSet.add(value);
+            } else {
+                selectedSet.delete(value);
             }
             updateFilters(onFilterChange);
         }
@@ -104,46 +63,93 @@ function createSourceFilters(events, onFilterChange) {
 
     // Event listeners for "Select All" and "Clear All" buttons
     document.getElementById('select-all-filters').addEventListener('click', () => {
-        selectedUniversities = new Set(Object.keys(universityDepartments));
-        selectedDepartments = new Set([].concat(...Object.values(universityDepartments)));
+        selectAllFilters([universities, tags, categories, academicTopics]);
         updateAllCheckboxes(true);
         updateFilters(onFilterChange);
     });
 
     document.getElementById('clear-all-filters').addEventListener('click', () => {
-        selectedUniversities.clear();
-        selectedDepartments.clear();
+        clearAllFilters();
         updateAllCheckboxes(false);
         updateFilters(onFilterChange);
     });
 }
 
+function createFilterSection(title, values, selectedSet, parentElement) {
+    const sectionContainer = document.createElement('div');
+    sectionContainer.className = 'filter-section';
+    sectionContainer.innerHTML = `<h4>${title}</h4>`;
+
+    values.forEach(value => {
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.id = `${title.toLowerCase()}-${value}`;
+        checkbox.value = value;
+        checkbox.checked = selectedSet.has(value) || selectedSet.size === 0;
+        checkbox.setAttribute('data-filter-type', title.toLowerCase());
+
+        const label = document.createElement('label');
+        label.htmlFor = checkbox.id;
+        label.textContent = value;
+
+        sectionContainer.appendChild(checkbox);
+        sectionContainer.appendChild(label);
+        sectionContainer.appendChild(document.createElement('br'));
+    });
+
+    parentElement.appendChild(sectionContainer);
+}
+
+function getSelectedSetByType(filterType) {
+    switch (filterType) {
+        case 'universities': return selectedUniversities;
+        case 'tags': return selectedTags;
+        case 'categories': return selectedCategories;
+        case 'academic topics': return selectedAcademicTopics;
+        default: return new Set();
+    }
+}
+
+function selectAllFilters(filterSets) {
+    selectedUniversities = new Set(filterSets[0]);
+    selectedTags = new Set(filterSets[1]);
+    selectedCategories = new Set(filterSets[2]);
+    selectedAcademicTopics = new Set(filterSets[3]);
+}
+
+function clearAllFilters() {
+    selectedUniversities.clear();
+    selectedTags.clear();
+    selectedCategories.clear();
+    selectedAcademicTopics.clear();
+}
+
 function updateAllCheckboxes(checked) {
-    document.querySelectorAll('.university-container input[type="checkbox"]').forEach(checkbox => {
+    document.querySelectorAll('.filter-section input[type="checkbox"]').forEach(checkbox => {
         checkbox.checked = checked;
-        const deptContainer = checkbox.closest('.university-container').querySelector('.department-container');
-        deptContainer.style.display = checked ? 'block' : 'none';
-        deptContainer.querySelectorAll('input[type="checkbox"]').forEach(deptCheckbox => {
-            deptCheckbox.checked = checked;
-        });
     });
 }
 
 function updateFilters(onFilterChange) {
     // Save to localStorage
     localStorage.setItem('selectedUniversities', JSON.stringify([...selectedUniversities]));
-    localStorage.setItem('selectedDepartments', JSON.stringify([...selectedDepartments]));
+    localStorage.setItem('selectedTags', JSON.stringify([...selectedTags]));
+    localStorage.setItem('selectedCategories', JSON.stringify([...selectedCategories]));
+    localStorage.setItem('selectedAcademicTopics', JSON.stringify([...selectedAcademicTopics]));
     onFilterChange();
 }
 
 function getFilteredEvents(events) {
     // If no filters are selected, show all events
-    if (selectedUniversities.size === 0 && selectedDepartments.size === 0) {
+    if (selectedUniversities.size === 0 && selectedTags.size === 0 && 
+        selectedCategories.size === 0 && selectedAcademicTopics.size === 0) {
         return events;
     }
     return events.filter(event => {
-        const universityMatch = selectedUniversities.size === 0 || selectedUniversities.has(event.university || event.source);
-        const departmentMatch = selectedDepartments.size === 0 || selectedDepartments.has(event.department || event['department-program']);
-        return universityMatch && departmentMatch;
+        const universityMatch = selectedUniversities.size === 0 || selectedUniversities.has(event.university);
+        const tagMatch = selectedTags.size === 0 || (event.assigned_tags && event.assigned_tags.some(tag => selectedTags.has(tag)));
+        const categoryMatch = selectedCategories.size === 0 || selectedCategories.has(event.main_category);
+        const topicMatch = selectedAcademicTopics.size === 0 || (event.academic_topics && event.academic_topics.some(topic => selectedAcademicTopics.has(topic)));
+        return universityMatch && tagMatch && categoryMatch && topicMatch;
     });
 }

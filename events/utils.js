@@ -4,30 +4,16 @@ window.EventUtils = {
     selectedSources: new Set(),
 
     loadEvents: async function(onEventsLoaded) {
-        const eventSources = [
-            'data/barnard_events.json',
-            'data/cims_events_standardized.json',
-            'data/columbia_events_standardized.json',
-            'data/cornell_tech_events.json',
-            'data/gallatin_events.json',
-            'data/isaw_events_standardized.json',
-            'data/jtsa_events_standardized.json',
-            'data/new_school_events_standardized.json',
-            'data/nyu_engineering_events_standardized.json',
-            'data/nyu_general_events.json',
-            'data/sofheyman_events_standardized.json',
-            'data/simons_foundation_events.json'
-
-        ];
+        const eventSource = 'data/all_events.json';
 
         try {
-            const responses = await Promise.all(eventSources.map(source => fetch(source)));
-            const jsonData = await Promise.all(responses.map(response => response.json()));
+            const response = await fetch(eventSource);
+            const jsonData = await response.json();
             
             const today = new Date();
             today.setHours(0, 0, 0, 0);
 
-            this.events = jsonData.flatMap(data => data.events)
+            this.events = jsonData
                 .filter(event => event.start_date && event.end_date && new Date(event.start_date) >= today);
             
             // Remove duplicate events
