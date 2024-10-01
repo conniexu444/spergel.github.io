@@ -5,7 +5,6 @@ window.EventUtils = {
 
     loadEvents: async function(onEventsLoaded) {
         const eventSource = 'data/all_events.json';
-
         try {
             const response = await fetch(eventSource);
             const jsonData = await response.json();

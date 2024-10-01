@@ -20,7 +20,8 @@ function loadHeader() {
         document.getElementById('event-list-link').classList.add('active');
     } else if (currentPage === 'calendar.html') {
         document.getElementById('calendar-link').classList.add('active');
-    }
+    } 
+
 }
 
 // Call the function when the DOM is fully loaded
