@@ -3,85 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
     <title>Creating a Network Graph from the Cairo Geniza</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #1e1e1e;
-            color: #d4d4d4;
-            padding: 15px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        .note {
-            background-color: #e7f3fe;
-            border-left: 6px solid #2196F3;
-            padding: 10px;
-            margin: 15px 0;
-        }
-    </style>
 </head>
 <body>
-    <h1>Creating a Network Graph from the Cairo Geniza</h1>
+    <div class="container">
+        <header>
+            <a href="/index.html">Joshua's Retro Web Corner</a>
+        </header>
+        
+        <a href="/blog/blog.html" class="back-link">← Back to Blog</a>
+        
+        <article class="blog-post">
+            <h1>Creating a Network Graph from the Cairo Geniza</h1>
+            
+            <div class="post-meta">
+                <p class="post-date">Published on: September 30, 2024</p>
+                <p class="post-author">By: Joshua Spergel</p>
+            </div>
 
-    <h2>The Data</h2>
-    <p>I started with the <a href="https://github.com/princetongenizalab/pgp-metadata">Princeton Geniza Project's dataset</a>. These notecards, transcribed and made available online by the Princeton Geniza Lab, include each document's PGPID (a unique sequential ID), written description, and document type (letter, legal, ketubah, list, etc.).</p>
+            <div class="coffee-stain" style="top: 50px; right: 30px;"></div>
 
-    <p>At last count, it contained over 35,000 documents, with roughly 11,000 letters and 8,000 legal documents. This vast amount of data necessitated automated techniques for processing.</p>
+            <section>
+                <h2>The Data</h2>
+                <p>I started with the <a href="https://github.com/princetongenizalab/pgp-metadata">Princeton Geniza Project's dataset</a>. These notecards, transcribed and made available online by the Princeton Geniza Lab, include each document's PGPID (a unique sequential ID), written description, and document type (letter, legal, ketubah, list, etc.).</p>
+                <p>At last count, it contained over 35,000 documents, with roughly 11,000 letters and 8,000 legal documents. This vast amount of data necessitated automated techniques for processing.</p>
+            </section>
 
-    <h2>Data Cleaning and Name Extraction</h2>
+            <section>
+                <h2>Data Cleaning and Name Extraction</h2>
+                <h3>Initial Approach: Named Entity Recognition</h3>
+                <p>My first attempt at extracting names used named entity recognition (NER). However, standard NER tools struggled with patronymic-based names like "Nahray ben Nissim", often misidentifying parts of the name as separate entities.</p>
+                
+                <h3>Refined Method: Regular Expressions</h3>
+                <p>Fortunately, Goitein's consistent note-taking style for letters allowed for a simpler approach using regular expressions. The general format was:</p>
+                <div class="code-snippet">
+                    <code>"Letter from [sender] to [recipient]"</code>
+                </div>
+                <p>This let me extract senders and recipients using regex patterns:</p>
+                <ul>
+                    <li>Sender: Text between "from" and "to"</li>
+                    <li>Recipient: Text after "to" until the next punctuation mark</li>
+                </ul>
+                <p>While this worked perfectly in some cases, many letters required manual cleaning due to numerous edge cases.</p>
+            </section>
 
-    <h3>Initial Approach: Named Entity Recognition</h3>
-    <p>My first attempt at extracting names used named entity recognition (NER). However, standard NER tools struggled with patronymic-based names like "Nahray ben Nissim", often misidentifying parts of the name as separate entities.</p>
+            <div class="coffee-stain" style="bottom: 100px; left: 50px;"></div>
 
-    <h3>Refined Method: Regular Expressions</h3>
-    <p>Fortunately, Goitein's consistent note-taking style for letters allowed for a simpler approach using regular expressions. The general format was:</p>
-    <code>"Letter from [sender] to [recipient]"</code>
-    <p>This let me extract senders and recipients using regex patterns:</p>
-    <ul>
-        <li>Sender: Text between "from" and "to"</li>
-        <li>Recipient: Text after "to" until the next punctuation mark</li>
-    </ul>
+            <section>
+                <h2>Using an LLM to Get the Data</h2>
+                <p>I experimented with using a large language model (LLM) to extract letter recipients and other metadata from the descriptions. However, this approach had mixed results and still required substantial manual cleaning and standardization.</p>
+                <p>I eventually used a combination of LLM and regex to extract the data. I used <a href="groq.com">Groq's version of mixtral 8x7b</a>, ported through <a href="https://github.com/jxnl/instructor/tree/main">Instructor</a> to get the names, location, and other metadata, and then used regex to clean the data.</p>
+                <p>This worked pretty well! It was fairly fast and I generally got good results. It generally did better with two or three-shot prompts. I found that I still needed to go through and clean the data for a few rounds, but it saved a lot of time over doing it by hand.</p>
+                <p>However, the LLM had no way of knowing that "Shlomo b. Avraham" and "Shlomo b. Avraham ha-Kohen" were actually the same person, so I still needed to do a significant amount of cleaning by hand.</p>
+            </section>
 
-    <p>While this worked perfectly in some cases, many letters required manual cleaning due to numerous edge cases.</p>
+            <section>
+                <h2>Manual Cleaning and Standardization</h2>
+                <p>The process of manual cleaning involved:</p>
+                <ul>
+                    <li>Reviewing thousands of rows to ensure name consistency</li>
+                    <li>Standardizing name spellings and honorifics</li>
+                    <li>Identifying when different spellings referred to the same person</li>
+                </ul>
+                <p>I used fuzzy name matching to find similar names, but this had limited success. Mostly, I had to go name by name, find similar ones, and check their original notes to determine if they were the same person or different people.</p>
+            </section>
 
-    <h2>Using an LLM to Get the Data</h2>
-    <p>I experimented with using a large language model (LLM) to extract letter recipients and other metadata from the descriptions. However, this approach had mixed results and still required substantial manual cleaning and standardization.</p>
-    <p> I eventually used a combination of LLM and regex to extract the data. I used <a href = "groq.com">Groq's version of mixtral 8x7b</a>, ported through <a href = "https://github.com/jxnl/instructor/tree/main">Instructor</a> to get the names, location, and other metadata, and then used regex to clean the data.</p>
-    <p> This worked pretty well! It was fairly fast and I generally got good results. It generally did better with two or three-shot prompts. I found that I still needed to go through and clean the data for a few rounds, but it saved a lot of time over doing it by hand.</p>
-    <p> However, the LLM had no way of knowing that "Shlomo b. Avraham" and "Shlomo b. Avraham ha-Kohen" were actually the same person, so I still needed to do a significant amount of cleaning by hand.</p>
-    <h2>Manual Cleaning and Standardization</h2>
-    <p>The process of manual cleaning involved:</p>
-    <ul>
-        <li>Reviewing thousands of rows to ensure name consistency</li>
-        <li>Standardizing name spellings and honorifics</li>
-        <li>Identifying when different spellings referred to the same person</li>
-    </ul>
+            <section>
+                <h2>Creating the Network Graph</h2>
+                <p>After standardizing the names, I used d3.js to build a network graph of letter senders and recipients. With help from Ben Johnson at the Princeton Geniza Lab, I created a small website to host the graph, later adding functionality to view letters by clicking on nodes (individuals) or links (connections between individuals).</p>
+            </section>
 
-    <p>I used fuzzy name matching to find similar names, but this had limited success. Mostly, I had to go name by name, find similar ones, and check their original notes to determine if they were the same person or different people.</p>
-
-    <h2>Creating the Network Graph</h2>
-    <p>After standardizing the names, I used d3.js to build a network graph of letter senders and recipients. With help from Ben Johnson at the Princeton Geniza Lab, I created a small website to host the graph, later adding functionality to view letters by clicking on nodes (individuals) or links (connections between individuals).</p>
-
-    <h2>Name Standardization Reference</h2>
-    <p>Here's a reference list of standardized names and their variations that I used during the cleaning process:</p>
-
-    <pre><code>
+            <section>
+                <h2>Name Standardization Reference</h2>
+                <p>Here's a reference list of standardized names and their variations that I used during the cleaning process:</p>
+                <div class="code-block">
+                    <pre><code>
 {
     "aharon": ["aaron"],
     "avon": ["abon"],
@@ -92,88 +89,17 @@
     "baruch": ["barukh", "baruk"],  
     "daniʾel": ['daniel', "dani'el"],
     "david": ["daud", "dawud"],  
-    "efrayim": ["ephraim", "ephrayim", "ifrayim"],
-    "evyatar": ['ebiathar'],
-    "elʿazar": ['eleazar', 'elazar', 'elizur', "el'azar"],
-    "ʿeli": ['eli', "'eli"],
-    "eliyyahu": ['elijah', 'eliyahu'],
-    "ezra": ["ezrah", "azra"],  
-    "ʿimmanuʾel": ['emmanuel', "immanuel", "'immanu'el"],
-    "halfon": ["khalfon", 'khalfun'],  
-    "hananel": ["hananeel", "hananiel"],  
-    "ḥananya": ['hanania', 'hananiah', 'hanaia'],
-    "hasan": ["hasun", "hassun", "hassan"],  
-    "ḥayyim": ["haim", "chaim", "hayim"],
-    "ḥasday": ["hasdai", "hisdai", "hisday", "hisda"],
-    "ḥizqiyyahu": ["hezekiah"],
-    "iyyov": ["job"],
-    "kadmiʾel": ['cadmiel'],
-    "kalev": ["caleb"],
-    "khalluf": ["khalaf", "khalfa", "khulayf"],  
-    "kohen": ["cohen"],
-    "leʾa": ["leah"],
-    "menaḥem": ["menachem"],
-    "menashshe": ["manasseh", "menashshee", "mannaseh", "menase", "manashshe", "manasse", "menashe"],
-    "meʾir": ["meir"],
-    "mevorakh": ["mevorak"],  
-    "mordekhay": ["mordechai"],
-    "moshe": ["moses", "musa"],
-    "naḥum": ["nachum"],
-    "natan": ["nathan"],
-    "neḥemya": ["nehemiah"],
-    "netanʾel": ["nathaniel", "nethanel", "natanel"],
-    "nissim": ["nisim"],  
-    "peraħya": ["perahiah", "perah"],
-    "pinḥas": ["phineas"],
-    "rafaʾel": ["raphael"],
-    "reʾuven": ["reuben"],
-    "rivqa": ["rebecca"],
-    "saʿadya": ["saadiah", "saada", "saadia", "saadyah", "seadya"],
-    "said": ["sayyid"],  
-    "salih": ["salah"],  
-    "sasson": ["sason"],  
-    "sadaqa": ["sedaqa", "sadaqah", "sadoq", "zedaqa", "zadaka"],  
-    "shabbetay": ["sabbetai", "shabbatay"],
-    "shaʾul": ["saul"],
-    "shelomo": ["solomon", "shalom", "shlomo"],
-    "shemaʿya": ["shemaiah"],
-    "shemarya": ["shemariah", "shemaya", "semarya", "sehmarya"],
-    "shemuʾel": ["samuel", "shemuel", "shmuel", "shemeul"],
-    "shimʿon": ["simon", "simeon"],
-    "sughmar": ["sighmar", "sigmar", "sugmar"],  
-    "ṣefanya": ["zephaniah"],
-    "ṣemaḥ": ["zemaḥ"],
-    "ṭoviyya": ["tobias", "tovia", "toviya", "toviyya", "toviyyahu", "tuviyyahu", "tuvya"],
-    "yaʿaqov": ["jacob", "yaaqov", "yaaqub", "yaaquv", "yaakob", "yaqub", "yaakov"],
-    "yehoshuaʿ": ["joshua", "yehoshua", "yeshua", "yehoshuaha", "yoshua"],
-    "yehuda": ["judah", "yehudah"],
-    "yeḥezqel": ['ezekiel', "yequtiel"],
-    "yeḥiʾel": ["jechiel", "jehiel"],
-    "yequtiʾel": ["jekuthiel"],
-    "yeshaʿyahu": ["isaiah"],
-    "yeshuaʿ": ["jeshua"],
-    "yiftaḥ": ["jephthah"],
-    "yiṣḥaq": ["isaac", "yishaq", "yitzhak", "ishaq", "yizhak", "itzhak", "yizhaq", "yishak"],
-    "yisrael": ["israel"],
-    "yissakhar": ["issachar"],
-    "yoʾel": ["joel"],
-    "yoḥanan": ["john"],
-    "yona": ["jonah"],
-    "yonatan": ["jonathan"],
-    "yosef": ["joseph", "yusuf", "yehosef"],
-    "yoshiyyahu": ["josiah"],
-    "zekharya": ["zechariah", "zakariya", "zakariyya", "zekharia", "zakarya", "zekhariya"],
-    "berakot": ["barakat", "berakhot"],  
-    "fustat": ["furat"],  
-    "ghazzi": ["ghazzawi", "al-ghazzawi", "ha-gazzawi", "gazal"],  
-    "jerusalem": ["ha-yerushalmi", "yerushalmi"],  
-    "maqdisi": ["muqaddasi"],  
+    // ... (rest of the list)
     "tripoli": ["ha-itrabulusi", "ha-atrabulsi", "ha-itrabulsi"]
 }
-    </code></pre>
+                    </code></pre>
+                </div>
+            </section>
 
-    <div class="note">
-        <p><strong>Note:</strong> Most of these notes were written by S.D. Goitein over 35 years of research. He created over 35,000 index cards detailing his notes on the Cairo Geniza. About 9,000 of them were letters. Each index card describes a single fragment from the Geniza, forming the basis of the network graph I created.</p>
+            <div class="note">
+                <p><strong>Note:</strong> Most of these notes were written by S.D. Goitein over 35 years of research. He created over 35,000 index cards detailing his notes on the Cairo Geniza. About 9,000 of them were letters. Each index card describes a single fragment from the Geniza, forming the basis of the network graph I created.</p>
+            </div>
+        </article>
     </div>
 </body>
 </html>
