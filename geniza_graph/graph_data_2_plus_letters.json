@@ -9,7 +9,11 @@
       "group": 1
     },
     {
-      "id": "Barhun B. Yishaq ha-Tahirti",
+      "id": "Moshe B. Yishaq B. Nissim",
+      "group": 1
+    },
+    {
+      "id": "Barhun B. Yishaq Al-Tahirti",
       "group": 1
     },
     {
@@ -17,7 +21,7 @@
       "group": 1
     },
     {
-      "id": "Marduk B. Moshe",
+      "id": "Mardukh B. Moshe",
       "group": 1
     },
     {
@@ -73,7 +77,7 @@
       "group": 1
     },
     {
-      "id": "Efrayim B. Ismail ha-jawhari",
+      "id": "Efrayim B. Ismail Al-jawhari",
       "group": 1
     },
     {
@@ -81,11 +85,15 @@
       "group": 1
     },
     {
-      "id": "\u02bfeli B. Yehezqel",
+      "id": "\u02bfeli B. Ye\u1e25ezqel",
       "group": 1
     },
     {
       "id": "Masliah",
+      "group": 1
+    },
+    {
+      "id": "Yehuda B. El\u02bfazar",
       "group": 1
     },
     {
@@ -121,11 +129,15 @@
       "group": 1
     },
     {
-      "id": "\u1e6coviyya B. \u02bfeli",
+      "id": "Toviyya B. \u02bfeli",
       "group": 1
     },
     {
       "id": "\u02bfeli B. Avraham",
+      "group": 1
+    },
+    {
+      "id": "Barhun B. Salih Al-Tahirti",
       "group": 1
     },
     {
@@ -137,10 +149,6 @@
       "group": 1
     },
     {
-      "id": "Yosef B. Ya\u02bfaqov B. Awkal",
-      "group": 1
-    },
-    {
       "id": "Shemu\u02beel B. Hananya",
       "group": 1
     },
@@ -149,7 +157,7 @@
       "group": 1
     },
     {
-      "id": "Moshe B. Barhun ha-Tahirti",
+      "id": "Moshe B. Barhun Al-Tahirti",
       "group": 1
     },
     {
@@ -161,6 +169,14 @@
       "group": 1
     },
     {
+      "id": "Farah B. Ismail B. Farah",
+      "group": 1
+    },
+    {
+      "id": "Ismail B. Yosef B. Abi Aqaba",
+      "group": 1
+    },
+    {
       "id": "Aharon",
       "group": 1
     },
@@ -169,11 +185,15 @@
       "group": 1
     },
     {
-      "id": "Yehoshua\u02bf B. Ismail ha-makhmuri",
+      "id": "Yehoshua\u02bf B. Ismail Al-makhmuri",
       "group": 1
     },
     {
-      "id": "Avraham B. Farrah",
+      "id": "Nissim B. Nahray",
+      "group": 1
+    },
+    {
+      "id": "Avraham B. Farah",
       "group": 1
     },
     {
@@ -185,7 +205,7 @@
       "group": 1
     },
     {
-      "id": "Moshe b. Abi ha-Hayy",
+      "id": "Moshe B. Abi Al-hayy",
       "group": 1
     },
     {
@@ -201,11 +221,11 @@
       "group": 1
     },
     {
-      "id": "Avraham B. Natan Av",
+      "id": "Al- Yishaq Avraham B. Natan Av Bet Din",
       "group": 1
     },
     {
-      "id": "",
+      "id": "Nissim b. Yishaq ha-Tahirti",
       "group": 1
     },
     {
@@ -233,7 +253,7 @@
       "group": 1
     },
     {
-      "id": "Barhun B. Moshe ha-Tahirti",
+      "id": "Barhun B. Moshe Al-Tahirti",
       "group": 1
     },
     {
@@ -261,7 +281,7 @@
       "group": 1
     },
     {
-      "id": "Al- Faraj Shemarya B. ha-faraj",
+      "id": "Shemarya B. Al-faraj",
       "group": 1
     },
     {
@@ -273,7 +293,7 @@
       "group": 1
     },
     {
-      "id": "Al- Nasr B. Avraham",
+      "id": "B. Avraham",
       "group": 1
     },
     {
@@ -281,7 +301,7 @@
       "group": 1
     },
     {
-      "id": "Al- Ala Yosef B. David B. Shaya",
+      "id": "Yosef B. David B. Shaya",
       "group": 1
     },
     {
@@ -301,10 +321,6 @@
       "group": 1
     },
     {
-      "id": "Al- Faraj Yehoshua\u02bf B. Ismail",
-      "group": 1
-    },
-    {
       "id": "Natan B. Shelomo",
       "group": 1
     },
@@ -317,11 +333,15 @@
       "group": 1
     },
     {
+      "id": "Avraham B. Shelomo",
+      "group": 1
+    },
+    {
       "id": "Eliyyahu The Judge",
       "group": 1
     },
     {
-      "id": "Al- Afrah Arus B. Yosef",
+      "id": "ha-afrah Arus B. Yosef",
       "group": 1
     },
     {
@@ -329,23 +349,23 @@
       "group": 1
     },
     {
-      "id": "Al- Zikri",
+      "id": "Avraham B. Natan",
       "group": 1
     },
     {
-      "id": "Yishaq B. Simha ha-nisaburi",
+      "id": "ha-zikri",
       "group": 1
     },
     {
-      "id": "Al- Majd",
+      "id": "Yishaq B. Simha Al-nisaburi",
+      "group": 1
+    },
+    {
+      "id": "ha-majd",
       "group": 1
     },
     {
       "id": "Yefet B. David B. Shekhanya",
-      "group": 1
-    },
-    {
-      "id": "Ismail B. Yishaq ha-andalusi",
       "group": 1
     },
     {
@@ -369,14 +389,6 @@
       "group": 1
     },
     {
-      "id": "Avraham B. Natan",
-      "group": 1
-    },
-    {
-      "id": "Barhun B. Salih ha-Tahirti",
-      "group": 1
-    },
-    {
       "id": "Menahem",
       "group": 1
     },
@@ -397,6 +409,10 @@
       "group": 1
     },
     {
+      "id": "Barhun B. Moshe Tahirti",
+      "group": 1
+    },
+    {
       "id": "Halfon B. Menashshe",
       "group": 1
     },
@@ -405,11 +421,15 @@
       "group": 1
     },
     {
-      "id": "Nissim B. Halfon",
+      "id": "Saadya B. Avraham B. ha-amshati",
       "group": 1
     },
     {
-      "id": "Saadya B. Avraham",
+      "id": "Barhun B. Moshe",
+      "group": 1
+    },
+    {
+      "id": "Ismail B. Yishaq Al-andalusi",
       "group": 1
     },
     {
@@ -425,10 +445,6 @@
       "group": 1
     },
     {
-      "id": "Moshe B. Yishaq B. hasday",
-      "group": 1
-    },
-    {
       "id": "Yehuda",
       "group": 1
     },
@@ -437,11 +453,11 @@
       "group": 1
     },
     {
-      "id": "Yehuda B. ha-ammani",
+      "id": "Yehuda B. Al-ammani",
       "group": 1
     },
     {
-      "id": "Al- Majd Me\u02beir B. Yakhin",
+      "id": "ha-majd Me\u02beir B. Yakhin",
       "group": 1
     },
     {
@@ -449,19 +465,19 @@
       "group": 1
     },
     {
+      "id": "Yosef B. Farah Ha-qabisi",
+      "group": 1
+    },
+    {
       "id": "Yishaq B. Ya\u02bfaqov",
       "group": 1
     },
     {
-      "id": "Yehuda B. Aharon B. ha-ammani",
+      "id": "Yehuda B. Aharon B. Al-ammani",
       "group": 1
     },
     {
       "id": "Elhanan B. Shemarya",
-      "group": 1
-    },
-    {
-      "id": "Nissim B. Yishaq ha-Tahirti",
       "group": 1
     },
     {
@@ -470,6 +486,10 @@
     },
     {
       "id": "Yosef B. Shemu\u02beel",
+      "group": 1
+    },
+    {
+      "id": "Barhun B. Yishaq Tahirti",
       "group": 1
     },
     {
@@ -485,11 +505,11 @@
       "group": 1
     },
     {
-      "id": "Al- Sahl Levi",
+      "id": "Levi",
       "group": 1
     },
     {
-      "id": "Al- Berakot",
+      "id": "ha-barakat",
       "group": 1
     },
     {
@@ -497,7 +517,7 @@
       "group": 1
     },
     {
-      "id": "Al- Faraj",
+      "id": "ha-faraj",
       "group": 1
     },
     {
@@ -521,7 +541,7 @@
       "group": 1
     },
     {
-      "id": "Al- Najm Hilal",
+      "id": "ha-najm Hilal",
       "group": 1
     },
     {
@@ -537,7 +557,7 @@
       "group": 1
     },
     {
-      "id": "ha-shaykh ha-rashid",
+      "id": "Al-shaykh Al-rashid",
       "group": 1
     },
     {
@@ -545,7 +565,7 @@
       "group": 1
     },
     {
-      "id": "Moshe B. Ya\u02bfaqov ha-misri",
+      "id": "Moshe B. Ya\u02bfaqov Al-misri",
       "group": 1
     },
     {
@@ -553,7 +573,11 @@
       "group": 1
     },
     {
-      "id": "Yahya B. Moshe ha-majjani",
+      "id": "Yosef B. \u02bfeli Fasi",
+      "group": 1
+    },
+    {
+      "id": "Yahya B. Moshe Al-majjani",
       "group": 1
     },
     {
@@ -561,19 +585,23 @@
       "group": 1
     },
     {
-      "id": "Al- Surur",
+      "id": "ha-surur",
       "group": 1
     },
     {
-      "id": "Salih B. Barhun ha-Tahirti",
+      "id": "Salih B. Barhun Al-Tahirti",
       "group": 1
     },
     {
-      "id": "Moshe B. Al- Hayy",
+      "id": "Moshe B. ha-hayy",
       "group": 1
     },
     {
       "id": "El\u02bfazar",
+      "group": 1
+    },
+    {
+      "id": "Yishaq B. Barhun",
       "group": 1
     },
     {
@@ -593,7 +621,7 @@
       "group": 1
     },
     {
-      "id": "Avraham B. Farah",
+      "id": "",
       "group": 1
     },
     {
@@ -605,15 +633,11 @@
       "group": 1
     },
     {
-      "id": "Yosef B. Farah",
-      "group": 1
-    },
-    {
       "id": "Yishaq",
       "group": 1
     },
     {
-      "id": "Ismail B. Barhun ha-Tahirti",
+      "id": "Ismail B. Barhun Al-Tahirti",
       "group": 1
     },
     {
@@ -625,7 +649,11 @@
       "group": 1
     },
     {
-      "id": "Al- Nasr",
+      "id": "Yehuda B. Toviyya",
+      "group": 1
+    },
+    {
+      "id": "ha-nasr",
       "group": 1
     },
     {
@@ -633,7 +661,7 @@
       "group": 1
     },
     {
-      "id": "Al- Hasan \u02bfeli B. Hillel",
+      "id": "\u02bfeli B. Hillel",
       "group": 1
     },
     {
@@ -649,15 +677,23 @@
       "group": 1
     },
     {
-      "id": "Al- Surur Yishaq B. Barhun",
+      "id": "Ismail B. Barhun Tahirti",
       "group": 1
     },
     {
-      "id": "Al- Mahasin",
+      "id": "Avraham b. Farah",
       "group": 1
     },
     {
-      "id": "Al- Imran",
+      "id": "ha-mahasin",
+      "group": 1
+    },
+    {
+      "id": "ha-imran",
+      "group": 1
+    },
+    {
+      "id": "B. ha-faraj",
       "group": 1
     },
     {
@@ -665,7 +701,7 @@
       "group": 1
     },
     {
-      "id": "Yefet B. Menashshe B. ha-qataif",
+      "id": "Yefet B. Menashshe B. Al-qataif",
       "group": 1
     },
     {
@@ -673,7 +709,7 @@
       "group": 1
     },
     {
-      "id": "Al- Ali",
+      "id": "ha-ali",
       "group": 1
     },
     {
@@ -681,15 +717,19 @@
       "group": 1
     },
     {
-      "id": "\u02bfeli B. Hillel",
+      "id": "Ya\u02bfaqov B. Ismail Al-andalusi",
       "group": 1
     },
     {
-      "id": "Ya\u02bfaqov B. Ismail ha-andalusi",
+      "id": "Yehoshua\u02bf B. Natan",
       "group": 1
     },
     {
-      "id": "Al- Mansur",
+      "id": "ha-mansur",
+      "group": 1
+    },
+    {
+      "id": "Nissim",
       "group": 1
     },
     {
@@ -697,15 +737,15 @@
       "group": 1
     },
     {
-      "id": "Community Of ha-mahalla",
+      "id": "Community Of Al-mahalla",
       "group": 1
     },
     {
-      "id": "Al- Sad Khalluf B. Sahl",
+      "id": "Khalluf B. Sahl",
       "group": 1
     },
     {
-      "id": "Al- Hasan",
+      "id": "ha-hasan",
       "group": 1
     },
     {
@@ -721,7 +761,7 @@
       "group": 1
     },
     {
-      "id": "Al- Najm",
+      "id": "ha-najm",
       "group": 1
     },
     {
@@ -749,31 +789,15 @@
       "group": 1
     },
     {
-      "id": "Yosef B. David B. Shaya",
+      "id": "Yosef B. Labrat Al-fasi",
       "group": 1
     },
     {
-      "id": "Yosef B. Labrat ha-fasi",
-      "group": 1
-    },
-    {
-      "id": "Ya\u02bfaqov B. Yosef B. Awkal",
-      "group": 1
-    },
-    {
-      "id": "Al- Said",
+      "id": "ha-said",
       "group": 1
     },
     {
       "id": "Mevorakh",
-      "group": 1
-    },
-    {
-      "id": "Salama B. Nissim B. Yishaq ha-Barqi",
-      "group": 1
-    },
-    {
-      "id": "Levi",
       "group": 1
     },
     {
@@ -789,7 +813,7 @@
       "group": 1
     },
     {
-      "id": "Ismail B. Ya\u02bfaqov ha-andalusi",
+      "id": "Ismail B. Ya\u02bfaqov Al-andalusi",
       "group": 1
     },
     {
@@ -801,15 +825,15 @@
       "group": 1
     },
     {
-      "id": "Ya\u02bfaqov B. Salman ha-hariri",
+      "id": "Ya\u02bfaqov B. Salman Al-hariri",
       "group": 1
     },
     {
-      "id": "Al- Fadl",
+      "id": "ha-fadl",
       "group": 1
     },
     {
-      "id": "Yehuda B. Ismail ha-andalusi",
+      "id": "Yehuda B. Ismail Al-andalusi",
       "group": 1
     },
     {
@@ -821,19 +845,23 @@
       "group": 1
     },
     {
-      "id": "Ismail B. Yosef B. Abi Uqba",
-      "group": 1
-    },
-    {
       "id": "Shelomo",
       "group": 1
     },
     {
-      "id": "Jalal ha-dawla",
+      "id": "Shelomo B. Nissim Al-Barqi",
+      "group": 1
+    },
+    {
+      "id": "Jalal Al-dawla",
       "group": 1
     },
     {
       "id": "Shemu\u02beel B. Hofni",
+      "group": 1
+    },
+    {
+      "id": "Farah",
       "group": 1
     },
     {
@@ -881,7 +909,7 @@
       "group": 1
     },
     {
-      "id": "Al- Zikri Kohen",
+      "id": "Kohen",
       "group": 1
     },
     {
@@ -897,7 +925,7 @@
       "group": 1
     },
     {
-      "id": "Yosef B. Ya\u02bfaqov Tripoli",
+      "id": "Yosef B. Ya\u02bfaqov Al-itrabulusi",
       "group": 1
     },
     {
@@ -913,7 +941,7 @@
       "group": 1
     },
     {
-      "id": "Avraham B. Abi ha-hayy",
+      "id": "Avraham B. Abi Al-hayy",
       "group": 1
     },
     {
@@ -921,7 +949,7 @@
       "group": 1
     },
     {
-      "id": "Moshe B. Yahya ha-majani",
+      "id": "Moshe B. Yahya Al-majani",
       "group": 1
     },
     {
@@ -929,7 +957,7 @@
       "group": 1
     },
     {
-      "id": "Zekharya B. Ya\u02bfaqov B. ha-shama",
+      "id": "Zekharya B. Ya\u02bfaqov B. Al-shama",
       "group": 1
     },
     {
@@ -953,15 +981,11 @@
       "group": 1
     },
     {
-      "id": "Yishaq B. \u02bfeli ha-majani",
+      "id": "Yishaq B. \u02bfeli Al-majani",
       "group": 1
     },
     {
-      "id": "Yehuda B. \u1e6coviyya",
-      "group": 1
-    },
-    {
-      "id": "ha-wathiq",
+      "id": "Al-wathiq",
       "group": 1
     },
     {
@@ -969,19 +993,19 @@
       "group": 1
     },
     {
-      "id": "Avraham B. Natan Av ha-yeshiva",
-      "group": 1
-    },
-    {
       "id": "Allan B. Hasan",
       "group": 1
     },
     {
-      "id": "Al- Rida",
+      "id": "ha-rida",
       "group": 1
     },
     {
-      "id": "Al- Zikri Yehuda B. Yosef",
+      "id": "Yehoshua\u02bf B. [...]",
+      "group": 1
+    },
+    {
+      "id": "Berakot B. Al-dayyan",
       "group": 1
     },
     {
@@ -993,19 +1017,19 @@
       "group": 1
     },
     {
+      "id": "Perahya B. Menashshe B. Al-qataif",
+      "group": 1
+    },
+    {
       "id": "\u02bfazarya Zeevi",
       "group": 1
     },
     {
-      "id": "Yefet B. Menashshe ha-qataif",
+      "id": "Yefet B. Menashshe Al-qataif",
       "group": 1
     },
     {
-      "id": "Al- Said Halfon B. Menashshe",
-      "group": 1
-    },
-    {
-      "id": "Saadya B. Avraham B. ha-amshati",
+      "id": "Halfon B. Menashshe Al-qataif",
       "group": 1
     },
     {
@@ -1031,7 +1055,7 @@
       ]
     },
     {
-      "source": "Barhun B. Yishaq ha-Tahirti",
+      "source": "Barhun B. Yishaq Al-Tahirti",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -1039,18 +1063,6 @@
           "date": "1045-96 CE",
           "start_location": "N/A",
           "end_location": "Alexandria"
-        },
-        {
-          "pgpid": "1796",
-          "date": "June, 1047",
-          "start_location": "Mahdiyya",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5595",
-          "date": "1045",
-          "start_location": "Mahdiyya",
-          "end_location": "N/A"
         },
         {
           "pgpid": "5769",
@@ -1073,7 +1085,7 @@
       ]
     },
     {
-      "source": "Marduk B. Moshe",
+      "source": "Mardukh B. Moshe",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -1152,7 +1164,7 @@
           "pgpid": "5730",
           "date": "21 July 1046",
           "start_location": "Alexandria",
-          "end_location": "B\u016bs\u012br"
+          "end_location": "B\u016b\u1e63\u012br"
         },
         {
           "pgpid": "5731",
@@ -1163,6 +1175,12 @@
         {
           "pgpid": "5750",
           "date": "March 8, 1048",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5969",
+          "date": "1046",
           "start_location": "Alexandria",
           "end_location": "Fustat"
         },
@@ -1493,7 +1511,7 @@
       ]
     },
     {
-      "source": "Efrayim B. Ismail ha-jawhari",
+      "source": "Efrayim B. Ismail Al-jawhari",
       "target": "Yosef B. Awkal",
       "letters": [
         {
@@ -1513,11 +1531,29 @@
           "date": "1030",
           "start_location": "Alexandria",
           "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5577",
+          "date": "N/A",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5772",
+          "date": "Summer 1030",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5893",
+          "date": "April 2, 1030",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
         }
       ]
     },
     {
-      "source": "\u02bfeli B. Yehezqel",
+      "source": "\u02bfeli B. Ye\u1e25ezqel",
       "target": "Avraham B. Yishaq B. Fustat",
       "letters": [
         {
@@ -1691,7 +1727,7 @@
       ]
     },
     {
-      "source": "\u1e6coviyya B. \u02bfeli",
+      "source": "Toviyya B. \u02bfeli",
       "target": "\u02bfeli B. Avraham",
       "letters": [
         {
@@ -1699,6 +1735,30 @@
           "date": "May 28, 1112",
           "start_location": "Fustat",
           "end_location": "Banyas/Dan"
+        }
+      ]
+    },
+    {
+      "source": "Nahray B. Nissim",
+      "target": "Barhun B. Salih Al-Tahirti",
+      "letters": [
+        {
+          "pgpid": "596",
+          "date": "February 11, 1054 CE",
+          "start_location": "B\u016b\u1e63\u012br",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "1211",
+          "date": "1045",
+          "start_location": "Fustat",
+          "end_location": "Egypt"
+        },
+        {
+          "pgpid": "27422",
+          "date": "N/A",
+          "start_location": "Fustat",
+          "end_location": "N/A"
         }
       ]
     },
@@ -1793,11 +1853,17 @@
       ]
     },
     {
-      "source": "Moshe B. Barhun ha-Tahirti",
+      "source": "Moshe B. Barhun Al-Tahirti",
       "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "656",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "1623",
           "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
@@ -1819,6 +1885,48 @@
           "date": "1130 CE",
           "start_location": "Ashqelon",
           "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Ismail B. Farah",
+      "target": "Farah B. Ismail B. Farah",
+      "letters": [
+        {
+          "pgpid": "668",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "Alexandria"
+        }
+      ]
+    },
+    {
+      "source": "Ismail B. Yosef B. Abi Aqaba",
+      "target": "Yosef B. Awkal",
+      "letters": [
+        {
+          "pgpid": "669",
+          "date": "first quarter of the 11th century",
+          "start_location": "Damsis (Egypt)",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "1703",
+          "date": "ca. 1015-1017 CE",
+          "start_location": "Palermo",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5694",
+          "date": "Around 1030",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "30445",
+          "date": "1030 CE",
+          "start_location": "Palermo",
+          "end_location": "Fus\u1e6d\u0101\u1e6d"
         }
       ]
     },
@@ -1877,7 +1985,7 @@
       ]
     },
     {
-      "source": "Yehoshua\u02bf B. Ismail ha-makhmuri",
+      "source": "Yehoshua\u02bf B. Ismail Al-makhmuri",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -1943,12 +2051,24 @@
       ]
     },
     {
-      "source": "Avraham B. Farrah",
+      "source": "Avraham B. Farah",
       "target": "Nahray B. Nissim",
       "letters": [
         {
           "pgpid": "700",
           "date": "Ca. 1055",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "3250",
+          "date": "1053",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5946",
+          "date": "1055",
           "start_location": "Alexandria",
           "end_location": "Fustat"
         },
@@ -2003,15 +2123,93 @@
       ]
     },
     {
-      "source": "Moshe b. Abi ha-Hayy",
+      "source": "Ismail B. Farah",
       "target": "Nahray B. Nissim",
       "letters": [
         {
-          "pgpid": "711",
-          "date": "1060-1075",
+          "pgpid": "715",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "5573",
+          "date": "9 September 1056",
           "start_location": "Alexandria",
           "end_location": "Fustat"
         },
+        {
+          "pgpid": "5813",
+          "date": "1056-09-23",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5990",
+          "date": "1060",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5995",
+          "date": "September 25, 1056",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Natan B. Nahray",
+      "target": "Moshe B. Abi Al-hayy",
+      "letters": [
+        {
+          "pgpid": "717",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "5757",
+          "date": "1080",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5968",
+          "date": "November 14, 1079",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5973",
+          "date": "Around 1080",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "6104",
+          "date": "Around 1080",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "6106",
+          "date": "1063",
+          "start_location": "Alexandria",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "6107",
+          "date": "1063",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Moshe B. Abi Al-hayy",
+      "target": "Nahray B. Nissim",
+      "letters": [
         {
           "pgpid": "719",
           "date": "N/A",
@@ -2071,96 +2269,6 @@
           "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
-        },
-        {
-          "pgpid": "6075",
-          "date": "ca. 1062",
-          "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
-      "source": "Ismail B. Farah",
-      "target": "Nahray B. Nissim",
-      "letters": [
-        {
-          "pgpid": "715",
-          "date": "N/A",
-          "start_location": "N/A",
-          "end_location": "N/A"
-        },
-        {
-          "pgpid": "5573",
-          "date": "9 September 1056",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5813",
-          "date": "1056-09-23",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5990",
-          "date": "1060",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5995",
-          "date": "September 25, 1056",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
-      "source": "Natan B. Nahray",
-      "target": "Moshe b. Abi ha-Hayy",
-      "letters": [
-        {
-          "pgpid": "717",
-          "date": "N/A",
-          "start_location": "N/A",
-          "end_location": "N/A"
-        },
-        {
-          "pgpid": "5757",
-          "date": "1080",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5968",
-          "date": "November 14, 1079",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5973",
-          "date": "Around 1080",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "6104",
-          "date": "Around 1080",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "6106",
-          "date": "1063",
-          "start_location": "Alexandria",
-          "end_location": "N/A"
-        },
-        {
-          "pgpid": "6107",
-          "date": "1063",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
         }
       ]
     },
@@ -2172,6 +2280,96 @@
           "pgpid": "720",
           "date": "7 December 1060",
           "start_location": "Tinn\u012bs",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "1492",
+          "date": "ca. 1055",
+          "start_location": "Tyre",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5578",
+          "date": "ca. 1055",
+          "start_location": "N/A",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5625",
+          "date": "N/A",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5655",
+          "date": "1056",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5808",
+          "date": "around 1046",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5819",
+          "date": "Around 1053",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5845",
+          "date": "1056",
+          "start_location": "Munyat Samanhud",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5846",
+          "date": "1057",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5898",
+          "date": "August 20, 1046",
+          "start_location": "Tinn\u012bs",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5903",
+          "date": "November 17, 1046",
+          "start_location": "Tinn\u012bs",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5948",
+          "date": "1065",
+          "start_location": "Tatai",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5979",
+          "date": "1055",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5989",
+          "date": "1046",
+          "start_location": "Tinnis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "6056",
+          "date": "1055",
+          "start_location": "Damsis",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "6103",
+          "date": "Around 1055",
+          "start_location": "Damsis",
           "end_location": "Fustat"
         },
         {
@@ -2189,14 +2387,26 @@
       ]
     },
     {
-      "source": "Avraham B. Natan Av",
-      "target": "",
+      "source": "Natan B. Mevorakh",
+      "target": "Eliyyahu",
       "letters": [
         {
-          "pgpid": "732",
-          "date": "ca. 1100",
-          "start_location": "Cairo",
-          "end_location": "Alexandria"
+          "pgpid": "727",
+          "date": "1112",
+          "start_location": "Ashqelon",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Nahray B. Nissim",
+      "target": "Nissim b. Yishaq ha-Tahirti",
+      "letters": [
+        {
+          "pgpid": "735",
+          "date": "1061 CE",
+          "start_location": "N/A",
+          "end_location": "Tripoli"
         }
       ]
     },
@@ -2297,6 +2507,18 @@
       ]
     },
     {
+      "source": "Farah B. Ismail B. Farah",
+      "target": "Yehuda B. Moshe B. Sughmar",
+      "letters": [
+        {
+          "pgpid": "782",
+          "date": "N/A",
+          "start_location": "Busir/Abusir",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
       "source": "Sadaqa B. Levi",
       "target": "Efrayim B. Shemarya",
       "letters": [
@@ -2387,19 +2609,13 @@
       ]
     },
     {
-      "source": "Barhun B. Moshe ha-Tahirti",
+      "source": "Barhun B. Moshe Al-Tahirti",
       "target": "Nahray B. Nissim",
       "letters": [
         {
           "pgpid": "813",
           "date": "Ca. 1053 CE",
           "start_location": "Trapani, Sicily",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "1382",
-          "date": "N/A",
-          "start_location": "Jerusalem",
           "end_location": "Fustat"
         },
         {
@@ -2435,7 +2651,7 @@
       ]
     },
     {
-      "source": "\u02bfeli B. Yehezqel",
+      "source": "\u02bfeli B. Ye\u1e25ezqel",
       "target": "\u02bfeli B. Amram",
       "letters": [
         {
@@ -2688,13 +2904,19 @@
     },
     {
       "source": "Yosef B. Yehoshua\u02bf",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "887",
           "date": "N/A",
           "start_location": "Alexandria",
           "end_location": "Fustat"
+        },
+        {
+          "pgpid": "2006",
+          "date": "1028 or 1029",
+          "start_location": "Alexandria",
+          "end_location": "N/A"
         }
       ]
     },
@@ -2712,7 +2934,7 @@
     },
     {
       "source": "Menashshe B. Yehoshua\u02bf",
-      "target": "Al- Faraj Shemarya B. ha-faraj",
+      "target": "Shemarya B. Al-faraj",
       "letters": [
         {
           "pgpid": "893",
@@ -2813,7 +3035,7 @@
       ]
     },
     {
-      "source": "Al- Nasr B. Avraham",
+      "source": "B. Avraham",
       "target": "Halfon B. Netan\u02beel",
       "letters": [
         {
@@ -2826,12 +3048,12 @@
     },
     {
       "source": "Moshe B. Ya\u02bfaqov",
-      "target": "Al- Ala Yosef B. David B. Shaya",
+      "target": "Yosef B. David B. Shaya",
       "letters": [
         {
           "pgpid": "954",
           "date": "N/A",
-          "start_location": "s\u016br",
+          "start_location": "\u1e62\u016br",
           "end_location": "Fustat"
         },
         {
@@ -2844,6 +3066,12 @@
           "pgpid": "986",
           "date": "29 December 1057 CE",
           "start_location": "Damascus",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "3354",
+          "date": "March 1054",
+          "start_location": "Tatai",
           "end_location": "Fustat"
         }
       ]
@@ -2863,6 +3091,12 @@
           "date": "May 1029",
           "start_location": "Ramla",
           "end_location": "Fustat"
+        },
+        {
+          "pgpid": "1407",
+          "date": "June 27, 1033 CE",
+          "start_location": "Ramle",
+          "end_location": "Tyre or Damascus"
         }
       ]
     },
@@ -2885,7 +3119,7 @@
       ]
     },
     {
-      "source": "Al- Nasr B. Avraham",
+      "source": "B. Avraham",
       "target": "Halfon b. Netanel ha-Levi",
       "letters": [
         {
@@ -2922,7 +3156,7 @@
     },
     {
       "source": "Nahray B. Nissim",
-      "target": "Al- Faraj Yehoshua\u02bf B. Ismail",
+      "target": "Yehoshua\u02bf B. Ismail",
       "letters": [
         {
           "pgpid": "994",
@@ -2939,7 +3173,7 @@
       ]
     },
     {
-      "source": "\u1e6coviyya B. \u02bfeli",
+      "source": "Toviyya B. \u02bfeli",
       "target": "Natan B. Shelomo",
       "letters": [
         {
@@ -3011,6 +3245,24 @@
       ]
     },
     {
+      "source": "Avraham B. Shelomo",
+      "target": "Eliyyahu The Judge",
+      "letters": [
+        {
+          "pgpid": "1031",
+          "date": "ca. 1214",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "1971",
+          "date": "ca. 1214",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
       "source": "Eliyyahu",
       "target": "Eliyyahu",
       "letters": [
@@ -3023,7 +3275,25 @@
       ]
     },
     {
-      "source": "Al- Zikri",
+      "source": "Arah B. Natan",
+      "target": "Avraham B. Natan",
+      "letters": [
+        {
+          "pgpid": "1044",
+          "date": "1090s CE",
+          "start_location": "Fuwwa",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "4297",
+          "date": "1094-1111 CE",
+          "start_location": "Alexandria",
+          "end_location": "Cairo"
+        }
+      ]
+    },
+    {
+      "source": "ha-zikri",
       "target": "Eliyyahu The Judge",
       "letters": [
         {
@@ -3101,24 +3371,6 @@
       ]
     },
     {
-      "source": "Ismail B. Yishaq ha-andalusi",
-      "target": "Nahray B. Nissim",
-      "letters": [
-        {
-          "pgpid": "1093",
-          "date": "1065",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "1558",
-          "date": "N/A",
-          "start_location": "Tyre",
-          "end_location": "Nahray b. Nissim"
-        }
-      ]
-    },
-    {
       "source": "Shelomo B. Semah",
       "target": "Efrayim B. Shemarya",
       "letters": [
@@ -3161,54 +3413,6 @@
       ]
     },
     {
-      "source": "\u02bfeli B. Yehezqel",
-      "target": "\u02bfeli B. Hayyim",
-      "letters": [
-        {
-          "pgpid": "1138",
-          "date": "1060",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "1379",
-          "date": "N/A",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "1547",
-          "date": "N/A",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "1683",
-          "date": "N/A",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "2071",
-          "date": "ca. 1060",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "4436",
-          "date": "1060",
-          "start_location": "N/A",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "4439",
-          "date": "N/A",
-          "start_location": "Jerusalem",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
       "source": "Menashshe",
       "target": "Avraham B. Natan",
       "letters": [
@@ -3216,24 +3420,6 @@
           "pgpid": "1170",
           "date": "ca. 1100",
           "start_location": "Sumbutya",
-          "end_location": "N/A"
-        }
-      ]
-    },
-    {
-      "source": "Nahray B. Nissim",
-      "target": "Barhun B. Salih ha-Tahirti",
-      "letters": [
-        {
-          "pgpid": "1211",
-          "date": "1045",
-          "start_location": "Fustat",
-          "end_location": "Egypt"
-        },
-        {
-          "pgpid": "27422",
-          "date": "N/A",
-          "start_location": "Fustat",
           "end_location": "N/A"
         }
       ]
@@ -3281,6 +3467,18 @@
       ]
     },
     {
+      "source": "Barhun B. Moshe Tahirti",
+      "target": "Nahray B. Nissim",
+      "letters": [
+        {
+          "pgpid": "1382",
+          "date": "N/A",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
       "source": "Halfon B. Menashshe",
       "target": "Masliah",
       "letters": [
@@ -3299,98 +3497,14 @@
       ]
     },
     {
-      "source": "Nissim B. Halfon",
-      "target": "Nahray B. Nissim",
+      "source": "Nahray B. Nissim",
+      "target": "Barhun B. Moshe",
       "letters": [
         {
-          "pgpid": "1492",
-          "date": "ca. 1055",
-          "start_location": "Tyre",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5578",
-          "date": "ca. 1055",
-          "start_location": "N/A",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5625",
+          "pgpid": "1500",
           "date": "N/A",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5655",
-          "date": "1056",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5808",
-          "date": "around 1046",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5819",
-          "date": "Around 1053",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5845",
-          "date": "1056",
-          "start_location": "Munyat Samanhud",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5846",
-          "date": "1057",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5898",
-          "date": "August 20, 1046",
-          "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5903",
-          "date": "November 17, 1046",
-          "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5948",
-          "date": "1065",
-          "start_location": "Tatai",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5979",
-          "date": "1055",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5989",
-          "date": "1046",
-          "start_location": "Tinnis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "6056",
-          "date": "1055",
-          "start_location": "Damsis",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "6103",
-          "date": "Around 1055",
-          "start_location": "Damsis",
-          "end_location": "Fustat"
+          "start_location": "Fustat",
+          "end_location": "Busir"
         }
       ]
     },
@@ -3408,7 +3522,7 @@
     },
     {
       "source": "Yisrael B. Natan",
-      "target": "Ismail B. Yishaq ha-andalusi",
+      "target": "Ismail B. Yishaq Al-andalusi",
       "letters": [
         {
           "pgpid": "1510",
@@ -3461,6 +3575,42 @@
       ]
     },
     {
+      "source": "\u02bfeli B. Ye\u1e25ezqel",
+      "target": "\u02bfeli B. Hayyim",
+      "letters": [
+        {
+          "pgpid": "1547",
+          "date": "N/A",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "1683",
+          "date": "N/A",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "2071",
+          "date": "ca. 1060",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "4436",
+          "date": "1060",
+          "start_location": "N/A",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "4439",
+          "date": "N/A",
+          "start_location": "Jerusalem",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
       "source": "Shemu\u02beel B. Yosef",
       "target": "Shemarya B. Elhanan",
       "letters": [
@@ -3469,6 +3619,18 @@
           "date": "1020",
           "start_location": "N/A",
           "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Ismail B. Yishaq Al-andalusi",
+      "target": "Nahray B. Nissim",
+      "letters": [
+        {
+          "pgpid": "1558",
+          "date": "N/A",
+          "start_location": "Tyre",
+          "end_location": "Nahray b. Nissim"
         }
       ]
     },
@@ -3509,7 +3671,7 @@
       ]
     },
     {
-      "source": "Moshe B. Yishaq B. hasday",
+      "source": "Moshe B. Yishaq B. Nissim",
       "target": "Yosef B. Awkal",
       "letters": [
         {
@@ -3517,6 +3679,24 @@
           "date": "Early 11th century",
           "start_location": "A city in middle Egypt",
           "end_location": "N/A"
+        },
+        {
+          "pgpid": "4248",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "5559",
+          "date": "N/A",
+          "start_location": "Mahdiya",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5601",
+          "date": "N/A",
+          "start_location": "Mahdiyya",
+          "end_location": "Fustat"
         }
       ]
     },
@@ -3533,8 +3713,8 @@
       ]
     },
     {
-      "source": "Yehuda B. ha-ammani",
-      "target": "Al- Majd Me\u02beir B. Yakhin",
+      "source": "Yehuda B. Al-ammani",
+      "target": "ha-majd Me\u02beir B. Yakhin",
       "letters": [
         {
           "pgpid": "1647",
@@ -3563,7 +3743,19 @@
       ]
     },
     {
-      "source": "Yehuda B. Aharon B. ha-ammani",
+      "source": "Yosef B. Farah Ha-qabisi",
+      "target": "Farah B. Ismail B. Farah",
+      "letters": [
+        {
+          "pgpid": "1658",
+          "date": "September 6, 1056 CE",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Yehuda B. Aharon B. Al-ammani",
       "target": "Eliyyahu The Judge",
       "letters": [
         {
@@ -3581,7 +3773,7 @@
       ]
     },
     {
-      "source": "Nissim B. Yishaq ha-Tahirti",
+      "source": "Nissim b. Yishaq ha-Tahirti",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -3595,6 +3787,18 @@
           "date": "ca. 1050",
           "start_location": "N/A",
           "end_location": "N/A"
+        },
+        {
+          "pgpid": "5607",
+          "date": "Around 1053",
+          "start_location": "Busir",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5878",
+          "date": "1053",
+          "start_location": "Busir",
+          "end_location": "Fustat"
         }
       ]
     },
@@ -3624,6 +3828,18 @@
     },
     {
       "source": "Shelomo B. Yehuda",
+      "target": "Avraham B. Shelomo",
+      "letters": [
+        {
+          "pgpid": "1761",
+          "date": "approximately 1050",
+          "start_location": "N/A",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Shelomo B. Yehuda",
       "target": "Netan\u02beel B. Halfon",
       "letters": [
         {
@@ -3631,6 +3847,24 @@
           "date": "1045 C.E.",
           "start_location": "Fustat",
           "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Barhun B. Yishaq Tahirti",
+      "target": "Nahray B. Nissim",
+      "letters": [
+        {
+          "pgpid": "1796",
+          "date": "June, 1047",
+          "start_location": "Mahdiyya",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5595",
+          "date": "1045",
+          "start_location": "Mahdiyya",
+          "end_location": "N/A"
         }
       ]
     },
@@ -3672,10 +3906,28 @@
     },
     {
       "source": "Moshe b. Levi ha-Levi",
-      "target": "Al- Sahl Levi",
+      "target": "Levi",
       "letters": [
         {
           "pgpid": "1849",
+          "date": "N/A",
+          "start_location": "Qalyub",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "3398",
+          "date": "N/A",
+          "start_location": "Qalyub",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "3703",
+          "date": "N/A",
+          "start_location": "Qalyub",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "3704",
           "date": "N/A",
           "start_location": "Qalyub",
           "end_location": "Fustat"
@@ -3744,7 +3996,7 @@
     },
     {
       "source": "Natan B. Shelomo",
-      "target": "\u1e6coviyya B. \u02bfeli",
+      "target": "Toviyya B. \u02bfeli",
       "letters": [
         {
           "pgpid": "1967",
@@ -3905,7 +4157,7 @@
       ]
     },
     {
-      "source": "Moshe b. Abi ha-Hayy",
+      "source": "Moshe B. Abi Al-hayy",
       "target": "Yosef b. Moshe b. Barhun ha-Tahirti",
       "letters": [
         {
@@ -3924,7 +4176,7 @@
     },
     {
       "source": "Shelomo B. Eliyyahu",
-      "target": "ha-shaykh ha-rashid",
+      "target": "Al-shaykh Al-rashid",
       "letters": [
         {
           "pgpid": "2005",
@@ -3936,18 +4188,6 @@
           "pgpid": "7860",
           "date": "N/A",
           "start_location": "N/A",
-          "end_location": "N/A"
-        }
-      ]
-    },
-    {
-      "source": "Yosef B. Yehoshua\u02bf",
-      "target": "Yosef B. Awkal",
-      "letters": [
-        {
-          "pgpid": "2006",
-          "date": "1028 or 1029",
-          "start_location": "Alexandria",
           "end_location": "N/A"
         }
       ]
@@ -3965,7 +4205,7 @@
       ]
     },
     {
-      "source": "\u1e6coviyya B. \u02bfeli",
+      "source": "Toviyya B. \u02bfeli",
       "target": "Shemu\u02beel B. Hananya",
       "letters": [
         {
@@ -3989,7 +4229,7 @@
       ]
     },
     {
-      "source": "Moshe B. Ya\u02bfaqov ha-misri",
+      "source": "Moshe B. Ya\u02bfaqov Al-misri",
       "target": "Yehuda B. Saadya",
       "letters": [
         {
@@ -4001,7 +4241,7 @@
       ]
     },
     {
-      "source": "Yahya B. Moshe ha-majjani",
+      "source": "Yahya B. Moshe Al-majjani",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -4026,7 +4266,7 @@
     },
     {
       "source": "Shelomo B. Eliyyahu",
-      "target": "Al- Surur",
+      "target": "ha-surur",
       "letters": [
         {
           "pgpid": "2178",
@@ -4037,8 +4277,26 @@
       ]
     },
     {
-      "source": "Moshe B. Al- Hayy",
-      "target": "Al- Afrah Arus B. Yosef",
+      "source": "Salih B. Barhun Al-Tahirti",
+      "target": "Yosef B. Awkal",
+      "letters": [
+        {
+          "pgpid": "2295",
+          "date": "8.21.1008",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "5853",
+          "date": "Around 1010",
+          "start_location": "Qayrawan",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Moshe B. ha-hayy",
+      "target": "ha-afrah Arus B. Yosef",
       "letters": [
         {
           "pgpid": "2406",
@@ -4050,7 +4308,7 @@
     },
     {
       "source": "Shelomo B. Eliyyahu",
-      "target": "Al- Berakot",
+      "target": "ha-barakat",
       "letters": [
         {
           "pgpid": "2414",
@@ -4060,6 +4318,30 @@
         },
         {
           "pgpid": "3595",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Barhun B. Salih Al-Tahirti",
+      "target": "Barhun B. Moshe",
+      "letters": [
+        {
+          "pgpid": "2434",
+          "date": "ca. 1053",
+          "start_location": "Fustat",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Yishaq B. Barhun",
+      "target": "Ismail B. Farah",
+      "letters": [
+        {
+          "pgpid": "2438",
           "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
@@ -4111,6 +4393,24 @@
           "date": "N/A",
           "start_location": "Fustat",
           "end_location": "Qalyub"
+        }
+      ]
+    },
+    {
+      "source": "Moshe B. Yishaq B. Nissim",
+      "target": "Yehuda B. Moshe B. Sughmar",
+      "letters": [
+        {
+          "pgpid": "2507",
+          "date": "N/A",
+          "start_location": "Sfax",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5910",
+          "date": "Summer 1059",
+          "start_location": "Mazar",
+          "end_location": "N/A"
         }
       ]
     },
@@ -4169,7 +4469,7 @@
       ]
     },
     {
-      "source": "Avraham B. Natan Av",
+      "source": "Al- Yishaq Avraham B. Natan Av Bet Din",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -4187,8 +4487,8 @@
       ]
     },
     {
-      "source": "Ismail B. Barhun ha-Tahirti",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "source": "Ismail B. Barhun Al-Tahirti",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "2629",
@@ -4197,21 +4497,9 @@
           "end_location": "Fustat"
         },
         {
-          "pgpid": "5678",
-          "date": "N/A",
-          "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
-        },
-        {
           "pgpid": "5916",
           "date": "August 3, 1011",
           "start_location": "Mahdiyya",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "12414",
-          "date": "N/A",
-          "start_location": "al-Mahdiyya",
           "end_location": "Fustat"
         }
       ]
@@ -4224,7 +4512,7 @@
           "pgpid": "2666",
           "date": "1147 CE",
           "start_location": "Minyat Zifta",
-          "end_location": "al-Mahalla"
+          "end_location": "al-Ma\u1e25alla"
         },
         {
           "pgpid": "6828",
@@ -4248,7 +4536,7 @@
     },
     {
       "source": "Yisrael B. Natan",
-      "target": "Barhun B. Yishaq ha-Tahirti",
+      "target": "Barhun B. Yishaq Al-Tahirti",
       "letters": [
         {
           "pgpid": "2681",
@@ -4277,8 +4565,8 @@
       ]
     },
     {
-      "source": "Al- Majd",
-      "target": "Al- Najm Hilal",
+      "source": "ha-majd",
+      "target": "ha-najm Hilal",
       "letters": [
         {
           "pgpid": "2712",
@@ -4289,8 +4577,8 @@
       ]
     },
     {
-      "source": "Ismail B. Barhun ha-Tahirti",
-      "target": "Al- Surur Yishaq B. Barhun",
+      "source": "Ismail B. Barhun Tahirti",
+      "target": "Yishaq B. Barhun",
       "letters": [
         {
           "pgpid": "2796",
@@ -4313,7 +4601,7 @@
       ]
     },
     {
-      "source": "Yefet B. Menashshe B. ha-qataif",
+      "source": "Yefet B. Menashshe B. Al-qataif",
       "target": "Perahya",
       "letters": [
         {
@@ -4379,8 +4667,8 @@
       ]
     },
     {
-      "source": "Yahya B. Moshe ha-majjani",
-      "target": "Barhun B. Salih ha-Tahirti",
+      "source": "Yahya B. Moshe Al-majjani",
+      "target": "Barhun B. Salih Al-Tahirti",
       "letters": [
         {
           "pgpid": "2872",
@@ -4403,8 +4691,8 @@
       ]
     },
     {
-      "source": "Al- Zikri",
-      "target": "Al- Ali",
+      "source": "ha-zikri",
+      "target": "ha-ali",
       "letters": [
         {
           "pgpid": "2878",
@@ -4499,7 +4787,7 @@
       ]
     },
     {
-      "source": "Moshe B. Al- Hayy",
+      "source": "Moshe B. ha-hayy",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -4517,7 +4805,19 @@
       ]
     },
     {
-      "source": "Barhun B. Moshe ha-Tahirti",
+      "source": "Ya\u02bfaqov B. Ismail Al-andalusi",
+      "target": "Yehoshua\u02bf B. Natan",
+      "letters": [
+        {
+          "pgpid": "2945",
+          "date": "ca. 1050",
+          "start_location": "N/A",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Barhun B. Moshe Al-Tahirti",
       "target": "Moshe",
       "letters": [
         {
@@ -4541,8 +4841,8 @@
       ]
     },
     {
-      "source": "Yehuda B. Aharon B. ha-ammani",
-      "target": "Al- Majd Me\u02beir B. Yakhin",
+      "source": "Yehuda B. Aharon B. Al-ammani",
+      "target": "ha-majd Me\u02beir B. Yakhin",
       "letters": [
         {
           "pgpid": "2975",
@@ -4577,7 +4877,7 @@
       ]
     },
     {
-      "source": "Barhun B. Salih ha-Tahirti",
+      "source": "Barhun B. Salih Al-Tahirti",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -4614,7 +4914,7 @@
     },
     {
       "source": "Yefet",
-      "target": "Al- Berakot",
+      "target": "ha-barakat",
       "letters": [
         {
           "pgpid": "3052",
@@ -4626,7 +4926,7 @@
     },
     {
       "source": "Shemu\u02beel B. Hananya",
-      "target": "Community Of ha-mahalla",
+      "target": "Community Of Al-mahalla",
       "letters": [
         {
           "pgpid": "3081",
@@ -4637,20 +4937,8 @@
       ]
     },
     {
-      "source": "Nissim B. Yishaq ha-Tahirti",
-      "target": "Moshe b. Abi ha-Hayy",
-      "letters": [
-        {
-          "pgpid": "3083",
-          "date": "September 1051",
-          "start_location": "Mahdiyya",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
       "source": "Yehuda B. Yosef",
-      "target": "Ismail B. Barhun ha-Tahirti",
+      "target": "Ismail B. Barhun Al-Tahirti",
       "letters": [
         {
           "pgpid": "3105",
@@ -4662,7 +4950,7 @@
     },
     {
       "source": "Farah B. Yosef",
-      "target": "Al- Sad Khalluf B. Sahl",
+      "target": "Khalluf B. Sahl",
       "letters": [
         {
           "pgpid": "3116",
@@ -4680,30 +4968,36 @@
     },
     {
       "source": "Ayyash B. Sadaqa",
-      "target": "Barhun B. Moshe ha-Tahirti",
+      "target": "Barhun B. Moshe Al-Tahirti",
       "letters": [
         {
           "pgpid": "3128",
           "date": "ca. 1045",
           "start_location": "Fustat",
           "end_location": "Tahirti"
-        },
-        {
-          "pgpid": "3816",
-          "date": "11th century",
-          "start_location": "Fustat",
-          "end_location": "Alexandria"
         }
       ]
     },
     {
       "source": "Natan B. Shemu\u02beel",
-      "target": "Al- Hasan",
+      "target": "ha-hasan",
       "letters": [
         {
           "pgpid": "3131",
           "date": "N/A",
           "start_location": "a small town",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Avraham b. Farah",
+      "target": "Barhun B. Moshe Al-Tahirti",
+      "letters": [
+        {
+          "pgpid": "3176",
+          "date": "mid 11th century",
+          "start_location": "Alexandria",
           "end_location": "Fustat"
         }
       ]
@@ -4716,24 +5010,6 @@
           "pgpid": "3225",
           "date": "1140-59 CE",
           "start_location": "Fustat",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
-      "source": "Avraham B. Farah",
-      "target": "Nahray B. Nissim",
-      "letters": [
-        {
-          "pgpid": "3250",
-          "date": "1053",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5946",
-          "date": "1055",
-          "start_location": "Alexandria",
           "end_location": "Fustat"
         }
       ]
@@ -4763,8 +5039,8 @@
       ]
     },
     {
-      "source": "Moshe B. Ya\u02bfaqov ha-misri",
-      "target": "Al- Ala Yosef B. David B. Shaya",
+      "source": "Moshe B. Ya\u02bfaqov Al-misri",
+      "target": "Yosef B. David B. Shaya",
       "letters": [
         {
           "pgpid": "3275",
@@ -4777,18 +5053,18 @@
           "date": "1056 CE",
           "start_location": "Minyatayn",
           "end_location": "Fustat"
-        }
-      ]
-    },
-    {
-      "source": "Barhun B. Salih ha-Tahirti",
-      "target": "Barhun B. Moshe ha-Tahirti",
-      "letters": [
+        },
         {
-          "pgpid": "3286",
-          "date": "around 1050 CE",
-          "start_location": "Fustat",
-          "end_location": "Alexandria"
+          "pgpid": "3937",
+          "date": "19 January 1055 CE",
+          "start_location": "Damascus",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5718",
+          "date": "ca. 1056 CE",
+          "start_location": "Mal\u012bj",
+          "end_location": "Fustat"
         }
       ]
     },
@@ -4823,8 +5099,8 @@
       ]
     },
     {
-      "source": "Al- Najm Hilal",
-      "target": "Al- Majd",
+      "source": "ha-najm Hilal",
+      "target": "ha-majd",
       "letters": [
         {
           "pgpid": "3336",
@@ -4835,26 +5111,14 @@
       ]
     },
     {
-      "source": "Al- Berakot",
-      "target": "Al- Nasr",
+      "source": "ha-barakat",
+      "target": "ha-nasr",
       "letters": [
         {
           "pgpid": "3343",
           "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
-        }
-      ]
-    },
-    {
-      "source": "Moshe B. Ya\u02bfaqov",
-      "target": "Yosef B. David B. Shaya",
-      "letters": [
-        {
-          "pgpid": "3354",
-          "date": "March 1054",
-          "start_location": "Tatai",
-          "end_location": "Fustat"
         }
       ]
     },
@@ -4871,8 +5135,8 @@
       ]
     },
     {
-      "source": "Yosef B. Labrat ha-fasi",
-      "target": "Ya\u02bfaqov B. Yosef B. Awkal",
+      "source": "Yosef B. Labrat Al-fasi",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "3372",
@@ -4895,6 +5159,18 @@
       ]
     },
     {
+      "source": "B. Avraham",
+      "target": "Moshe B. Abi Al-hayy",
+      "letters": [
+        {
+          "pgpid": "3373",
+          "date": "Mid-11th century",
+          "start_location": "Ifr\u012bqiyya",
+          "end_location": "Alexandria"
+        }
+      ]
+    },
+    {
       "source": "Avraham B. Farah",
       "target": "Yehuda B. Moshe B. Sughmar",
       "letters": [
@@ -4907,32 +5183,8 @@
       ]
     },
     {
-      "source": "Moshe b. Levi ha-Levi",
-      "target": "Levi",
-      "letters": [
-        {
-          "pgpid": "3398",
-          "date": "N/A",
-          "start_location": "Qalyub",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "3703",
-          "date": "N/A",
-          "start_location": "Qalyub",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "3704",
-          "date": "N/A",
-          "start_location": "Qalyub",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
       "source": "Mansur B. Salim",
-      "target": "Al- Najm",
+      "target": "ha-najm",
       "letters": [
         {
           "pgpid": "3406",
@@ -4974,7 +5226,7 @@
     },
     {
       "source": "Yosef b. Moshe b. Barhun ha-Tahirti",
-      "target": "Yehoshua\u02bf B. Ismail ha-makhmuri",
+      "target": "Yehoshua\u02bf B. Ismail Al-makhmuri",
       "letters": [
         {
           "pgpid": "3427",
@@ -5010,7 +5262,7 @@
     },
     {
       "source": "Mevorakh",
-      "target": "Community Of ha-mahalla",
+      "target": "Community Of Al-mahalla",
       "letters": [
         {
           "pgpid": "3440",
@@ -5045,6 +5297,18 @@
       ]
     },
     {
+      "source": "Ismail B. Ya\u02bfaqov Al-andalusi",
+      "target": "Yehoshua\u02bf B. Natan",
+      "letters": [
+        {
+          "pgpid": "3542",
+          "date": "N/A",
+          "start_location": "al-Mahdiyya (Gil)/ Sicily (Ben-Sasson)",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
       "source": "Avraham B. El\u02bfazar",
       "target": "Moses Maimonides",
       "letters": [
@@ -5058,7 +5322,7 @@
     },
     {
       "source": "Shelomo B. Eliyyahu",
-      "target": "Al- Faraj",
+      "target": "ha-faraj",
       "letters": [
         {
           "pgpid": "3547",
@@ -5075,6 +5339,18 @@
       ]
     },
     {
+      "source": "Menashshe",
+      "target": "Yehuda B. El\u02bfazar",
+      "letters": [
+        {
+          "pgpid": "3562",
+          "date": "N/A",
+          "start_location": "Alexandria",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
       "source": "Unknown",
       "target": "Avraham",
       "letters": [
@@ -5087,7 +5363,7 @@
       ]
     },
     {
-      "source": "Ya\u02bfaqov B. Salman ha-hariri",
+      "source": "Ya\u02bfaqov B. Salman Al-hariri",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -5147,8 +5423,32 @@
       ]
     },
     {
+      "source": "Yosef B. Farah Ha-qabisi",
+      "target": "Khalluf B. Sahl",
+      "letters": [
+        {
+          "pgpid": "3747",
+          "date": "N/A",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Ayyash B. Sadaqa",
+      "target": "Barhun B. Moshe Tahirti",
+      "letters": [
+        {
+          "pgpid": "3816",
+          "date": "11th century",
+          "start_location": "Fustat",
+          "end_location": "Alexandria"
+        }
+      ]
+    },
+    {
       "source": "Moshe B. Ya\u02bfaqov",
-      "target": "Al- Surur Yishaq B. Barhun",
+      "target": "Yishaq B. Barhun",
       "letters": [
         {
           "pgpid": "3854",
@@ -5165,7 +5465,7 @@
       ]
     },
     {
-      "source": "Ismail B. Yosef B. Abi Uqba",
+      "source": "Ismail B. Yosef B. Abi Aqaba",
       "target": "Yosef b. Moshe b. Barhun ha-Tahirti",
       "letters": [
         {
@@ -5177,31 +5477,13 @@
       ]
     },
     {
-      "source": "Al- Faraj",
-      "target": "Al- Imran",
+      "source": "ha-faraj",
+      "target": "ha-imran",
       "letters": [
         {
           "pgpid": "3918",
           "date": "November/December 1216",
           "start_location": "Fustat",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
-      "source": "Moshe B. Ya\u02bfaqov ha-misri",
-      "target": "Yosef B. David B. Shaya",
-      "letters": [
-        {
-          "pgpid": "3937",
-          "date": "19 January 1055 CE",
-          "start_location": "Damascus",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5718",
-          "date": "ca. 1056 CE",
-          "start_location": "Mal\u012bj",
           "end_location": "Fustat"
         }
       ]
@@ -5219,8 +5501,32 @@
       ]
     },
     {
+      "source": "Moshe B. ha-hayy",
+      "target": "Shelomo B. Nissim Al-Barqi",
+      "letters": [
+        {
+          "pgpid": "4012",
+          "date": "N/A",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Moshe B. Yishaq B. Nissim",
+      "target": "Ismail B. Barhun Al-Tahirti",
+      "letters": [
+        {
+          "pgpid": "4022",
+          "date": "ca. 1030",
+          "start_location": "al-Mahdiyya",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
       "source": "Yosef",
-      "target": "Al- Hasan",
+      "target": "ha-hasan",
       "letters": [
         {
           "pgpid": "4048",
@@ -5249,7 +5555,7 @@
       ]
     },
     {
-      "source": "Yishaq B. Simha ha-nisaburi",
+      "source": "Yishaq B. Simha Al-nisaburi",
       "target": "Ulla ha-Levi b. Yosef",
       "letters": [
         {
@@ -5261,43 +5567,19 @@
       ]
     },
     {
-      "source": "Moshe B. Yishaq B. hasday",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "source": "\u02bfeli B. Ye\u1e25ezqel",
+      "target": "Farah",
       "letters": [
         {
-          "pgpid": "4248",
-          "date": "N/A",
+          "pgpid": "4433",
+          "date": "ca. 1060",
           "start_location": "N/A",
-          "end_location": "N/A"
-        },
-        {
-          "pgpid": "5559",
-          "date": "N/A",
-          "start_location": "Mahdiya",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5601",
-          "date": "N/A",
-          "start_location": "Mahdiyya",
           "end_location": "Fustat"
         }
       ]
     },
     {
-      "source": "Arah B. Natan",
-      "target": "Avraham B. Natan",
-      "letters": [
-        {
-          "pgpid": "4297",
-          "date": "1094-1111 CE",
-          "start_location": "Alexandria",
-          "end_location": "Cairo"
-        }
-      ]
-    },
-    {
-      "source": "\u02bfeli B. Yehezqel",
+      "source": "\u02bfeli B. Ye\u1e25ezqel",
       "target": "Efrayim B. Shemarya",
       "letters": [
         {
@@ -5310,6 +5592,18 @@
           "pgpid": "4488",
           "date": "approximately 1030",
           "start_location": "N/A",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Natan B. Nahray",
+      "target": "Nissim B. Nahray",
+      "letters": [
+        {
+          "pgpid": "4494",
+          "date": "ca. 1066",
+          "start_location": "Alexandria",
           "end_location": "Fustat"
         }
       ]
@@ -5381,6 +5675,24 @@
       ]
     },
     {
+      "source": "Perahya B. Yosef Yiju",
+      "target": "Saadya B. Avraham B. ha-amshati",
+      "letters": [
+        {
+          "pgpid": "4741",
+          "date": "1161-72 CE",
+          "start_location": "al-Ma\u1e25alla",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "27033",
+          "date": "ca. 1160s",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
       "source": "Moshe B. Yehuda",
       "target": "Shemu\u02beel B. Hananya",
       "letters": [
@@ -5417,7 +5729,7 @@
       ]
     },
     {
-      "source": "Yehuda B. ha-ammani",
+      "source": "Yehuda B. Al-ammani",
       "target": "Moses Maimonides",
       "letters": [
         {
@@ -5520,7 +5832,7 @@
     },
     {
       "source": "Mahruz B. Ya\u02bfaqov",
-      "target": "Al- Zikri Kohen",
+      "target": "Kohen",
       "letters": [
         {
           "pgpid": "5411",
@@ -5532,7 +5844,7 @@
     },
     {
       "source": "Amram B. Yosef",
-      "target": "Moshe b. Abi ha-Hayy",
+      "target": "Moshe B. Abi Al-hayy",
       "letters": [
         {
           "pgpid": "5423",
@@ -5639,8 +5951,8 @@
       ]
     },
     {
-      "source": "Yosef B. Ya\u02bfaqov Tripoli",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "source": "Yosef B. Ya\u02bfaqov Al-itrabulusi",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "5570",
@@ -5663,26 +5975,14 @@
       ]
     },
     {
-      "source": "Efrayim B. Ismail ha-jawhari",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "source": "Avraham b. Farah",
+      "target": "Ya\u02bfaqov B. Avraham",
       "letters": [
         {
-          "pgpid": "5577",
-          "date": "N/A",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5772",
-          "date": "Summer 1030",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5893",
-          "date": "April 2, 1030",
-          "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "pgpid": "5584",
+          "date": "21 June 1054",
+          "start_location": "N/A",
+          "end_location": "N/A"
         }
       ]
     },
@@ -5711,7 +6011,7 @@
       ]
     },
     {
-      "source": "Ya\u02bfaqov B. Ismail ha-andalusi",
+      "source": "Ya\u02bfaqov B. Ismail Al-andalusi",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -5723,26 +6023,8 @@
       ]
     },
     {
-      "source": "Salama B. Nissim B. Yishaq ha-Barqi",
-      "target": "Nahray B. Nissim",
-      "letters": [
-        {
-          "pgpid": "5607",
-          "date": "Around 1053",
-          "start_location": "Busir",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "5878",
-          "date": "1053",
-          "start_location": "Busir",
-          "end_location": "Fustat"
-        }
-      ]
-    },
-    {
       "source": "Yosef B. Berekhya",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "5611",
@@ -5795,7 +6077,7 @@
       ]
     },
     {
-      "source": "Yosef B. Farah",
+      "source": "Yosef B. Farah Ha-qabisi",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -5805,9 +6087,21 @@
           "end_location": "Fustat"
         },
         {
+          "pgpid": "5952",
+          "date": "ca. 1050 CE",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
           "pgpid": "5992",
           "date": "October 25, 1056",
           "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "9585",
+          "date": "c. 1055 CE",
+          "start_location": "Busir",
           "end_location": "Fustat"
         }
       ]
@@ -5825,7 +6119,7 @@
       ]
     },
     {
-      "source": "Avraham B. Abi ha-hayy",
+      "source": "Avraham B. Abi Al-hayy",
       "target": "Moshe",
       "letters": [
         {
@@ -5849,13 +6143,49 @@
       ]
     },
     {
+      "source": "Ismail B. Barhun Tahirti",
+      "target": "Yosef B. Awkal",
+      "letters": [
+        {
+          "pgpid": "5678",
+          "date": "N/A",
+          "start_location": "al-Mahdiyya",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "12414",
+          "date": "N/A",
+          "start_location": "al-Mahdiyya",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
       "source": "Avraham B. Ata",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
           "pgpid": "5680",
           "date": "N/A",
           "start_location": "Qayrawan",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Shelomo B. Nissim Al-Barqi",
+      "target": "Moshe B. Abi Al-hayy",
+      "letters": [
+        {
+          "pgpid": "5683",
+          "date": "ca. 1080 CE",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5755",
+          "date": "Around 1080",
+          "start_location": "Alexandria",
           "end_location": "Fustat"
         }
       ]
@@ -5879,20 +6209,14 @@
       ]
     },
     {
-      "source": "Ismail B. Yosef B. Abi Uqba",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "source": "Moshe B. Yahya Al-majani",
+      "target": "Yosef B. Awkal",
       "letters": [
         {
-          "pgpid": "5694",
-          "date": "Around 1030",
+          "pgpid": "5692",
+          "date": "Around 1025",
           "start_location": "Alexandria",
-          "end_location": "Fustat"
-        },
-        {
-          "pgpid": "30445",
-          "date": "1030 CE",
-          "start_location": "Palermo",
-          "end_location": "Fus\u1e6d\u0101\u1e6d"
+          "end_location": "N/A"
         }
       ]
     },
@@ -5922,7 +6246,7 @@
     },
     {
       "source": "Hayyim B. Amar Madini",
-      "target": "Al- Surur",
+      "target": "ha-surur",
       "letters": [
         {
           "pgpid": "5712",
@@ -5933,7 +6257,7 @@
       ]
     },
     {
-      "source": "Zekharya B. Ya\u02bfaqov B. ha-shama",
+      "source": "Zekharya B. Ya\u02bfaqov B. Al-shama",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -5957,7 +6281,7 @@
       ]
     },
     {
-      "source": "Barhun B. Yishaq ha-Tahirti",
+      "source": "Barhun B. Yishaq Al-Tahirti",
       "target": "Ayyash B. Sadaqa",
       "letters": [
         {
@@ -6042,7 +6366,7 @@
     },
     {
       "source": "Nahray B. Nissim",
-      "target": "Barhun B. Moshe ha-Tahirti",
+      "target": "Barhun B. Moshe Al-Tahirti",
       "letters": [
         {
           "pgpid": "5741",
@@ -6149,6 +6473,24 @@
       ]
     },
     {
+      "source": "Ismail B. Farah",
+      "target": "Farah",
+      "letters": [
+        {
+          "pgpid": "5812",
+          "date": "November 1056",
+          "start_location": "Alexandria",
+          "end_location": "Fustat"
+        },
+        {
+          "pgpid": "5817",
+          "date": "September 23, 1056",
+          "start_location": "Alexandria",
+          "end_location": "Busir"
+        }
+      ]
+    },
+    {
       "source": "Hayya",
       "target": "Elhanan B. Shemarya",
       "letters": [
@@ -6197,7 +6539,7 @@
       ]
     },
     {
-      "source": "Yehuda B. Ismail ha-andalusi",
+      "source": "Yehuda B. Ismail Al-andalusi",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -6210,7 +6552,7 @@
     },
     {
       "source": "Yosef B. Ya\u02bfaqov",
-      "target": "Ismail B. Barhun ha-Tahirti",
+      "target": "Ismail B. Barhun Al-Tahirti",
       "letters": [
         {
           "pgpid": "5834",
@@ -6221,20 +6563,20 @@
       ]
     },
     {
-      "source": "Salih B. Barhun ha-Tahirti",
-      "target": "Yosef B. Ya\u02bfaqov B. Awkal",
+      "source": "Yehoshua\u02bf B. Natan",
+      "target": "Nahray B. Nissim",
       "letters": [
         {
-          "pgpid": "5853",
-          "date": "Around 1010",
-          "start_location": "Qayrawan",
+          "pgpid": "5847",
+          "date": "September 29, 1051",
+          "start_location": "Bahanasa",
           "end_location": "Fustat"
         }
       ]
     },
     {
       "source": "Benaya B. Moshe",
-      "target": "Nissim B. Halfon",
+      "target": "Nissim B. Halfon B. Benaya",
       "letters": [
         {
           "pgpid": "5858",
@@ -6245,8 +6587,20 @@
       ]
     },
     {
-      "source": "Moshe b. Abi ha-Hayy",
-      "target": "Barhun B. Moshe ha-Tahirti",
+      "source": "Yosef B. Awkal",
+      "target": "Yosef B. Awkal",
+      "letters": [
+        {
+          "pgpid": "5863",
+          "date": "N/A",
+          "start_location": "Alexandria",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Moshe B. Abi Al-hayy",
+      "target": "Barhun B. Moshe Tahirti",
       "letters": [
         {
           "pgpid": "5864",
@@ -6258,7 +6612,7 @@
     },
     {
       "source": "Nahray B. Nissim",
-      "target": "Yehoshua\u02bf B. Ismail ha-makhmuri",
+      "target": "Yehoshua\u02bf B. Ismail Al-makhmuri",
       "letters": [
         {
           "pgpid": "5885",
@@ -6288,6 +6642,18 @@
           "pgpid": "6084",
           "date": "1045",
           "start_location": "Busir",
+          "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Barhun B. Moshe",
+      "target": "Nahray B. Nissim",
+      "letters": [
+        {
+          "pgpid": "5918",
+          "date": "1062",
+          "start_location": "Alexandria",
           "end_location": "Fustat"
         }
       ]
@@ -6341,8 +6707,8 @@
       ]
     },
     {
-      "source": "Yehoshua\u02bf B. Ismail ha-makhmuri",
-      "target": "Barhun B. Moshe ha-Tahirti",
+      "source": "Yehoshua\u02bf B. Ismail Al-makhmuri",
+      "target": "Barhun B. Moshe Al-Tahirti",
       "letters": [
         {
           "pgpid": "5960",
@@ -6353,7 +6719,31 @@
       ]
     },
     {
-      "source": "Ismail B. Yishaq ha-andalusi",
+      "source": "Nissim b. Yishaq ha-Tahirti",
+      "target": "Mardukh B. Moshe",
+      "letters": [
+        {
+          "pgpid": "5964",
+          "date": "1055",
+          "start_location": "Busir",
+          "end_location": "Busir"
+        }
+      ]
+    },
+    {
+      "source": "Moshe B. Yahya Al-majani",
+      "target": "Nahray B. Nissim",
+      "letters": [
+        {
+          "pgpid": "5967",
+          "date": "1052",
+          "start_location": "Alexandria",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Ismail B. Yishaq Al-andalusi",
       "target": "Nehoray B. Nissim",
       "letters": [
         {
@@ -6377,7 +6767,7 @@
       ]
     },
     {
-      "source": "Moshe B. Barhun ha-Tahirti",
+      "source": "Moshe B. Barhun Al-Tahirti",
       "target": "Nahray B. Nissim",
       "letters": [
         {
@@ -6390,7 +6780,7 @@
     },
     {
       "source": "Nahray B. Nissim",
-      "target": "Moshe b. Abi ha-Hayy",
+      "target": "Moshe B. Abi Al-hayy",
       "letters": [
         {
           "pgpid": "6036",
@@ -6401,8 +6791,8 @@
       ]
     },
     {
-      "source": "Barhun B. Salih ha-Tahirti",
-      "target": "Moshe B. Yahya ha-majani",
+      "source": "Barhun B. Salih Al-Tahirti",
+      "target": "Moshe B. Yahya Al-majani",
       "letters": [
         {
           "pgpid": "6061",
@@ -6432,7 +6822,7 @@
     },
     {
       "source": "Ayash B. Sdaka",
-      "target": "Barhun B. Moshe ha-Tahirti",
+      "target": "Barhun B. Moshe Al-Tahirti",
       "letters": [
         {
           "pgpid": "6102",
@@ -6456,7 +6846,7 @@
     },
     {
       "source": "Hayyim B. Amar Madini",
-      "target": "Barhun B. Yishaq ha-Tahirti",
+      "target": "Barhun B. Yishaq Al-Tahirti",
       "letters": [
         {
           "pgpid": "6124",
@@ -6474,12 +6864,24 @@
           "pgpid": "6233",
           "date": "N/A",
           "start_location": "Cairo",
-          "end_location": "Dal\u0101s"
+          "end_location": "Dal\u0101\u1e63"
         }
       ]
     },
     {
-      "source": "Al- Zikri",
+      "source": "Shemu\u02beel B. Moshe",
+      "target": "Yosef",
+      "letters": [
+        {
+          "pgpid": "6431",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "Manbij"
+        }
+      ]
+    },
+    {
+      "source": "ha-zikri",
       "target": "Eliyyahu",
       "letters": [
         {
@@ -6516,11 +6918,23 @@
     },
     {
       "source": "Shemu\u02beel",
-      "target": "Al- Mansur",
+      "target": "ha-mansur",
       "letters": [
         {
           "pgpid": "6492",
           "date": "ca.1125\u201328 CE",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "B. Avraham",
+      "target": "Sadaqa B. Semah",
+      "letters": [
+        {
+          "pgpid": "6558",
+          "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
         }
@@ -6540,7 +6954,7 @@
     },
     {
       "source": "Yosef B. Avraham B. Bundar",
-      "target": "Al- Zikri Kohen",
+      "target": "Kohen",
       "letters": [
         {
           "pgpid": "6770",
@@ -6563,7 +6977,7 @@
       ]
     },
     {
-      "source": "Saadya B. Avraham",
+      "source": "Saadya B. Avraham B. ha-amshati",
       "target": "Sadaqa B. Semah",
       "letters": [
         {
@@ -6575,7 +6989,7 @@
       ]
     },
     {
-      "source": "ha-wathiq",
+      "source": "Al-wathiq",
       "target": "Rambum",
       "letters": [
         {
@@ -6611,7 +7025,7 @@
       ]
     },
     {
-      "source": "Moshe B. Al- Hayy",
+      "source": "Moshe B. ha-hayy",
       "target": "Yosef b. Moshe b. Barhun ha-Tahirti",
       "letters": [
         {
@@ -6623,7 +7037,7 @@
       ]
     },
     {
-      "source": "Al- Faraj",
+      "source": "ha-faraj",
       "target": "Shelomo B. Eliyyahu",
       "letters": [
         {
@@ -6660,7 +7074,7 @@
     },
     {
       "source": "Shelomo B. Eliyyahu",
-      "target": "Al- Zikri",
+      "target": "ha-zikri",
       "letters": [
         {
           "pgpid": "7979",
@@ -6707,7 +7121,7 @@
       ]
     },
     {
-      "source": "Al- Rida",
+      "source": "ha-rida",
       "target": "Shelomo",
       "letters": [
         {
@@ -6731,8 +7145,8 @@
       ]
     },
     {
-      "source": "Al- Nasr B. Avraham",
-      "target": "Al- Zikri Yehuda B. Yosef",
+      "source": "B. Avraham",
+      "target": "Yehuda B. Yosef",
       "letters": [
         {
           "pgpid": "8610",
@@ -6762,7 +7176,7 @@
     },
     {
       "source": "Yosef B. Avraham B. Bundar",
-      "target": "Al- Zikri Yehuda B. Yosef",
+      "target": "Yehuda B. Yosef",
       "letters": [
         {
           "pgpid": "8907",
@@ -6785,13 +7199,13 @@
       ]
     },
     {
-      "source": "Al- Rida",
-      "target": "Al- Zikri",
+      "source": "ha-rida",
+      "target": "ha-zikri",
       "letters": [
         {
           "pgpid": "8924",
           "date": "N/A",
-          "start_location": "Q\u016bs",
+          "start_location": "Q\u016b\u1e63",
           "end_location": "sugar factory of Ab\u016b al-Ma\u02bf\u0101n\u012b"
         }
       ]
@@ -6893,7 +7307,7 @@
       ]
     },
     {
-      "source": "Marduk B. Moshe",
+      "source": "Mardukh B. Moshe",
       "target": "Yosef B. \u02bfeli Kohen Fasi",
       "letters": [
         {
@@ -6901,6 +7315,18 @@
           "date": "ca. 1065",
           "start_location": "Alexandria",
           "end_location": "Fustat"
+        }
+      ]
+    },
+    {
+      "source": "Berakot B. Al-dayyan",
+      "target": "ha-hasan",
+      "letters": [
+        {
+          "pgpid": "10296",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
         }
       ]
     },
@@ -6930,7 +7356,7 @@
     },
     {
       "source": "Khiyar B. Ya\u02bfaqov",
-      "target": "Al- Afrah Arus B. Yosef",
+      "target": "ha-afrah Arus B. Yosef",
       "letters": [
         {
           "pgpid": "12147",
@@ -6941,7 +7367,7 @@
       ]
     },
     {
-      "source": "Al- Mansur",
+      "source": "ha-mansur",
       "target": "Ya\u02bfaqov",
       "letters": [
         {
@@ -6954,7 +7380,7 @@
     },
     {
       "source": "Yefet B. Menashshe",
-      "target": "Al- Surur",
+      "target": "ha-surur",
       "letters": [
         {
           "pgpid": "12275",
@@ -6977,6 +7403,18 @@
       ]
     },
     {
+      "source": "B. ha-faraj",
+      "target": "Masliah",
+      "letters": [
+        {
+          "pgpid": "12375",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
       "source": "Moses Maimonides",
       "target": "Moses Maimonides",
       "letters": [
@@ -6989,8 +7427,8 @@
       ]
     },
     {
-      "source": "Yefet B. Menashshe ha-qataif",
-      "target": "Al- Said Halfon B. Menashshe",
+      "source": "Yefet B. Menashshe Al-qataif",
+      "target": "Halfon B. Menashshe",
       "letters": [
         {
           "pgpid": "16855",
@@ -7018,6 +7456,12 @@
         },
         {
           "pgpid": "17590",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "17780",
           "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
@@ -7061,7 +7505,37 @@
       ]
     },
     {
-      "source": "Yefet B. Menashshe B. ha-qataif",
+      "source": "Yefet",
+      "target": "Halfon B. Menashshe Al-qataif",
+      "letters": [
+        {
+          "pgpid": "16924",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Yefet B. Menashshe Al-qataif",
+      "target": "Halfon B. Menashshe Al-qataif",
+      "letters": [
+        {
+          "pgpid": "16930",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "16931",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Yefet B. Menashshe B. Al-qataif",
       "target": "Halfon B. Menashshe",
       "letters": [
         {
@@ -7128,7 +7602,7 @@
     },
     {
       "source": "Eliyyahu B. Zekharya",
-      "target": "Al- Faraj",
+      "target": "ha-faraj",
       "letters": [
         {
           "pgpid": "17089",
@@ -7151,7 +7625,19 @@
       ]
     },
     {
-      "source": "Al- Sahl Levi",
+      "source": "Nissim B. Halfon B. Benaya",
+      "target": "Nissim B. Nahray",
+      "letters": [
+        {
+          "pgpid": "17310",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Levi",
       "target": "Moshe b. Levi ha-Levi",
       "letters": [
         {
@@ -7175,19 +7661,7 @@
       ]
     },
     {
-      "source": "Yefet B. Menashshe ha-qataif",
-      "target": "Halfon B. Menashshe",
-      "letters": [
-        {
-          "pgpid": "17780",
-          "date": "N/A",
-          "start_location": "N/A",
-          "end_location": "N/A"
-        }
-      ]
-    },
-    {
-      "source": "Yefet B. Menashshe B. ha-qataif",
+      "source": "Yefet B. Menashshe B. Al-qataif",
       "target": "Halfon",
       "letters": [
         {
@@ -7199,7 +7673,7 @@
       ]
     },
     {
-      "source": "Al- Rida",
+      "source": "ha-rida",
       "target": "Me\u02beir",
       "letters": [
         {
@@ -7236,13 +7710,13 @@
     },
     {
       "source": "Benaya B. Moshe",
-      "target": "Al- Afrah Arus B. Yosef",
+      "target": "ha-afrah Arus B. Yosef",
       "letters": [
         {
           "pgpid": "19871",
           "date": "N/A",
-          "start_location": "al-Mahalla",
-          "end_location": "Ab\u016b l-Afr\u0101h's location"
+          "start_location": "al-Ma\u1e25alla",
+          "end_location": "Ab\u016b l-Afr\u0101\u1e25's location"
         }
       ]
     },
@@ -7295,7 +7769,7 @@
       ]
     },
     {
-      "source": "Avraham B. Natan Av ha-yeshiva",
+      "source": "Al- Yishaq Avraham B. Natan Av Bet Din",
       "target": "Yishaq B. Avraham",
       "letters": [
         {
@@ -7303,6 +7777,18 @@
           "date": "N/A",
           "start_location": "Fus\u1e6d\u0101\u1e6d",
           "end_location": "Dams\u012bs"
+        }
+      ]
+    },
+    {
+      "source": "Nissim B. Halfon B. Benaya",
+      "target": "Barhun B. Moshe Al-Tahirti",
+      "letters": [
+        {
+          "pgpid": "23353",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
         }
       ]
     },
@@ -7319,8 +7805,8 @@
       ]
     },
     {
-      "source": "Al- Majd",
-      "target": "ha-shaykh ha-rashid",
+      "source": "ha-majd",
+      "target": "Al-shaykh Al-rashid",
       "letters": [
         {
           "pgpid": "24524",
@@ -7379,18 +7865,6 @@
       ]
     },
     {
-      "source": "Perahya B. Yosef Yiju",
-      "target": "Saadya B. Avraham B. ha-amshati",
-      "letters": [
-        {
-          "pgpid": "27033",
-          "date": "ca. 1160s",
-          "start_location": "N/A",
-          "end_location": "N/A"
-        }
-      ]
-    },
-    {
       "source": "Yosef",
       "target": "Eliyyahu The Judge",
       "letters": [
@@ -7403,7 +7877,25 @@
       ]
     },
     {
-      "source": "Yehuda B. \u1e6coviyya",
+      "source": "Yefet B. Menashshe",
+      "target": "Perahya B. Menashshe B. Al-qataif",
+      "letters": [
+        {
+          "pgpid": "27069",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        },
+        {
+          "pgpid": "32179",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Yehuda B. Toviyya",
       "target": "Moses Maimonides",
       "letters": [
         {
@@ -7416,7 +7908,7 @@
     },
     {
       "source": "Shelomo B. Eliyyahu",
-      "target": "Al- Said",
+      "target": "ha-said",
       "letters": [
         {
           "pgpid": "27421",
@@ -7434,7 +7926,7 @@
     },
     {
       "source": "Berakot B. Shemu\u02beel",
-      "target": "Al- Hasan",
+      "target": "ha-hasan",
       "letters": [
         {
           "pgpid": "27442",
@@ -7469,8 +7961,8 @@
       ]
     },
     {
-      "source": "Al- Hasan",
-      "target": "Al- Fadl",
+      "source": "ha-hasan",
+      "target": "ha-fadl",
       "letters": [
         {
           "pgpid": "28342",
@@ -7489,6 +7981,18 @@
           "date": "N/A",
           "start_location": "N/A",
           "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Shabbetay B. Avraham",
+      "target": "Yehuda B. El\u02bfazar",
+      "letters": [
+        {
+          "pgpid": "29842",
+          "date": "1169\u201378 CE",
+          "start_location": "Minyat Zifta",
+          "end_location": "Bilbays"
         }
       ]
     },
@@ -7517,7 +8021,7 @@
       ]
     },
     {
-      "source": "Al- Majd",
+      "source": "ha-majd",
       "target": "Eliyyahu The Judge",
       "letters": [
         {
@@ -7577,6 +8081,18 @@
       ]
     },
     {
+      "source": "Yehoshua\u02bf B. [...]",
+      "target": "Ayyash B. Sadaqa",
+      "letters": [
+        {
+          "pgpid": "32598",
+          "date": "11th century",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
       "source": "Arah B. Natan",
       "target": "Avraham B. Natan The Seventh",
       "letters": [
@@ -7613,7 +8129,19 @@
       ]
     },
     {
-      "source": "Yehoshua\u02bf B. Ismail ha-makhmuri",
+      "source": "Avraham B. Shelomo",
+      "target": "Efrayim B. Shemarya",
+      "letters": [
+        {
+          "pgpid": "34267",
+          "date": "N/A",
+          "start_location": "N/A",
+          "end_location": "N/A"
+        }
+      ]
+    },
+    {
+      "source": "Yehoshua\u02bf B. Ismail Al-makhmuri",
       "target": "Yosef B. Avraham",
       "letters": [
         {
