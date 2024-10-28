@@ -2,651 +2,1157 @@
   "nodes": [
     {
       "id": "Moshe B. Yishaq B. Nissim",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Barhun B. Yishaq Al-Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Nahray B. Nissim",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "complaints",
+        "India",
+        "communal",
+        "charity",
+        "flax",
+        "tax",
+        "condolence",
+        "business",
+        "wine",
+        "trade"
+      ]
     },
     {
       "id": "Mardukh B. Moshe",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Shelomo B. Yehuda",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "complaints",
+        "communal",
+        "geonim"
+      ]
     },
     {
       "id": "Efrayim B. Shemarya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "geonim",
+        "India",
+        "communal",
+        "tax",
+        "trade"
+      ]
     },
     {
       "id": "Avraham B. Yishaq",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "geonim",
+        "trade"
+      ]
     },
     {
       "id": "Yehuda B. Saadya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Shelomo B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Hillel B. Yehoshua\u02bf",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yehoshua\u02bf B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Natan B. Shemu\u02beel",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Natan B. Mevorakh",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "\u02bfeli B. Hayyim",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Moses Maimonides",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "tax",
+        "business",
+        "wine",
+        "trade"
+      ]
     },
     {
       "id": "Avraham B. Yishaq B. Fustat",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "geonim",
+        "trade"
+      ]
     },
     {
       "id": "Avraham B. Sahlan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "geonim"
+      ]
     },
     {
       "id": "Efrayim B. Ismail Al-jawhari",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. Awkal",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "flax",
+        "charity",
+        "trade"
+      ]
     },
     {
       "id": "\u02bfeli B. Ye\u1e25ezqel",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Ayyash B. Sadaqa",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "tax",
+        "trade"
+      ]
     },
     {
       "id": "Yehuda B. Moshe B. Sughmar",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. Yehoshua\u02bf",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Natan B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Natan B. Nahray",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "flax",
+        "wine",
+        "trade"
+      ]
     },
     {
       "id": "Sadaqa B. Levi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Toviyya B. \u02bfeli",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "wine",
+        "communal",
+        "tax"
+      ]
     },
     {
       "id": "\u02bfeli B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Barhun B. Salih Al-Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Sahlan B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Eliyyahu B. Shelomo",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Moshe B. Barhun Al-Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Avraham B. El\u02bfazar",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Ismail B. Farah",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Farah B. Ismail B. Farah",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "pirates",
+        "flax",
+        "tax"
+      ]
     },
     {
       "id": "Ismail B. Yosef B. Abi Aqaba",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Hillel B. Hasan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yehoshua\u02bf B. Ismail Al-makhmuri",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Nissim B. Nahray",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Avraham B. Farah",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "tax",
+        "trade"
+      ]
     },
     {
       "id": "Yehoshua\u02bf B. Ismail",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "business",
+        "trade"
+      ]
     },
     {
       "id": "Moshe B. Abi Al-hayy",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "flax",
+        "tax",
+        "trade"
+      ]
     },
     {
       "id": "Nissim B. Halfon B. Benaya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "business",
+        "trade"
+      ]
     },
     {
       "id": "Ya\u02bfaqov B. Amram",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Dani\u02beel B. \u02bfazarya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "complaints",
+        "condolence",
+        "communal",
+        "trade"
+      ]
     },
     {
       "id": "\u02bfeli B. Amram",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "condolence",
+        "communal"
+      ]
     },
     {
       "id": "Ya\u02bfaqov B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Barhun B. Moshe Al-Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "pirates",
+        "flax",
+        "charity",
+        "trade"
+      ]
     },
     {
       "id": "Labrat B. Moshe B. Sughmar",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yisrael B. Natan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Al- Yishaq Avraham B. Natan Av Bet Din",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Shemu\u02beel B. Moshe",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yosef B. \u02bfeli Kohen Fasi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Menashshe B. Yehoshua\u02bf",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Shemarya B. Al-faraj",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yishaq B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Moshe B. Ya\u02bfaqov",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "business",
+        "trade"
+      ]
     },
     {
       "id": "Halfon B. Netan\u02beel",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Yosef B. David B. Shaya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Yefet B. Menashshe",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Mevorakh B. Saadya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Shela B. Mevasser",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Natan B. Shelomo",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "wine",
+        "communal",
+        "India",
+        "tax"
+      ]
     },
     {
       "id": "Avraham B. Shelomo",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "tax"
+      ]
     },
     {
       "id": "Eliyyahu The Judge",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "condolence",
+        "communal",
+        "tax"
+      ]
     },
     {
       "id": "ha-afrah Arus B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Arah B. Natan",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Avraham B. Natan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "ha-majd",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yefet B. David B. Shekhanya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Shelomo B. Semah",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Yefet B. David",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "David B. Shekhanya",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Shelomo B. Eliyyahu",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "N/a",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "condolence",
+        "communal",
+        "charity",
+        "trade"
+      ]
     },
     {
       "id": "Hillel B. \u02bfeli",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "tax"
+      ]
     },
     {
       "id": "Yehuda B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "trade"
+      ]
     },
     {
       "id": "Barhun B. Moshe Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Saadya B. Avraham B. ha-amshati",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Barhun B. Moshe",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Ismail B. Yishaq Al-andalusi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Awad B. Hananel",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "complaints",
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. Ya\u02bfaqov",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Shemarya B. Elhanan",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Shemu\u02beel B. Hananya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "complaints",
+        "communal"
+      ]
     },
     {
       "id": "Avraham B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Yehuda B. Al-ammani",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "wine"
+      ]
     },
     {
       "id": "ha-majd Me\u02beir B. Yakhin",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "wine"
+      ]
     },
     {
       "id": "Yosef B. Farah Ha-qabisi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "pirates",
+        "flax",
+        "tax",
+        "trade"
+      ]
     },
     {
       "id": "Yishaq B. Ya\u02bfaqov",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yehuda B. Aharon B. Al-ammani",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "wine"
+      ]
     },
     {
       "id": "Elhanan B. Shemarya",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Netan\u02beel B. Halfon",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Moshe B. Mevorakh",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "communal"
+      ]
     },
     {
       "id": "The",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "tax"
+      ]
     },
     {
       "id": "Avraham B. Ya\u02bfaqov",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Perahya B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "business",
+        "trade"
+      ]
     },
     {
       "id": "Halfon B. Menashshe",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "condolence",
+        "India"
+      ]
     },
     {
       "id": "Benaya B. Moshe",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "business",
+        "trade"
+      ]
     },
     {
       "id": "Moshe B. Ya\u02bfaqov Al-misri",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Mevasser B. David",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. \u02bfeli Fasi",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yahya B. Moshe Al-majjani",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Salih B. Barhun Al-Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Moshe B. ha-hayy",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Yishaq B. Barhun",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yehuda B. Sughmar",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Farah B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yehuda B. Menashshe",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Ismail B. Barhun Al-Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Shabbetay B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Zakkay B. Moshe",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "\u02bfeli B. Hillel",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Shemu\u02beel B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Ismail B. Barhun Tahirti",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "charity",
+        "trade"
+      ]
     },
     {
       "id": "Ya\u02bfaqov B. Ismail Al-andalusi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yehoshua\u02bf B. Natan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax"
+      ]
     },
     {
       "id": "Khalluf B. Sahl",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Shemu\u02beel B. Ya\u02bfaqov",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Avraham B. Natan The Seventh",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "The Son",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Sadaqa B. Semah",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. Arah",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. Labrat Al-fasi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Arus B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "The Addressee",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "condolence"
+      ]
     },
     {
       "id": "Ya\u02bfaqov B. Salman Al-hariri",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Yehuda B. Ismail Al-andalusi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Tahor B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "ha-faraj",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yosef B. Halfon",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "pirates",
+        "trade"
+      ]
     },
     {
       "id": "Mevorakh B. Natan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Shelomo B. Nissim Al-Barqi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Shemu\u02beel B. Hofni",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal",
+        "geonim"
+      ]
     },
     {
       "id": "Yosef B. Avraham",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "trade"
+      ]
     },
     {
       "id": "Avraham B. Yiju",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "trade"
+      ]
     },
     {
       "id": "Khalluf B. Yishaq",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "trade"
+      ]
     },
     {
       "id": "Perahya B. Yosef Yiju",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Moshe B. Yehuda",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yefet B. Menashshe B. Al-qataif",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Madmun B. Hasan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Hananel B. Shemu\u02beel",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Amram B. Yosef",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India",
+        "trade"
+      ]
     },
     {
       "id": "Khiyar B. Ya\u02bfaqov",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Yosef B. Ya\u02bfaqov Al-itrabulusi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Farah B. Ismail",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax",
+        "trade"
+      ]
     },
     {
       "id": "Yosef B. Berekhya",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Avraham B. Ata",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "communal"
+      ]
     },
     {
       "id": "Moshe B. Yahya Al-majani",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Zekharya B. Ya\u02bfaqov B. Al-shama",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Salama B. Moshe Safaqusi",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax"
+      ]
     },
     {
       "id": "Yehuda B. Sahl",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "flax"
+      ]
     },
     {
       "id": "Nehoray B. Nissim",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Ayash B. Sdaka",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "trade"
+      ]
     },
     {
       "id": "Ya\u02bfaqov B. Yishaq",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Allan B. Hasan",
-      "group": 1
+      "group": 1,
+      "tags": [
+        "India"
+      ]
     },
     {
       "id": "Yehoshua\u02bf B. [...]",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Perahya B. Menashshe B. Al-qataif",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Yefet B. Menashshe Al-qataif",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "Me\u02beir B. Naim",
-      "group": 1
+      "group": 1,
+      "tags": []
     },
     {
       "id": "David B. Naim",
-      "group": 1
+      "group": 1,
+      "tags": []
     }
   ],
   "links": [
@@ -656,28 +1162,40 @@
       "letters": [
         {
           "pgpid": "469",
-          "date": "1045-96 CE",
+          "date": 1045,
           "start_location": "N/A",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         },
         {
           "pgpid": "5769",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Mahdiyya",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         },
         {
           "pgpid": "5832",
-          "date": "1050",
+          "date": 1050,
           "start_location": "Mahdiyya",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5886",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Mahdiyya",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": [
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -686,106 +1204,146 @@
       "letters": [
         {
           "pgpid": "487",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "689",
-          "date": "1045-1096",
+          "date": 1045,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "705",
-          "date": "June 22, 1046",
+          "date": 1046,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "718",
-          "date": "ca. 1045 CE",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "839",
-          "date": "January 26, 1048",
+          "date": 1048,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "965",
-          "date": "ca. 1070",
+          "date": 1070,
           "start_location": "Fustat",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": [
+            "flax",
+            "trade"
+          ]
         },
         {
           "pgpid": "979",
-          "date": "1048 CE",
+          "date": 1048,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1639",
-          "date": "1045-1096",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1663",
-          "date": "ca. 1045-1096",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "2059",
-          "date": "August 10, 1046",
+          "date": 1046,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5697",
-          "date": "August 10, 1047",
+          "date": 1047,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5701",
-          "date": "August 10, 1047",
+          "date": 1047,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5730",
-          "date": "21 July 1046",
+          "date": 1046,
           "start_location": "Alexandria",
-          "end_location": "B\u016b\u1e63\u012br"
+          "end_location": "B\u016b\u1e63\u012br",
+          "tags": []
         },
         {
           "pgpid": "5731",
-          "date": "January 10th 1048",
+          "date": 1048,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5750",
-          "date": "March 8, 1048",
+          "date": 1048,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5969",
-          "date": "1046",
+          "date": 1046,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6989",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -794,172 +1352,234 @@
       "letters": [
         {
           "pgpid": "503",
-          "date": "1028",
+          "date": 1028,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "geonim"
+          ]
         },
         {
           "pgpid": "532",
-          "date": "approximately 1035",
+          "date": 1035,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "geonim",
+            "communal"
+          ]
         },
         {
           "pgpid": "556",
-          "date": "1040",
+          "date": 1040,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal",
+            "geonim"
+          ]
         },
         {
           "pgpid": "677",
-          "date": "ca. 1028",
+          "date": 1028,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "682",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "865",
-          "date": "1040",
+          "date": 1040,
           "start_location": "Ramla",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "870",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "943",
-          "date": "1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "961",
-          "date": "1029",
+          "date": 1029,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "985",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1059",
-          "date": "1039",
+          "date": 1039,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1061",
-          "date": "approximately 1025",
+          "date": 1025,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1122",
-          "date": "1040",
+          "date": 1040,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1127",
-          "date": "1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1131",
-          "date": "1035",
+          "date": 1035,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1234",
-          "date": "End of 1025 / 1026",
+          "date": 1025,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1286",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1288",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1299",
-          "date": "before 1048",
+          "date": 1048,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1303",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1363",
-          "date": "1029",
+          "date": 1029,
           "start_location": "N/A",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1498",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1770",
-          "date": "summer 1029",
+          "date": 1029,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "4435",
-          "date": "1048",
+          "date": 1048,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "4461",
-          "date": "1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "4470",
-          "date": "November 1042",
+          "date": 1042,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "12337",
-          "date": "1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "16868",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal",
+        "geonim"
       ]
     },
     {
@@ -968,10 +1588,16 @@
       "letters": [
         {
           "pgpid": "509",
-          "date": "1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "geonim"
+          ]
         }
+      ],
+      "tags": [
+        "geonim"
       ]
     },
     {
@@ -980,11 +1606,13 @@
       "letters": [
         {
           "pgpid": "526",
-          "date": "approximately 1030",
+          "date": 1030,
           "start_location": "Dalton",
-          "end_location": "Tiberias"
+          "end_location": "Tiberias",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehoshua\u02bf B. Yosef",
@@ -992,11 +1620,13 @@
       "letters": [
         {
           "pgpid": "531",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Natan B. Mevorakh",
@@ -1004,41 +1634,48 @@
       "letters": [
         {
           "pgpid": "548",
-          "date": "26 October 1093",
+          "date": 1093,
           "start_location": "Ascalon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "574",
-          "date": "N/A",
+          "date": null,
           "start_location": "Ashkelon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "952",
-          "date": "approximately 1090",
+          "date": 1090,
           "start_location": "Ascalon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "2284",
-          "date": "N/A",
+          "date": null,
           "start_location": "Ashkelon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4410",
-          "date": "approximately 1090",
+          "date": 1090,
           "start_location": "Ascalon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4455",
-          "date": "N/A",
+          "date": null,
           "start_location": "Ashkelon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shelomo B. Yehuda",
@@ -1046,22 +1683,32 @@
       "letters": [
         {
           "pgpid": "550",
-          "date": "ca. 1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal",
+            "geonim"
+          ]
         },
         {
           "pgpid": "995",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1411",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal",
+        "geonim"
       ]
     },
     {
@@ -1070,40 +1717,55 @@
       "letters": [
         {
           "pgpid": "552",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal",
+            "geonim"
+          ]
         },
         {
           "pgpid": "884",
-          "date": "ca 1030",
+          "date": 1030,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "970",
-          "date": "approximately 1020",
+          "date": 1020,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "981",
-          "date": "1026",
+          "date": 1026,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "4451",
-          "date": "December 1028",
+          "date": 1028,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4492",
-          "date": "December 1028",
+          "date": 1028,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal",
+        "geonim"
       ]
     },
     {
@@ -1112,40 +1774,51 @@
       "letters": [
         {
           "pgpid": "558",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "984",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1528",
-          "date": "1030",
+          "date": 1030,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5577",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5772",
-          "date": "Summer 1030",
+          "date": 1030,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5893",
-          "date": "April 2, 1030",
+          "date": 1030,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1154,17 +1827,20 @@
       "letters": [
         {
           "pgpid": "564",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "4456",
-          "date": "approximately 1055",
+          "date": 1055,
           "start_location": "Jerusalem",
-          "end_location": "Cairo"
+          "end_location": "Cairo",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Nahray B. Nissim",
@@ -1172,10 +1848,16 @@
       "letters": [
         {
           "pgpid": "575",
-          "date": "1050",
+          "date": 1050,
           "start_location": "N/A",
-          "end_location": "Busir"
+          "end_location": "Busir",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1184,10 +1866,16 @@
       "letters": [
         {
           "pgpid": "580",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tripoli (Syria)",
-          "end_location": "Nahray's location"
+          "end_location": "Nahray's location",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1196,118 +1884,163 @@
       "letters": [
         {
           "pgpid": "584",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "586",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1022",
-          "date": "Ca. 1062 CE",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1520",
-          "date": "1045-1096",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1530",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1531",
-          "date": "1045-1096",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "2600",
-          "date": "ca. 1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3865",
-          "date": "ca. 1063 CE",
+          "date": 1063,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5583",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "wine"
+          ]
         },
         {
           "pgpid": "5604",
-          "date": "1063",
+          "date": 1063,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5704",
-          "date": "1062",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5764",
-          "date": "1064 CE",
+          "date": 1064,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax",
+            "trade"
+          ]
         },
         {
           "pgpid": "5811",
-          "date": "Around 1061",
+          "date": 1061,
           "start_location": "Rashid",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5970",
-          "date": "1062",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5975",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5988",
-          "date": "1063",
+          "date": 1063,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6120",
-          "date": "1080",
+          "date": 1080,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "9272",
-          "date": "ca. 1065 CE",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "25802",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "wine",
+        "trade"
       ]
     },
     {
@@ -1316,11 +2049,13 @@
       "letters": [
         {
           "pgpid": "593",
-          "date": "May 28, 1112",
+          "date": 1112,
           "start_location": "Fustat",
-          "end_location": "Banyas/Dan"
+          "end_location": "Banyas/Dan",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Nahray B. Nissim",
@@ -1328,22 +2063,33 @@
       "letters": [
         {
           "pgpid": "596",
-          "date": "February 11, 1054 CE",
+          "date": 1054,
           "start_location": "B\u016b\u1e63\u012br",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "1211",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Fustat",
-          "end_location": "Egypt"
+          "end_location": "Egypt",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "27422",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -1352,64 +2098,83 @@
       "letters": [
         {
           "pgpid": "597",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "679",
-          "date": "ca. 1046",
+          "date": 1046,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "939",
-          "date": "1035",
+          "date": 1035,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "949",
-          "date": "approximately 1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "960",
-          "date": "1030",
+          "date": 1030,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1064",
-          "date": "1042",
+          "date": 1042,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1123",
-          "date": "1048",
+          "date": 1048,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1358",
-          "date": "1048",
+          "date": 1048,
           "start_location": "N/A",
-          "end_location": "Egypt"
+          "end_location": "Egypt",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1629",
-          "date": "1029 CE",
+          "date": 1029,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "2251",
-          "date": "1029",
+          "date": 1029,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -1418,11 +2183,13 @@
       "letters": [
         {
           "pgpid": "620",
-          "date": "1034",
+          "date": 1034,
           "start_location": "Tiberias",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Barhun Al-Tahirti",
@@ -1430,17 +2197,20 @@
       "letters": [
         {
           "pgpid": "656",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1623",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Natan B. Mevorakh",
@@ -1448,17 +2218,20 @@
       "letters": [
         {
           "pgpid": "667",
-          "date": "1130",
+          "date": 1130,
           "start_location": "Ashkelon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "12305",
-          "date": "1130 CE",
+          "date": 1130,
           "start_location": "Ashqelon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ismail B. Farah",
@@ -1466,11 +2239,13 @@
       "letters": [
         {
           "pgpid": "668",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ismail B. Yosef B. Abi Aqaba",
@@ -1478,29 +2253,34 @@
       "letters": [
         {
           "pgpid": "669",
-          "date": "first quarter of the 11th century",
+          "date": 1050,
           "start_location": "Damsis (Egypt)",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1703",
-          "date": "ca. 1015-1017 CE",
+          "date": 1015,
           "start_location": "Palermo",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5694",
-          "date": "Around 1030",
+          "date": 1030,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "30445",
-          "date": "1030 CE",
+          "date": 1030,
           "start_location": "Palermo",
-          "end_location": "Fus\u1e6d\u0101\u1e6d"
+          "end_location": "Fus\u1e6d\u0101\u1e6d",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Eliyyahu B. Shelomo",
@@ -1508,16 +2288,25 @@
       "letters": [
         {
           "pgpid": "685",
-          "date": "ca. 1055",
+          "date": 1055,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "989",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -1526,16 +2315,23 @@
       "letters": [
         {
           "pgpid": "686",
-          "date": "spring 1025",
+          "date": 1025,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "3011",
-          "date": "after 1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -1544,16 +2340,25 @@
       "letters": [
         {
           "pgpid": "690",
-          "date": "ca. 1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "691",
-          "date": "ca. 1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1562,64 +2367,89 @@
       "letters": [
         {
           "pgpid": "692",
-          "date": "ca. 1060 CE",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "697",
-          "date": "ca. 1045-1096",
+          "date": 1045,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "flax",
+            "trade"
+          ]
         },
         {
           "pgpid": "5569",
-          "date": "ca. 1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "5571",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "5594",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5665",
-          "date": "Around 1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5702",
-          "date": "1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "5780",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "5831",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5892",
-          "date": "August 12, 1062",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -1628,34 +2458,46 @@
       "letters": [
         {
           "pgpid": "700",
-          "date": "Ca. 1055",
+          "date": 1055,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "3250",
-          "date": "1053",
+          "date": 1053,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5946",
-          "date": "1055",
+          "date": 1055,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6125",
-          "date": "1 May 1052",
+          "date": 1052,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "9547",
-          "date": "1066",
+          "date": 1066,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1664,16 +2506,23 @@
       "letters": [
         {
           "pgpid": "709",
-          "date": "ca. 1065",
+          "date": 1065,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "710",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1682,34 +2531,46 @@
       "letters": [
         {
           "pgpid": "715",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5573",
-          "date": "9 September 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5813",
-          "date": "1056-09-23",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5990",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5995",
-          "date": "September 25, 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1718,46 +2579,61 @@
       "letters": [
         {
           "pgpid": "717",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5757",
-          "date": "1080",
+          "date": 1080,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5968",
-          "date": "November 14, 1079",
+          "date": 1079,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5973",
-          "date": "Around 1080",
+          "date": 1080,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6104",
-          "date": "Around 1080",
+          "date": 1080,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6106",
-          "date": "1063",
+          "date": 1063,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "6107",
-          "date": "1063",
+          "date": 1063,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "India",
+        "trade"
       ]
     },
     {
@@ -1766,64 +2642,91 @@
       "letters": [
         {
           "pgpid": "719",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "722",
-          "date": "1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1661",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "2259",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "3146",
-          "date": "ca. 1060 CE",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "4477",
-          "date": "1055",
+          "date": 1055,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5562",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5618",
-          "date": "November 28, 1062",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "tax",
+            "trade"
+          ]
         },
         {
           "pgpid": "5675",
-          "date": "Around 1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5706",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "tax",
+        "trade"
       ]
     },
     {
@@ -1832,112 +2735,137 @@
       "letters": [
         {
           "pgpid": "720",
-          "date": "7 December 1060",
+          "date": 1060,
           "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1492",
-          "date": "ca. 1055",
+          "date": 1055,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5578",
-          "date": "ca. 1055",
+          "date": 1055,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5625",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5655",
-          "date": "1056",
+          "date": 1056,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5808",
-          "date": "around 1046",
+          "date": 1046,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5819",
-          "date": "Around 1053",
+          "date": 1053,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5845",
-          "date": "1056",
+          "date": 1056,
           "start_location": "Munyat Samanhud",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5846",
-          "date": "1057",
+          "date": 1057,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5898",
-          "date": "August 20, 1046",
+          "date": 1046,
           "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5903",
-          "date": "November 17, 1046",
+          "date": 1046,
           "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5948",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Tatai",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5979",
-          "date": "1055",
+          "date": 1055,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5989",
-          "date": "1046",
+          "date": 1046,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6056",
-          "date": "1055",
+          "date": 1055,
           "start_location": "Damsis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6103",
-          "date": "Around 1055",
+          "date": 1055,
           "start_location": "Damsis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "9279",
-          "date": "ca. 1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "9285",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -1946,82 +2874,114 @@
       "letters": [
         {
           "pgpid": "744",
-          "date": "1052",
+          "date": 1052,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "790",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "798",
-          "date": "ca. 1055",
+          "date": 1055,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1372",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1462",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "condolence",
+            "communal"
+          ]
         },
         {
           "pgpid": "1538",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1667",
-          "date": "1051-1062",
+          "date": 1051,
           "start_location": "Palestine",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1672",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "2273",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "2298",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "2920",
-          "date": "11th century",
+          "date": 1050,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "3342",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4504",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "condolence",
+        "communal"
       ]
     },
     {
@@ -2030,11 +2990,13 @@
       "letters": [
         {
           "pgpid": "765",
-          "date": "1039 CE",
+          "date": 1039,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Farah B. Ismail B. Farah",
@@ -2042,11 +3004,13 @@
       "letters": [
         {
           "pgpid": "782",
-          "date": "N/A",
+          "date": null,
           "start_location": "Busir/Abusir",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Sadaqa B. Levi",
@@ -2054,16 +3018,23 @@
       "letters": [
         {
           "pgpid": "784",
-          "date": "1030",
+          "date": 1030,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "6139",
-          "date": "1029",
+          "date": 1029,
           "start_location": "Ramla",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2072,10 +3043,16 @@
       "letters": [
         {
           "pgpid": "808",
-          "date": "1025/1026",
+          "date": 1025,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2084,40 +3061,55 @@
       "letters": [
         {
           "pgpid": "813",
-          "date": "Ca. 1053 CE",
+          "date": 1053,
           "start_location": "Trapani, Sicily",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5662",
-          "date": "June 1, 1054",
+          "date": 1054,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5765",
-          "date": "1052",
+          "date": 1052,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5966",
-          "date": "Around 1051",
+          "date": 1051,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6013",
-          "date": "February 9, 1053",
+          "date": 1053,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "6097",
-          "date": "1057",
+          "date": 1057,
           "start_location": "Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2126,16 +3118,25 @@
       "letters": [
         {
           "pgpid": "823",
-          "date": "Middle of 11th century",
+          "date": 1050,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "4411",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2144,34 +3145,47 @@
       "letters": [
         {
           "pgpid": "825",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "833",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1298",
-          "date": "N/A",
+          "date": null,
           "start_location": "Gil, Palestine",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1571",
-          "date": "1054",
+          "date": 1054,
           "start_location": "Ramla",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "2031",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal",
+        "trade"
       ]
     },
     {
@@ -2180,11 +3194,13 @@
       "letters": [
         {
           "pgpid": "846",
-          "date": "Ca. 3 August 1057 CE or 1061 CE",
+          "date": 1057,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yisrael B. Natan",
@@ -2192,118 +3208,162 @@
       "letters": [
         {
           "pgpid": "857",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "892",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "955",
-          "date": "September 8, 1060",
+          "date": 1060,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "977",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "978",
-          "date": "11 January 1052 CE",
+          "date": 1052,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1084",
-          "date": "March 1062 CE",
+          "date": 1062,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1490",
-          "date": "November 29, 1061",
+          "date": 1061,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1651",
-          "date": "ca. 1060",
+          "date": 1060,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1656",
-          "date": "31 December 1061 CE",
+          "date": 1061,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1822",
-          "date": "ca. 1060",
+          "date": 1060,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "2051",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "4432",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4437",
-          "date": "N/A",
+          "date": null,
           "start_location": "Gush-Halab",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4475",
-          "date": "September 8, 1060",
+          "date": 1060,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4478",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5587",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Qayrawan"
+          "end_location": "Qayrawan",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5681",
-          "date": "August 24, 1052",
+          "date": 1052,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5856",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Qayrawan"
+          "end_location": "Qayrawan",
+          "tags": []
         },
         {
           "pgpid": "32185",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2312,34 +3372,44 @@
       "letters": [
         {
           "pgpid": "862",
-          "date": "c. 1045 CE",
+          "date": 1045,
           "start_location": "Jerusalem",
-          "end_location": "Fus\u1e6d\u0101\u1e6d"
+          "end_location": "Fus\u1e6d\u0101\u1e6d",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1648",
-          "date": "approximately 1045",
+          "date": 1045,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4418",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4471",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4481",
-          "date": "ca. 1045 CE",
+          "date": 1045,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2348,11 +3418,13 @@
       "letters": [
         {
           "pgpid": "876",
-          "date": "ca. 1025",
+          "date": 1025,
           "start_location": "Tyre",
-          "end_location": "Aleppo"
+          "end_location": "Aleppo",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Yehoshua\u02bf",
@@ -2360,16 +3432,23 @@
       "letters": [
         {
           "pgpid": "887",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "2006",
-          "date": "1028 or 1029",
+          "date": 1028,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2378,10 +3457,16 @@
       "letters": [
         {
           "pgpid": "888",
-          "date": "Around 1055",
+          "date": 1055,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2390,23 +3475,27 @@
       "letters": [
         {
           "pgpid": "893",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tyre",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": []
         },
         {
           "pgpid": "894",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tyre",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": []
         },
         {
           "pgpid": "895",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tyre",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Efrayim B. Shemarya",
@@ -2414,34 +3503,48 @@
       "letters": [
         {
           "pgpid": "902",
-          "date": "1043",
+          "date": 1043,
           "start_location": "N/A",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1082",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "1649",
-          "date": "1028 CE",
+          "date": 1028,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "3391",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "7999",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fus\u1e6d\u0101\u1e6d",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2450,11 +3553,13 @@
       "letters": [
         {
           "pgpid": "942",
-          "date": "approximately 1015",
+          "date": 1015,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Ya\u02bfaqov",
@@ -2462,28 +3567,41 @@
       "letters": [
         {
           "pgpid": "947",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "982",
-          "date": "28 July 1053 CE",
+          "date": 1053,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1171",
-          "date": "June 1053 CE",
+          "date": 1053,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "4431",
-          "date": "c. 1045-1096",
+          "date": 1045,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2492,11 +3610,13 @@
       "letters": [
         {
           "pgpid": "950",
-          "date": "11th of May 1141",
+          "date": 1141,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Ya\u02bfaqov",
@@ -2504,28 +3624,37 @@
       "letters": [
         {
           "pgpid": "954",
-          "date": "N/A",
+          "date": null,
           "start_location": "\u1e62\u016br",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "968",
-          "date": "N/A",
+          "date": null,
           "start_location": "Damascus",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "986",
-          "date": "29 December 1057 CE",
+          "date": 1057,
           "start_location": "Damascus",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3354",
-          "date": "March 1054",
+          "date": 1054,
           "start_location": "Tatai",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax"
       ]
     },
     {
@@ -2534,17 +3663,20 @@
       "letters": [
         {
           "pgpid": "987",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1046",
-          "date": "middle of the eleventh century",
+          "date": null,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Nahray B. Nissim",
@@ -2552,16 +3684,25 @@
       "letters": [
         {
           "pgpid": "994",
-          "date": "N/A",
+          "date": null,
           "start_location": "Egypt",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1514",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "Upper Egypt"
+          "end_location": "Upper Egypt",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2570,58 +3711,78 @@
       "letters": [
         {
           "pgpid": "1018",
-          "date": "ca. 1130",
+          "date": 1130,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "2536",
-          "date": "1122-1150",
+          "date": 1122,
           "start_location": "A provincial town",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "tax"
+          ]
         },
         {
           "pgpid": "3107",
-          "date": "1122-50",
+          "date": 1122,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3127",
-          "date": "ca. 1140",
+          "date": 1140,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3293",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "3374",
-          "date": "1122-50",
+          "date": 1122,
           "start_location": "countryside",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "6401",
-          "date": "12th century",
+          "date": 1150,
           "start_location": "Bilbays, Lower Egypt",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "wine"
+          ]
         },
         {
           "pgpid": "19905",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "34535",
-          "date": "1130 CE",
+          "date": 1130,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "wine",
+        "communal",
+        "tax"
       ]
     },
     {
@@ -2630,16 +3791,23 @@
       "letters": [
         {
           "pgpid": "1031",
-          "date": "ca. 1214",
+          "date": 1214,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1971",
-          "date": "ca. 1214",
+          "date": 1214,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2648,17 +3816,20 @@
       "letters": [
         {
           "pgpid": "1044",
-          "date": "1090s CE",
+          "date": null,
           "start_location": "Fuwwa",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4297",
-          "date": "1094-1111 CE",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "Cairo"
+          "end_location": "Cairo",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Eliyyahu B. Shelomo",
@@ -2666,11 +3837,13 @@
       "letters": [
         {
           "pgpid": "1062",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Dani\u02beel B. \u02bfazarya",
@@ -2678,11 +3851,13 @@
       "letters": [
         {
           "pgpid": "1073",
-          "date": "1037 CE",
+          "date": 1037,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shemu\u02beel B. Moshe",
@@ -2690,11 +3865,13 @@
       "letters": [
         {
           "pgpid": "1083",
-          "date": "1050",
+          "date": 1050,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yefet B. David B. Shekhanya",
@@ -2702,22 +3879,30 @@
       "letters": [
         {
           "pgpid": "1090",
-          "date": "1053",
+          "date": 1053,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1091",
-          "date": "approximately 1053",
+          "date": 1053,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "7991",
-          "date": "approximately 1053",
+          "date": 1053,
           "start_location": "Fustat",
-          "end_location": "Daniel b. Azarya's location"
+          "end_location": "Daniel b. Azarya's location",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -2726,23 +3911,27 @@
       "letters": [
         {
           "pgpid": "1129",
-          "date": "approximately 1030",
+          "date": 1030,
           "start_location": "Ramla",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "1545",
-          "date": "ca. 1030",
+          "date": 1030,
           "start_location": "Ramla",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "4415",
-          "date": "approximately 1030",
+          "date": 1030,
           "start_location": "Ramla",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yefet B. David",
@@ -2750,17 +3939,20 @@
       "letters": [
         {
           "pgpid": "1135",
-          "date": "c. 1008-11 CE",
+          "date": 1008,
           "start_location": "Tyre",
-          "end_location": "Acre"
+          "end_location": "Acre",
+          "tags": []
         },
         {
           "pgpid": "1693",
-          "date": "1007 or 1010 CE",
+          "date": 1007,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Hillel B. \u02bfeli",
@@ -2768,17 +3960,20 @@
       "letters": [
         {
           "pgpid": "1250",
-          "date": "1094 CE",
+          "date": 1094,
           "start_location": "Tyre",
-          "end_location": "Fus\u1e6d\u0101\u1e6d"
+          "end_location": "Fus\u1e6d\u0101\u1e6d",
+          "tags": []
         },
         {
           "pgpid": "33780",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Barhun B. Moshe Tahirti",
@@ -2786,10 +3981,16 @@
       "letters": [
         {
           "pgpid": "1382",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2798,10 +3999,16 @@
       "letters": [
         {
           "pgpid": "1500",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "Busir"
+          "end_location": "Busir",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2810,10 +4017,16 @@
       "letters": [
         {
           "pgpid": "1501",
-          "date": "Between 1090-1093",
+          "date": 1090,
           "start_location": "Tyre",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2822,11 +4035,13 @@
       "letters": [
         {
           "pgpid": "1510",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Awad B. Hananel",
@@ -2834,28 +4049,45 @@
       "letters": [
         {
           "pgpid": "1523",
-          "date": "1045-1096",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade",
+            "complaints"
+          ]
         },
         {
           "pgpid": "1526",
-          "date": "1045-1096",
+          "date": 1045,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1691",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "1734",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "complaints",
+        "trade"
       ]
     },
     {
@@ -2864,11 +4096,13 @@
       "letters": [
         {
           "pgpid": "1542",
-          "date": "1040 CE",
+          "date": 1040,
           "start_location": "Tyre",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "\u02bfeli B. Ye\u1e25ezqel",
@@ -2876,35 +4110,41 @@
       "letters": [
         {
           "pgpid": "1547",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "1683",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "2071",
-          "date": "ca. 1060",
+          "date": 1060,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4436",
-          "date": "1060",
+          "date": 1060,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "4439",
-          "date": "N/A",
+          "date": null,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ismail B. Yishaq Al-andalusi",
@@ -2912,10 +4152,16 @@
       "letters": [
         {
           "pgpid": "1558",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tyre",
-          "end_location": "Nahray b. Nissim"
+          "end_location": "Nahray b. Nissim",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -2924,17 +4170,20 @@
       "letters": [
         {
           "pgpid": "1631",
-          "date": "approximately 1050",
+          "date": 1050,
           "start_location": "Tiberias",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "2300",
-          "date": "1034",
+          "date": 1034,
           "start_location": "Tiberias",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Yishaq B. Nissim",
@@ -2942,28 +4191,41 @@
       "letters": [
         {
           "pgpid": "1633",
-          "date": "Early 11th century",
+          "date": 1050,
           "start_location": "A city in middle Egypt",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "4248",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "flax",
+            "trade"
+          ]
         },
         {
           "pgpid": "5559",
-          "date": "N/A",
+          "date": null,
           "start_location": "Mahdiya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "5601",
-          "date": "N/A",
+          "date": null,
           "start_location": "Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -2972,11 +4234,13 @@
       "letters": [
         {
           "pgpid": "1646",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehuda B. Al-ammani",
@@ -2984,17 +4248,20 @@
       "letters": [
         {
           "pgpid": "1647",
-          "date": "25 Tishrei 1212 (4973)",
+          "date": 1212,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "24528",
-          "date": "Early 13th century",
+          "date": 1250,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Farah Ha-qabisi",
@@ -3002,10 +4269,20 @@
       "letters": [
         {
           "pgpid": "1658",
-          "date": "September 6, 1056 CE",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "tax",
+            "flax",
+            "pirates"
+          ]
         }
+      ],
+      "tags": [
+        "pirates",
+        "flax",
+        "tax"
       ]
     },
     {
@@ -3014,16 +4291,23 @@
       "letters": [
         {
           "pgpid": "1682",
-          "date": "19 Adar 1538 Seleucid",
+          "date": 1538,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "6171",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -3032,22 +4316,30 @@
       "letters": [
         {
           "pgpid": "1721",
-          "date": "After 1094",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "5263",
-          "date": "After 1094",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17315",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -3056,11 +4348,13 @@
       "letters": [
         {
           "pgpid": "1761",
-          "date": "approximately 1050",
+          "date": 1050,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shelomo B. Yehuda",
@@ -3068,11 +4362,13 @@
       "letters": [
         {
           "pgpid": "1764",
-          "date": "1045 C.E.",
+          "date": 1045,
           "start_location": "Fustat",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Natan B. Shelomo",
@@ -3080,23 +4376,27 @@
       "letters": [
         {
           "pgpid": "1967",
-          "date": "Twelfth century",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "smaller town"
+          "end_location": "smaller town",
+          "tags": []
         },
         {
           "pgpid": "6201",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "7348",
-          "date": "1125-50",
+          "date": 1125,
           "start_location": "Fustat",
-          "end_location": "provincial town"
+          "end_location": "provincial town",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yefet B. Menashshe",
@@ -3104,107 +4404,125 @@
       "letters": [
         {
           "pgpid": "1996",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "8714",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "8964",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "11901",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17407",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17457",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "21289",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "23443",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Qasr al-Sham'"
+          "end_location": "Qasr al-Sham'",
+          "tags": []
         },
         {
           "pgpid": "23448",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "23895",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "24421",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26238",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26320",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26333",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26369",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26420",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "32457",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Toviyya B. \u02bfeli",
@@ -3212,11 +4530,13 @@
       "letters": [
         {
           "pgpid": "2016",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Ya\u02bfaqov Al-misri",
@@ -3224,11 +4544,13 @@
       "letters": [
         {
           "pgpid": "2032",
-          "date": "May 4, 1067",
+          "date": 1067,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yahya B. Moshe Al-majjani",
@@ -3236,10 +4558,16 @@
       "letters": [
         {
           "pgpid": "2082",
-          "date": "c. 1045 CE",
+          "date": 1045,
           "start_location": "Mahdiyya",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3248,17 +4576,20 @@
       "letters": [
         {
           "pgpid": "2295",
-          "date": "8.21.1008",
+          "date": 1008,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "5853",
-          "date": "Around 1010",
+          "date": 1010,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. ha-hayy",
@@ -3266,10 +4597,18 @@
       "letters": [
         {
           "pgpid": "2406",
-          "date": "August 1084",
+          "date": 1084,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade",
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -3278,10 +4617,16 @@
       "letters": [
         {
           "pgpid": "2434",
-          "date": "ca. 1053",
+          "date": 1053,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3290,11 +4635,13 @@
       "letters": [
         {
           "pgpid": "2438",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Yishaq B. Nissim",
@@ -3302,16 +4649,25 @@
       "letters": [
         {
           "pgpid": "2507",
-          "date": "N/A",
+          "date": null,
           "start_location": "Sfax",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade",
+            "flax"
+          ]
         },
         {
           "pgpid": "5910",
-          "date": "Summer 1059",
+          "date": 1059,
           "start_location": "Mazar",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -3320,17 +4676,20 @@
       "letters": [
         {
           "pgpid": "2518",
-          "date": "1060-1061",
+          "date": 1060,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5278",
-          "date": "Between 1064 and 1074",
+          "date": 1064,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Farah",
@@ -3338,11 +4697,13 @@
       "letters": [
         {
           "pgpid": "2554",
-          "date": "October 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Farah B. Yosef",
@@ -3350,22 +4711,30 @@
       "letters": [
         {
           "pgpid": "2573",
-          "date": "May 1069",
+          "date": 1069,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3407",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "6060",
-          "date": "May 12, 1069",
+          "date": 1069,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3374,16 +4743,23 @@
       "letters": [
         {
           "pgpid": "2591",
-          "date": "ca. 1090",
+          "date": 1090,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "6611",
-          "date": "1094",
+          "date": 1094,
           "start_location": "Ramla",
-          "end_location": "Jerusalem"
+          "end_location": "Jerusalem",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3392,17 +4768,20 @@
       "letters": [
         {
           "pgpid": "2629",
-          "date": "N/A",
+          "date": null,
           "start_location": "Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5916",
-          "date": "August 3, 1011",
+          "date": 1011,
           "start_location": "Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shabbetay B. Avraham",
@@ -3410,17 +4789,20 @@
       "letters": [
         {
           "pgpid": "2666",
-          "date": "1147 CE",
+          "date": 1147,
           "start_location": "Minyat Zifta",
-          "end_location": "al-Ma\u1e25alla"
+          "end_location": "al-Ma\u1e25alla",
+          "tags": []
         },
         {
           "pgpid": "6828",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Minyat Zift\u0101"
+          "end_location": "Minyat Zift\u0101",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yisrael B. Natan",
@@ -3428,11 +4810,13 @@
       "letters": [
         {
           "pgpid": "2681",
-          "date": "1048",
+          "date": 1048,
           "start_location": "Fustat",
-          "end_location": "Qayrawan"
+          "end_location": "Qayrawan",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ismail B. Barhun Tahirti",
@@ -3440,11 +4824,13 @@
       "letters": [
         {
           "pgpid": "2796",
-          "date": "N/A",
+          "date": null,
           "start_location": "Mahdiyya",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Sahlan B. Avraham",
@@ -3452,10 +4838,16 @@
       "letters": [
         {
           "pgpid": "2857",
-          "date": "1030 CE",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -3464,16 +4856,23 @@
       "letters": [
         {
           "pgpid": "2868",
-          "date": "ca. 1150",
+          "date": 1150,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "2871",
-          "date": "ca. 1150",
+          "date": 1150,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -3482,11 +4881,13 @@
       "letters": [
         {
           "pgpid": "2872",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Mahdiyya",
-          "end_location": "Cairo"
+          "end_location": "Cairo",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shela B. Mevasser",
@@ -3494,11 +4895,13 @@
       "letters": [
         {
           "pgpid": "2874",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "\u02bfeli B. Hillel",
@@ -3506,17 +4909,20 @@
       "letters": [
         {
           "pgpid": "2890",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "3302",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ayyash B. Sadaqa",
@@ -3524,16 +4930,27 @@
       "letters": [
         {
           "pgpid": "2899",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "Busir"
+          "end_location": "Busir",
+          "tags": [
+            "trade",
+            "flax"
+          ]
         },
         {
           "pgpid": "5884",
-          "date": "around 1054",
+          "date": 1054,
           "start_location": "Fustat",
-          "end_location": "Busir"
+          "end_location": "Busir",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -3542,16 +4959,25 @@
       "letters": [
         {
           "pgpid": "2941",
-          "date": "ca. 1055",
+          "date": 1055,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "3701",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3560,11 +4986,13 @@
       "letters": [
         {
           "pgpid": "2945",
-          "date": "ca. 1050",
+          "date": 1050,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Yishaq",
@@ -3572,10 +5000,16 @@
       "letters": [
         {
           "pgpid": "2953",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3584,34 +5018,48 @@
       "letters": [
         {
           "pgpid": "2975",
-          "date": "14 Iyyar, 1216 CE",
+          "date": 1216,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "wine",
+            "communal"
+          ]
         },
         {
           "pgpid": "3333",
-          "date": "23 Shevat, 1208 CE",
+          "date": 1208,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3389",
-          "date": "22 Shevat 1525 Seleucid (early 1214 CE)",
+          "date": 1525,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "wine"
+          ]
         },
         {
           "pgpid": "4452",
-          "date": "15 Sivan 1208",
+          "date": 1208,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "12365",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal",
+        "wine"
       ]
     },
     {
@@ -3620,34 +5068,55 @@
       "letters": [
         {
           "pgpid": "2998",
-          "date": "ca. 1046",
+          "date": 1046,
           "start_location": "Busir",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": [
+            "flax",
+            "trade"
+          ]
         },
         {
           "pgpid": "5823",
-          "date": "1046",
+          "date": 1046,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "5950",
-          "date": "Around 1050",
+          "date": 1050,
           "start_location": "Fustat",
-          "end_location": "Delta area"
+          "end_location": "Delta area",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "6062",
-          "date": "1045 CE",
+          "date": 1045,
           "start_location": "Barqa",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "6100",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade",
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -3656,11 +5125,13 @@
       "letters": [
         {
           "pgpid": "3105",
-          "date": "ca. 1020",
+          "date": 1020,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Farah B. Yosef",
@@ -3668,16 +5139,23 @@
       "letters": [
         {
           "pgpid": "3116",
-          "date": "October 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5852",
-          "date": "October 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3686,10 +5164,16 @@
       "letters": [
         {
           "pgpid": "3128",
-          "date": "ca. 1045",
+          "date": 1045,
           "start_location": "Fustat",
-          "end_location": "Tahirti"
+          "end_location": "Tahirti",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3698,28 +5182,40 @@
       "letters": [
         {
           "pgpid": "3275",
-          "date": "N/A",
+          "date": null,
           "start_location": "Mal\u012bj",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "3350",
-          "date": "1056 CE",
+          "date": 1056,
           "start_location": "Minyatayn",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "3937",
-          "date": "19 January 1055 CE",
+          "date": 1055,
           "start_location": "Damascus",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5718",
-          "date": "ca. 1056 CE",
+          "date": 1056,
           "start_location": "Mal\u012bj",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -3728,17 +5224,20 @@
       "letters": [
         {
           "pgpid": "3276",
-          "date": "N/A",
+          "date": null,
           "start_location": "Ashm\u016bm \u1e6cann\u0101\u1e25 (present-day Ashm\u016bn al-Rumm\u0101n)",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "6254",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Labrat Al-fasi",
@@ -3746,22 +5245,30 @@
       "letters": [
         {
           "pgpid": "3372",
-          "date": "N/A",
+          "date": null,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5693",
-          "date": "N/A",
+          "date": null,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6059",
-          "date": "N/A",
+          "date": null,
           "start_location": "Qayraw\u0101n",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3770,11 +5277,13 @@
       "letters": [
         {
           "pgpid": "3373",
-          "date": "Mid-11th century",
+          "date": 1050,
           "start_location": "Ifr\u012bqiyya",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Farah",
@@ -3782,10 +5291,16 @@
       "letters": [
         {
           "pgpid": "3387",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3794,11 +5309,13 @@
       "letters": [
         {
           "pgpid": "3424",
-          "date": "June 1007",
+          "date": 1007,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. El\u02bfazar",
@@ -3806,11 +5323,13 @@
       "letters": [
         {
           "pgpid": "3543",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ya\u02bfaqov B. Salman Al-hariri",
@@ -3818,34 +5337,46 @@
       "letters": [
         {
           "pgpid": "3708",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "4476",
-          "date": "N/A",
+          "date": null,
           "start_location": "Tripoli al-Sham",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5844",
-          "date": "Around 1050",
+          "date": 1050,
           "start_location": "Ladikiya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5887",
-          "date": "June 23 1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5993",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Rashid",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3854,11 +5385,13 @@
       "letters": [
         {
           "pgpid": "3747",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ayyash B. Sadaqa",
@@ -3866,11 +5399,13 @@
       "letters": [
         {
           "pgpid": "3816",
-          "date": "11th century",
+          "date": 1050,
           "start_location": "Fustat",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Ya\u02bfaqov",
@@ -3878,17 +5413,20 @@
       "letters": [
         {
           "pgpid": "3854",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         },
         {
           "pgpid": "19195",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. ha-hayy",
@@ -3896,10 +5434,16 @@
       "letters": [
         {
           "pgpid": "4012",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -3908,11 +5452,13 @@
       "letters": [
         {
           "pgpid": "4022",
-          "date": "ca. 1030",
+          "date": 1030,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "\u02bfeli B. Ye\u1e25ezqel",
@@ -3920,16 +5466,25 @@
       "letters": [
         {
           "pgpid": "4469",
-          "date": "approximately 1050",
+          "date": 1050,
           "start_location": "Jerusalem",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         },
         {
           "pgpid": "4488",
-          "date": "approximately 1030",
+          "date": 1030,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -3938,11 +5493,13 @@
       "letters": [
         {
           "pgpid": "4494",
-          "date": "ca. 1066",
+          "date": 1066,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Avraham",
@@ -3950,28 +5507,46 @@
       "letters": [
         {
           "pgpid": "4721",
-          "date": "1136-1139",
+          "date": 1136,
           "start_location": "N/A",
-          "end_location": "Aden"
+          "end_location": "Aden",
+          "tags": [
+            "trade",
+            "India"
+          ]
         },
         {
           "pgpid": "5520",
-          "date": "1148-9",
+          "date": 1148,
           "start_location": "Aden",
-          "end_location": "Zabbid"
+          "end_location": "Zabbid",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5528",
-          "date": "1147 or 1148",
+          "date": 1147,
           "start_location": "Aden",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India",
+            "trade"
+          ]
         },
         {
           "pgpid": "5547",
-          "date": "1140-1144",
+          "date": 1140,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India",
+        "trade"
       ]
     },
     {
@@ -3980,34 +5555,52 @@
       "letters": [
         {
           "pgpid": "4738",
-          "date": "August 1147",
+          "date": 1147,
           "start_location": "Aden",
-          "end_location": "Jurbattan (Srikandapuram)"
+          "end_location": "Jurbattan (Srikandapuram)",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "4740",
-          "date": "c. 1138-1150",
+          "date": 1138,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5534",
-          "date": "1146",
+          "date": 1146,
           "start_location": "Aden",
-          "end_location": "India"
+          "end_location": "India",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5535",
-          "date": "1139-1140",
+          "date": 1139,
           "start_location": "Aden",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "5538",
-          "date": "after 1138",
+          "date": 1138,
           "start_location": "Aden",
-          "end_location": "Dahbattan on the Malabar coast"
+          "end_location": "Dahbattan on the Malabar coast",
+          "tags": [
+            "trade",
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India",
+        "trade"
       ]
     },
     {
@@ -4016,16 +5609,23 @@
       "letters": [
         {
           "pgpid": "4741",
-          "date": "1161-72 CE",
+          "date": 1161,
           "start_location": "al-Ma\u1e25alla",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "27033",
-          "date": "ca. 1160s",
+          "date": 1160,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4034,11 +5634,13 @@
       "letters": [
         {
           "pgpid": "5239",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehuda B. Al-ammani",
@@ -4046,10 +5648,18 @@
       "letters": [
         {
           "pgpid": "5286",
-          "date": "1217 CE",
+          "date": 1217,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "wine",
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal",
+        "wine"
       ]
     },
     {
@@ -4058,10 +5668,16 @@
       "letters": [
         {
           "pgpid": "5337",
-          "date": "1097",
+          "date": 1097,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4070,16 +5686,25 @@
       "letters": [
         {
           "pgpid": "5404",
-          "date": "N/A",
+          "date": null,
           "start_location": "Aden",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5408",
-          "date": "first half of the twelfth century",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Aden"
+          "end_location": "Aden",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4088,10 +5713,16 @@
       "letters": [
         {
           "pgpid": "5410",
-          "date": "ca. 1131",
+          "date": 1131,
           "start_location": "Aden",
-          "end_location": "Aydhab"
+          "end_location": "Aydhab",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4100,10 +5731,16 @@
       "letters": [
         {
           "pgpid": "5423",
-          "date": "1094\u201397 CE",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4112,34 +5749,50 @@
       "letters": [
         {
           "pgpid": "5426",
-          "date": "1094\u201397",
+          "date": 1094,
           "start_location": "N/A",
-          "end_location": "Aden Alexandria"
+          "end_location": "Aden Alexandria",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5431",
-          "date": "1075",
+          "date": 1075,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5456",
-          "date": "1094\u201397 CE",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5463",
-          "date": "1094\u201397 CE",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "Aden"
+          "end_location": "Aden",
+          "tags": [
+            "India"
+          ]
         },
         {
           "pgpid": "5936",
-          "date": "Around 1075",
+          "date": 1075,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4148,10 +5801,16 @@
       "letters": [
         {
           "pgpid": "5433",
-          "date": "ca. 1135",
+          "date": 1135,
           "start_location": "Aden",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4160,10 +5819,16 @@
       "letters": [
         {
           "pgpid": "5461",
-          "date": "ca. 1120s",
+          "date": 1120,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -4172,22 +5837,33 @@
       "letters": [
         {
           "pgpid": "5570",
-          "date": "Beginning of 11th century",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "5610",
-          "date": "N/A",
+          "date": null,
           "start_location": "Gabes (Ifr\u012bqiya)",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "6050",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -4196,11 +5872,13 @@
       "letters": [
         {
           "pgpid": "5592",
-          "date": "July 30 (26 Av), 1057",
+          "date": 1057,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Farah B. Ismail",
@@ -4208,11 +5886,13 @@
       "letters": [
         {
           "pgpid": "5597",
-          "date": "1057",
+          "date": 1057,
           "start_location": "Fustat",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ya\u02bfaqov B. Ismail Al-andalusi",
@@ -4220,10 +5900,16 @@
       "letters": [
         {
           "pgpid": "5606",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Sicily",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4232,29 +5918,34 @@
       "letters": [
         {
           "pgpid": "5611",
-          "date": "Around 1017",
+          "date": 1017,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5978",
-          "date": "1020",
+          "date": 1020,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6096",
-          "date": "N/A",
+          "date": null,
           "start_location": "Qayrawan (Ifr\u012bqiya)",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "7008",
-          "date": "Around 1020",
+          "date": 1020,
           "start_location": "Fustat",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Avraham",
@@ -4262,11 +5953,13 @@
       "letters": [
         {
           "pgpid": "5614",
-          "date": "Around 1050",
+          "date": 1050,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Natan",
@@ -4274,11 +5967,13 @@
       "letters": [
         {
           "pgpid": "5616",
-          "date": "ca. 1050 CE",
+          "date": 1050,
           "start_location": "Fustat",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Farah Ha-qabisi",
@@ -4286,28 +5981,37 @@
       "letters": [
         {
           "pgpid": "5651",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5952",
-          "date": "ca. 1050 CE",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5992",
-          "date": "October 25, 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "9585",
-          "date": "c. 1055 CE",
+          "date": 1055,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4316,16 +6020,27 @@
       "letters": [
         {
           "pgpid": "5678",
-          "date": "N/A",
+          "date": null,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "charity",
+            "communal",
+            "trade"
+          ]
         },
         {
           "pgpid": "12414",
-          "date": "N/A",
+          "date": null,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "communal",
+        "charity",
+        "trade"
       ]
     },
     {
@@ -4334,11 +6049,13 @@
       "letters": [
         {
           "pgpid": "5680",
-          "date": "N/A",
+          "date": null,
           "start_location": "Qayrawan",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shelomo B. Nissim Al-Barqi",
@@ -4346,17 +6063,20 @@
       "letters": [
         {
           "pgpid": "5683",
-          "date": "ca. 1080 CE",
+          "date": 1080,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5755",
-          "date": "Around 1080",
+          "date": 1080,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Efrayim B. Shemarya",
@@ -4364,17 +6084,20 @@
       "letters": [
         {
           "pgpid": "5684",
-          "date": "1034",
+          "date": 1034,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "25964",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Yahya Al-majani",
@@ -4382,11 +6105,13 @@
       "letters": [
         {
           "pgpid": "5692",
-          "date": "Around 1025",
+          "date": 1025,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shemu\u02beel B. Hofni",
@@ -4394,10 +6119,16 @@
       "letters": [
         {
           "pgpid": "5700",
-          "date": "Around 1008",
+          "date": 1008,
           "start_location": "N/A",
-          "end_location": "Qayrawan"
+          "end_location": "Qayrawan",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -4406,11 +6137,13 @@
       "letters": [
         {
           "pgpid": "5709",
-          "date": "1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Zekharya B. Ya\u02bfaqov B. Al-shama",
@@ -4418,22 +6151,30 @@
       "letters": [
         {
           "pgpid": "5717",
-          "date": "1065",
+          "date": 1065,
           "start_location": "Tripoli",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5841",
-          "date": "Early August 1062",
+          "date": 1062,
           "start_location": "Tripoli",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5949",
-          "date": "Around 1060",
+          "date": 1060,
           "start_location": "Tripoli",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4442,10 +6183,16 @@
       "letters": [
         {
           "pgpid": "5727",
-          "date": "21 October 1049",
+          "date": 1049,
           "start_location": "al-Mahdiyya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax"
       ]
     },
     {
@@ -4454,17 +6201,20 @@
       "letters": [
         {
           "pgpid": "5735",
-          "date": "1064",
+          "date": 1064,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "5800",
-          "date": "1055",
+          "date": 1055,
           "start_location": "Mazara, Sicily",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shemu\u02beel B. Avraham",
@@ -4472,16 +6222,23 @@
       "letters": [
         {
           "pgpid": "5736",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "17171",
-          "date": "1007-1055 CE",
+          "date": 1007,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4490,34 +6247,46 @@
       "letters": [
         {
           "pgpid": "5738",
-          "date": "5 June 1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5951",
-          "date": "1056",
+          "date": 1056,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "5956",
-          "date": "Around 1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5991",
-          "date": "Around 1053",
+          "date": 1053,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6071",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade",
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -4526,16 +6295,29 @@
       "letters": [
         {
           "pgpid": "5741",
-          "date": "ca. 1053",
+          "date": 1053,
           "start_location": "Fustat",
-          "end_location": "B\u016bs\u012br"
+          "end_location": "B\u016bs\u012br",
+          "tags": [
+            "charity",
+            "trade"
+          ]
         },
         {
           "pgpid": "6022",
-          "date": "February 8, 1053",
+          "date": 1053,
           "start_location": "N/A",
-          "end_location": "Busir"
+          "end_location": "Busir",
+          "tags": [
+            "flax",
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "charity",
+        "trade"
       ]
     },
     {
@@ -4544,10 +6326,16 @@
       "letters": [
         {
           "pgpid": "5747",
-          "date": "1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax"
       ]
     },
     {
@@ -4556,10 +6344,16 @@
       "letters": [
         {
           "pgpid": "5756",
-          "date": "Around 1053",
+          "date": 1053,
           "start_location": "Busir",
-          "end_location": "Busir"
+          "end_location": "Busir",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4568,11 +6362,13 @@
       "letters": [
         {
           "pgpid": "5758",
-          "date": "around 1070",
+          "date": 1070,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Salama B. Moshe Safaqusi",
@@ -4580,10 +6376,16 @@
       "letters": [
         {
           "pgpid": "5766",
-          "date": "1062",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax"
       ]
     },
     {
@@ -4592,23 +6394,27 @@
       "letters": [
         {
           "pgpid": "5809",
-          "date": "1053",
+          "date": 1053,
           "start_location": "Damsis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5862",
-          "date": "25 August 1068",
+          "date": 1068,
           "start_location": "Tinn\u012bs",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6072",
-          "date": "ca. 1052",
+          "date": 1052,
           "start_location": "al-Mahdiya",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. \u02bfeli Kohen Fasi",
@@ -4616,34 +6422,47 @@
       "letters": [
         {
           "pgpid": "5825",
-          "date": "June 27, 1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5833",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "5890",
-          "date": "1057",
+          "date": 1057,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "5944",
-          "date": "N/A",
+          "date": null,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         },
         {
           "pgpid": "5955",
-          "date": "1055",
+          "date": 1055,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -4652,11 +6471,13 @@
       "letters": [
         {
           "pgpid": "5827",
-          "date": "August 9, 1062",
+          "date": 1062,
           "start_location": "Sicily",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yosef B. Ya\u02bfaqov",
@@ -4664,11 +6485,13 @@
       "letters": [
         {
           "pgpid": "5834",
-          "date": "around 1030",
+          "date": 1030,
           "start_location": "Tripoli",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehoshua\u02bf B. Natan",
@@ -4676,10 +6499,16 @@
       "letters": [
         {
           "pgpid": "5847",
-          "date": "September 29, 1051",
+          "date": 1051,
           "start_location": "Bahanasa",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax"
       ]
     },
     {
@@ -4688,10 +6517,16 @@
       "letters": [
         {
           "pgpid": "5858",
-          "date": "1060",
+          "date": 1060,
           "start_location": "Tinnis",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4700,11 +6535,13 @@
       "letters": [
         {
           "pgpid": "5863",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Abi Al-hayy",
@@ -4712,10 +6549,16 @@
       "letters": [
         {
           "pgpid": "5864",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4724,10 +6567,16 @@
       "letters": [
         {
           "pgpid": "5885",
-          "date": "Around 1045",
+          "date": 1045,
           "start_location": "Fustat",
-          "end_location": "Qayrawan"
+          "end_location": "Qayrawan",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4736,22 +6585,32 @@
       "letters": [
         {
           "pgpid": "5904",
-          "date": "August 4, 1045",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6012",
-          "date": "1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         },
         {
           "pgpid": "6084",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Busir",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4760,10 +6619,16 @@
       "letters": [
         {
           "pgpid": "5918",
-          "date": "1062",
+          "date": 1062,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4772,11 +6637,13 @@
       "letters": [
         {
           "pgpid": "5937",
-          "date": "Around 1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehuda B. Sahl",
@@ -4784,11 +6651,13 @@
       "letters": [
         {
           "pgpid": "5938",
-          "date": "around 1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Sicily"
+          "end_location": "Sicily",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Farah",
@@ -4796,11 +6665,13 @@
       "letters": [
         {
           "pgpid": "5947",
-          "date": "Around 1050",
+          "date": 1050,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehoshua\u02bf B. Ismail Al-makhmuri",
@@ -4808,11 +6679,13 @@
       "letters": [
         {
           "pgpid": "5960",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Malig",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Yahya Al-majani",
@@ -4820,11 +6693,13 @@
       "letters": [
         {
           "pgpid": "5967",
-          "date": "1052",
+          "date": 1052,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ismail B. Yishaq Al-andalusi",
@@ -4832,11 +6707,13 @@
       "letters": [
         {
           "pgpid": "5971",
-          "date": "Mid-11th century",
+          "date": 1050,
           "start_location": "Allepo",
-          "end_location": "Tyre"
+          "end_location": "Tyre",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moshe B. Barhun Al-Tahirti",
@@ -4844,11 +6721,13 @@
       "letters": [
         {
           "pgpid": "6030",
-          "date": "N/A",
+          "date": null,
           "start_location": "Busir",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Nahray B. Nissim",
@@ -4856,10 +6735,18 @@
       "letters": [
         {
           "pgpid": "6036",
-          "date": "Around 1045",
+          "date": 1045,
           "start_location": "Egypt",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade",
+            "flax"
+          ]
         }
+      ],
+      "tags": [
+        "flax",
+        "trade"
       ]
     },
     {
@@ -4868,11 +6755,13 @@
       "letters": [
         {
           "pgpid": "6061",
-          "date": "ca. 1045 CE",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Hillel B. Hasan",
@@ -4880,17 +6769,20 @@
       "letters": [
         {
           "pgpid": "6090",
-          "date": "Around 1070",
+          "date": 1070,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "6091",
-          "date": "Around 1070",
+          "date": 1070,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ayash B. Sdaka",
@@ -4898,10 +6790,16 @@
       "letters": [
         {
           "pgpid": "6102",
-          "date": "1045",
+          "date": 1045,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -4910,11 +6808,13 @@
       "letters": [
         {
           "pgpid": "6112",
-          "date": "Around 1070",
+          "date": 1070,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yishaq B. Ya\u02bfaqov",
@@ -4922,11 +6822,13 @@
       "letters": [
         {
           "pgpid": "6233",
-          "date": "N/A",
+          "date": null,
           "start_location": "Cairo",
-          "end_location": "Dal\u0101\u1e63"
+          "end_location": "Dal\u0101\u1e63",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "B. Avraham",
@@ -4934,11 +6836,13 @@
       "letters": [
         {
           "pgpid": "6558",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Eliyyahu The Judge",
@@ -4946,10 +6850,16 @@
       "letters": [
         {
           "pgpid": "6708",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "tax"
+          ]
         }
+      ],
+      "tags": [
+        "tax"
       ]
     },
     {
@@ -4958,11 +6868,13 @@
       "letters": [
         {
           "pgpid": "6859",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "N/a",
@@ -4970,41 +6882,48 @@
       "letters": [
         {
           "pgpid": "7221",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17659",
-          "date": "8 Elul",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "19072",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26537",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26555",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         },
         {
           "pgpid": "34370",
-          "date": "Rama\u1e0d\u0101n",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Allan B. Hasan",
@@ -5012,10 +6931,16 @@
       "letters": [
         {
           "pgpid": "7892",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fus\u1e6d\u0101\u1e6d"
+          "end_location": "Fus\u1e6d\u0101\u1e6d",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -5024,11 +6949,13 @@
       "letters": [
         {
           "pgpid": "8041",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fustat",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Ya\u02bfaqov B. Yishaq",
@@ -5036,11 +6963,13 @@
       "letters": [
         {
           "pgpid": "8084",
-          "date": "c. 1030 CE",
+          "date": 1030,
           "start_location": "Aleppo",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Mevorakh B. Natan",
@@ -5048,10 +6977,16 @@
       "letters": [
         {
           "pgpid": "8604",
-          "date": "1150-81",
+          "date": 1150,
           "start_location": "Fustat",
-          "end_location": "Minyat Zifta"
+          "end_location": "Minyat Zifta",
+          "tags": [
+            "communal"
+          ]
         }
+      ],
+      "tags": [
+        "communal"
       ]
     },
     {
@@ -5060,10 +6995,16 @@
       "letters": [
         {
           "pgpid": "8610",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -5072,17 +7013,20 @@
       "letters": [
         {
           "pgpid": "8684",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "19396",
-          "date": "First half of the 13th century",
+          "date": 1250,
           "start_location": "",
-          "end_location": ""
+          "end_location": "",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shabbetay B. Avraham",
@@ -5090,11 +7034,13 @@
       "letters": [
         {
           "pgpid": "8916",
-          "date": "N/A",
+          "date": null,
           "start_location": "Minyat Zifta",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Efrayim B. Shemarya",
@@ -5102,10 +7048,16 @@
       "letters": [
         {
           "pgpid": "9157",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "India"
+          ]
         }
+      ],
+      "tags": [
+        "India"
       ]
     },
     {
@@ -5114,11 +7066,13 @@
       "letters": [
         {
           "pgpid": "9516",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Mardukh B. Moshe",
@@ -5126,10 +7080,16 @@
       "letters": [
         {
           "pgpid": "9554",
-          "date": "ca. 1065",
+          "date": 1065,
           "start_location": "Alexandria",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": [
+            "trade"
+          ]
         }
+      ],
+      "tags": [
+        "trade"
       ]
     },
     {
@@ -5138,22 +7098,30 @@
       "letters": [
         {
           "pgpid": "11850",
-          "date": "N/A",
+          "date": null,
           "start_location": "Cairo",
-          "end_location": "Bilbays"
+          "end_location": "Bilbays",
+          "tags": []
         },
         {
           "pgpid": "17163",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "condolence"
+          ]
         },
         {
           "pgpid": "30332",
-          "date": "Early 13th century",
+          "date": 1250,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
+      ],
+      "tags": [
+        "condolence"
       ]
     },
     {
@@ -5162,11 +7130,13 @@
       "letters": [
         {
           "pgpid": "12147",
-          "date": "Late 11th century",
+          "date": 1050,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Moses Maimonides",
@@ -5174,11 +7144,13 @@
       "letters": [
         {
           "pgpid": "12406",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yefet B. Menashshe Al-qataif",
@@ -5186,41 +7158,48 @@
       "letters": [
         {
           "pgpid": "16855",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "16856",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "Fus\u1e6d\u0101\u1e6d"
+          "end_location": "Fus\u1e6d\u0101\u1e6d",
+          "tags": []
         },
         {
           "pgpid": "16906",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17588",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17590",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17780",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yefet B. Menashshe B. Al-qataif",
@@ -5228,23 +7207,27 @@
       "letters": [
         {
           "pgpid": "16979",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17317",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "26667",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Perahya B. Yosef",
@@ -5252,17 +7235,20 @@
       "letters": [
         {
           "pgpid": "16981",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "17523",
-          "date": "mid-12th century",
+          "date": 1150,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Nissim B. Halfon B. Benaya",
@@ -5270,11 +7256,13 @@
       "letters": [
         {
           "pgpid": "17310",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "ha-faraj",
@@ -5282,11 +7270,13 @@
       "letters": [
         {
           "pgpid": "19805",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Benaya B. Moshe",
@@ -5294,11 +7284,13 @@
       "letters": [
         {
           "pgpid": "19871",
-          "date": "N/A",
+          "date": null,
           "start_location": "al-Ma\u1e25alla",
-          "end_location": "Ab\u016b l-Afr\u0101\u1e25's location"
+          "end_location": "Ab\u016b l-Afr\u0101\u1e25's location",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Yishaq",
@@ -5306,11 +7298,13 @@
       "letters": [
         {
           "pgpid": "21119",
-          "date": "N/A",
+          "date": null,
           "start_location": "Ascalon",
-          "end_location": "Fustat"
+          "end_location": "Fustat",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Al- Yishaq Avraham B. Natan Av Bet Din",
@@ -5318,11 +7312,13 @@
       "letters": [
         {
           "pgpid": "23330",
-          "date": "N/A",
+          "date": null,
           "start_location": "Fus\u1e6d\u0101\u1e6d",
-          "end_location": "Dams\u012bs"
+          "end_location": "Dams\u012bs",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Nissim B. Halfon B. Benaya",
@@ -5330,11 +7326,13 @@
       "letters": [
         {
           "pgpid": "23353",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yishaq B. Avraham",
@@ -5342,11 +7340,13 @@
       "letters": [
         {
           "pgpid": "23407",
-          "date": "1112-26 CE",
+          "date": 1112,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yefet B. Menashshe",
@@ -5354,17 +7354,20 @@
       "letters": [
         {
           "pgpid": "27069",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "32179",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Elhanan B. Shemarya",
@@ -5372,11 +7375,13 @@
       "letters": [
         {
           "pgpid": "29100",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "ha-majd",
@@ -5384,11 +7389,13 @@
       "letters": [
         {
           "pgpid": "30340",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shemu\u02beel B. Ya\u02bfaqov",
@@ -5396,23 +7403,27 @@
       "letters": [
         {
           "pgpid": "30457",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "34259",
-          "date": "N/A",
+          "date": null,
           "start_location": "France",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         },
         {
           "pgpid": "34260",
-          "date": "Early 13th century",
+          "date": 1250,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Me\u02beir B. Naim",
@@ -5420,11 +7431,13 @@
       "letters": [
         {
           "pgpid": "30910",
-          "date": "August 1823",
+          "date": 1823,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "David B. Naim",
@@ -5432,11 +7445,13 @@
       "letters": [
         {
           "pgpid": "31935",
-          "date": "18 Elul 5580",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehoshua\u02bf B. [...]",
@@ -5444,11 +7459,13 @@
       "letters": [
         {
           "pgpid": "32598",
-          "date": "11th century",
+          "date": 1050,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Arah B. Natan",
@@ -5456,11 +7473,13 @@
       "letters": [
         {
           "pgpid": "33971",
-          "date": "1094-1111 CE",
+          "date": 1094,
           "start_location": "Alexandria",
-          "end_location": "Alexandria"
+          "end_location": "Alexandria",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Shemu\u02beel B. Ya\u02bfaqov",
@@ -5468,11 +7487,13 @@
       "letters": [
         {
           "pgpid": "34258",
-          "date": "N/A",
+          "date": null,
           "start_location": "France",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Avraham B. Shelomo",
@@ -5480,10 +7501,16 @@
       "letters": [
         {
           "pgpid": "34267",
-          "date": "N/A",
+          "date": null,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": [
+            "tax"
+          ]
         }
+      ],
+      "tags": [
+        "tax"
       ]
     },
     {
@@ -5492,11 +7519,13 @@
       "letters": [
         {
           "pgpid": "34477",
-          "date": "late 12th or early 13th century",
+          "date": 1250,
           "start_location": "N/A",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "source": "Yehoshua\u02bf B. Ismail Al-makhmuri",
@@ -5504,11 +7533,13 @@
       "letters": [
         {
           "pgpid": "34544",
-          "date": "N/A",
+          "date": null,
           "start_location": "Alexandria",
-          "end_location": "N/A"
+          "end_location": "N/A",
+          "tags": []
         }
-      ]
+      ],
+      "tags": []
     }
   ]
 }

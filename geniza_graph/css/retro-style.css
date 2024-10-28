@@ -1,0 +1,459 @@
+:root {
+    --primary-color: #00ff00;
+    --bg-color: #000000;
+    --panel-bg: #1a1a1a;
+    --border-color: #00ff00;
+    --text-color: #00ff00;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", monospace;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 0.25rem;
+}
+
+.tags-panel {
+    width: 250px; /* Adjust this value as needed */
+    flex-shrink: 0;
+}
+
+.graph-panel {
+    flex-grow: 1;
+}
+
+.panel {
+    border: 2px solid var(--border-color);
+    background: var(--panel-bg);
+    box-shadow: 0 0 10px var(--border-color);
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.panel-header {
+    background: var(--primary-color);
+    color: var(--bg-color);
+    padding: clamp(5px, 1vh, 10px);
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.panel-content {
+    padding: clamp(10px, 2vh, 20px);
+}
+
+#graph-container {
+    width: 100%;
+    height: 100%;
+}
+
+.retro-button {
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    padding: clamp(5px, 1vh, 10px) clamp(10px, 2vw, 20px);
+    cursor: pointer;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    width: 100%;
+    margin: 5px 0;
+    font-size: clamp(12px, 1.5vh, 16px);
+}
+
+.retro-button:hover {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.retro-select {
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: clamp(12px, 1.5vh, 16px);
+}
+
+.time-range {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    position: relative;
+}
+
+.year-input {
+    width: 45px;
+    height: 20px;
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+}
+
+.slider-track {
+    flex-grow: 1;
+    height: 1px;
+    background: var(--primary-color);
+    position: relative;
+    cursor: pointer;
+}
+
+.slider-fill {
+    position: absolute;
+    height: 100%;
+    background: var(--primary-color);
+    opacity: 0.5;
+}
+
+.slider-handle {
+    width: 8px;
+    height: 8px;
+    background: var(--primary-color);
+    border: 1px solid var(--bg-color);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: grab;
+}
+
+.slider-handle:hover {
+    width: 10px;
+    height: 10px;
+}
+
+.slider-handle:active {
+    cursor: grabbing;
+}
+
+.slider-handle::before {
+    content: attr(data-value);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    padding: 2px 4px;
+    font-size: 10px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.slider-handle:hover::before {
+    opacity: 1;
+}
+
+/* Remove jquery-ui slider styles */
+.ui-slider {
+    display: none;
+}
+
+.graph-tooltip {
+    position: absolute;
+    padding: clamp(5px, 1vh, 8px);
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    pointer-events: none;
+    font-family: "Courier New", monospace;
+    font-size: clamp(10px, 1.5vh, 14px);
+    color: var(--primary-color);
+    z-index: 1000;
+}
+
+.tooltip-content {
+    max-width: 200px;
+}
+
+.retro-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000;
+    font-size: 14px;
+    width: clamp(200px, 30vw, 400px);
+}
+
+.loading-bar {
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    animation: loading 2s infinite;
+}
+
+.retro-error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--bg-color);
+    border: 2px solid red;
+    padding: clamp(10px, 2vh, 20px);
+    text-align: center;
+    color: red;
+    font-size: clamp(14px, 2vh, 18px);
+    width: clamp(200px, 30vw, 400px);
+}
+
+.blink {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes loading {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.light-mode {
+    --primary-color: #000000;
+    --bg-color: #ffffff;
+    --panel-bg: #f0f0f0;
+    --border-color: #000000;
+    --text-color: #000000;
+}
+
+/* Add these styles for the tags checkboxes */
+.tags-container {
+    max-height: 40vh;
+    overflow-y: auto;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    margin-bottom: 15px;
+    background: var(--bg-color);
+}
+
+.tag-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: clamp(12px, 1.5vh, 14px);
+    padding: clamp(2px, 0.5vh, 5px) 0;
+}
+
+.tag-checkbox-wrapper:hover {
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+}
+
+.retro-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--primary-color);
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+    background: var(--bg-color);
+}
+
+.retro-checkbox:checked {
+    background: var(--primary-color);
+}
+
+.retro-checkbox:checked::after {
+    content: '×';
+    position: absolute;
+    color: var(--bg-color);
+    font-size: 12px;
+    left: 3px;
+    top: -1px;
+}
+
+/* Add custom scrollbar styling */
+.tags-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.tags-container::-webkit-scrollbar-track {
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+}
+
+.tags-container::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: minmax(180px, 20vw) 1fr minmax(180px, 20vw);
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 160px 1fr 160px;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .panel-content {
+        padding: 10px;
+    }
+}
+
+/* Add responsive handling for the time slider */
+/* Ensure SVG responsiveness */
+svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Add styles for slider tooltips */
+.slider-tooltip {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    padding: 2px 5px;
+    font-size: 10px;
+    white-space: nowrap;
+    color: var(--primary-color);
+    pointer-events: none;
+}
+
+.letter-details {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-color);
+    border-top: 2px solid var(--primary-color);
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.letter-details.visible {
+    transform: translateY(0);
+}
+
+.letter-column {
+    flex: 1;
+    border: 1px solid var(--primary-color);
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.letter-column-header {
+    position: sticky;
+    top: 0;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    padding: 3px;
+    margin: -5px -5px 5px -5px;
+    font-weight: bold;
+}
+
+.letter-item {
+    border: 1px solid var(--primary-color);
+    margin-bottom: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.letter-item:hover {
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.close-details {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.close-details:hover {
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+/* Retro metadata styles */
+.metadata-section {
+    border-top: 1px solid var(--primary-color);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.metadata-header {
+    color: var(--primary-color);
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+.metadata-item {
+    font-family: monospace;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Hide popup elements in retro mode */
+.metadata-popup,
+.metadata-overlay {
+    display: none !important;
+}
+/* Ensure text colors update with mode */
+body.dark-mode .metadata-title,
+body.dark-mode .metadata-item,
+body.dark-mode .metadata-content,
+body.dark-mode .panel-header,
+body.dark-mode label {
+    color: var(--text-color);
+}
+
+/* Update background colors for dark mode */
+body.dark-mode .metadata-popup,
+body.dark-mode .tags-panel {
+    background-color: var(--panel-bg);
+}
+
+/* Ensure borders are visible in dark mode */
+body.dark-mode .metadata-popup {
+    border-color: var(--border-color);
+}
