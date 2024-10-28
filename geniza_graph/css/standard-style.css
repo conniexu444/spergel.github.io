@@ -1,15 +1,10 @@
-:root {
-    --primary-color: #ff69b4;     /* Hot pink for nodes */
-    --bg-color: #e6f3ff;          /* Light blue background */
-    --text-color: #000000;        /* Black text */
-    --border-color: #000000;      /* Black borders */
-    --hover-color: #ff1493;       /* Deeper pink for hover */
-    --panel-bg: #ffffff;          /* White panels */
-    --accent-color: #ff7f0e;      /* Accent color */
-    --node-stroke: #000000;       /* Black circle around nodes */
-    --node-size: 15px;            /* Even bigger dots */
-    --link-color: #ff69b4;        /* Pink links */
-    --link-width: 2px;            /* Thicker links */
+/* Light mode variables */
+body.light-mode {
+    --bg-color: #f4ecd8; /* Warm off-white, similar to old computer paper */
+    --text-color: #2b2b2b; /* Soft dark gray for text */
+    --panel-bg: #e4d5b7; /* Slightly darker warm tone for panels */
+    --border-color: #8b7355; /* Muted brown for borders */
+    --primary-color: #9b6b28; /* Amber-like color, reminiscent of old monitors */
 }
 
 /* Dark mode variables */
@@ -180,14 +175,17 @@ svg {
 .time-range {
     margin: 20px 0;
     padding: 10px 0;
+    width: 100%;
 }
 
 .slider-track {
     height: 4px;
-    background-color: var(--border-color);
+    background-color: rgba(255, 105, 180, 0.3);
     border-radius: 2px;
     position: relative;
     margin: 20px 0;
+    width: calc(100% - 20px);
+    margin-left: 10px;
 }
 
 .slider-handle {
@@ -201,6 +199,12 @@ svg {
     position: absolute;
     top: -8px;
     margin-left: -8px;
+    transition: transform 0.2s ease;
+    z-index: 1;
+}
+
+.slider-handle:hover {
+    transform: scale(1.2);
 }
 
 .slider-fill {
@@ -407,9 +411,9 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 .ui-dialog-titlebar-close {
-    background: white !important;
-    border: 2px solid white !important;
-    color: var(--primary-color) !important;
+    background: none !important;
+    border: none !important;
+    color: white !important;
     position: absolute !important;
     right: 10px !important;
     top: 50% !important;

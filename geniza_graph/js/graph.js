@@ -48,6 +48,9 @@ class NetworkGraph {
 
         this.isReady = false;
         this.readyCallbacks = [];
+        
+        // Add this line to load data immediately
+        this.loadData();
     }
 
     initializeSimulation() {
@@ -160,17 +163,12 @@ class NetworkGraph {
             .data(this.nodes)
             .enter()
             .append("text")
-            .text(d => this.truncateLabel(d.name))
-            .attr("font-family", "Courier New")
-            .attr("font-size", "12px")  // Increased font size for better visibility
-            .attr("fill", d => {
-                // Alternate color for highlight
-                return d.highlighted ? "var(--highlight-color)" : "var(--primary-color)";
-            })
-            
-            .attr("dx", d => nodeSize(d) + 5)
-            .attr("dy", 3)
-            .style("opacity", 1);  // Set initial opacity to 1
+            .text(d => this.truncateLabel(d))
+            .attr("font-family", "var(--font-family)")
+            .attr("font-size", "12px")
+            .attr("fill", d => d.highlighted ? "var(--highlight-color)" : "var(--primary-color)")
+            .attr("dx", d => this.nodeSize(d) + 5)
+            .attr("dy", 3);
 
         // Add highlight handlers
         link
@@ -220,7 +218,9 @@ class NetworkGraph {
     }
 
     truncateLabel(text) {
-        return text.length > 20 ? text.substring(0, 17) + '...' : text;
+        if (!text) return '';
+        const label = typeof text === 'object' ? text.id : text;
+        return label.length > 20 ? label.substring(0, 17) + '...' : label;
     }
 
     showTooltip(d) {
@@ -346,7 +346,7 @@ class NetworkGraph {
     }
 
     handleNodeClick(d) {
-        // Ensure we're passing the correct data structure
+        console.log("Node clicked: ", d);
         document.dispatchEvent(new CustomEvent('showLetterDetails', {
             detail: {
                 type: 'node',
@@ -362,7 +362,7 @@ class NetworkGraph {
     }
 
     handleLinkClick(d) {
-        // Trigger UI update with link data
+        console.log("Link clicked: ", d);
         document.dispatchEvent(new CustomEvent('showLetterDetails', {
             detail: {
                 type: 'link',

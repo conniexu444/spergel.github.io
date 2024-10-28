@@ -12,6 +12,14 @@ class GenizaUI {
         this.loadData();
         this.initializeLetterDetails();
         this.initializeDialog(); // Add this new method call
+
+        // Initialize theme based on stored preference or default to light mode
+        const storedTheme = localStorage.getItem('theme') || 'light';
+        if (storedTheme === 'light') {
+            $("body").addClass("light-mode");
+        } else {
+            $("body").removeClass("light-mode");
+        }
     }
 
     initializeUI() {
@@ -101,14 +109,14 @@ class GenizaUI {
             this.applyFilters();
         });
 
-        // Add dark mode toggle handler
+        // Add dark mode toggle handler with updated implementation
         $("#mode-toggle").off('click').on('click', () => {
-            this.toggleDarkMode();
+            this.toggleTheme();
         });
         
-        // Set initial dark mode button text
-        const isDarkMode = $("body").hasClass("dark-mode");
-        $("#mode-toggle").text(isDarkMode ? "LIGHT MODE" : "DARK MODE");
+        // Initialize theme based on stored preference or default to light mode
+        const storedTheme = localStorage.getItem('theme') || 'light';
+        this.setTheme(storedTheme);
     }
 
     addHoverEffects() {
@@ -505,17 +513,20 @@ class GenizaUI {
     }
 
     toggleDarkMode() {
-        $("body").toggleClass("dark-mode");
-        const isDarkMode = $("body").hasClass("dark-mode");
-        $("#mode-toggle").text(isDarkMode ? "LIGHT MODE" : "DARK MODE");
+        // Simply toggle the light-mode class since colors are defined in CSS
+        $("body").toggleClass("light-mode");
         
-        // Update graph colors
+        // Update button text
+        const isLightMode = $("body").hasClass("light-mode");
+        $("#mode-toggle").text(isLightMode ? "DARK MODE" : "LIGHT MODE");
+        
+        // Update graph colors if graph exists
         if (this.graph) {
             this.graph.updateColors();
         }
 
         // Update dialog theme
-        this.updateDialogTheme(isDarkMode);
+        this.updateDialogTheme();
     }
 
     updateTimeDisplay() {
@@ -608,6 +619,10 @@ class GenizaUI {
         const toContent = details.find('.letter-column.to .letter-content');
         const metadataContent = details.find('.metadata-content');
 
+        // Retract UI panels before showing letter details
+        $('.tags-panel').addClass('retracted');
+        $('.settings-section').addClass('retracted');
+
         fromContent.empty();
         toContent.empty();
         metadataContent.empty();
@@ -666,6 +681,11 @@ class GenizaUI {
         }
 
         details.addClass('visible');
+
+        // Add close handler to restore UI panels
+        $('.close-details').one('click', () => {
+            $('.tags-panel, .settings-section').removeClass('retracted');
+        });
     }
 
     renderLetters(letters, container, sourceName, targetName) {
@@ -937,40 +957,114 @@ class GenizaUI {
     }
 
     // Add new method to update dialog theme
-    updateDialogTheme(isDarkMode) {
-        const dialogTheme = {
-            backgroundColor: isDarkMode ? '#2d2d2d' : '#ffffff',
-            color: isDarkMode ? '#ffffff' : '#000000',
-            borderColor: isDarkMode ? '#ffffff' : '#000000'
-        };
-
+    updateDialogTheme() {
         $('.ui-dialog').css({
-            'background-color': dialogTheme.backgroundColor,
-            'color': dialogTheme.color,
-            'border-color': dialogTheme.borderColor
+            'background-color': 'var(--panel-bg)',
+            'color': 'var(--text-color)',
+            'border-color': 'var(--border-color)'
         });
 
         $('.ui-dialog-titlebar').css({
             'background-color': 'var(--primary-color)',
-            'color': '#ffffff'
+            'color': 'var(--bg-color)'
+        });
+
+        $('.ui-dialog-content').css({
+            'background-color': 'var(--panel-bg)',
+            'color': 'var(--text-color)'
+        });
+
+        // Update links within dialog
+        $('#dialog-body a').css({
+            'color': 'var(--primary-color)'
         });
     }
 
     // Helper method to find all letters for a person
     findLettersForPerson(personId) {
         const letters = [];
-        this.graphData[this.currentDataMode].links.forEach(link => {
-            if (link.source.id === personId || link.target.id === personId) {
+        const currentData = this.currentDataMode === "all" ? 
+            this.graphData.all : this.graphData.twoPlus;
+        
+        if (!currentData || !currentData.links) {
+            console.warn('No data available for person:', personId);
+            return letters;
+        }
+        
+        currentData.links.forEach(link => {
+            const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+            const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+            
+            if (sourceId === personId || targetId === personId) {
                 link.letters.forEach(letter => {
                     letters.push({
                         ...letter,
-                        source: link.source.id,
-                        target: link.target.id
+                        source: sourceId,
+                        target: targetId
                     });
                 });
             }
         });
         return letters;
+    }
+
+    // New method to toggle theme
+    toggleTheme() {
+        const currentTheme = $("body").hasClass("light-mode") ? "dark" : "light";
+        this.setTheme(currentTheme);
+    }
+
+    // New method to set theme
+    setTheme(theme) {
+        if (theme === "light") {
+            $("body").addClass("light-mode").removeClass("dark-mode");
+            $("#mode-toggle").text("DARK MODE");
+        } else {
+            $("body").removeClass("light-mode").addClass("dark-mode");
+            $("#mode-toggle").text("LIGHT MODE");
+        }
+
+        // Store preference
+        localStorage.setItem('theme', theme);
+
+        // Update UI components
+        this.updateThemeElements();
+        
+        // Update graph colors if graph exists
+        if (this.graph) {
+            this.graph.updateColors();
+        }
+    }
+
+    // New method to update theme-dependent elements
+    updateThemeElements() {
+        // Update dialog theme if it exists
+        if ($("#dialog").length) {
+            this.updateDialogTheme();
+        }
+
+        // Update any other theme-dependent elements
+        const isLightMode = $("body").hasClass("light-mode");
+        
+        // Update buttons and other elements that might need theme-specific styling
+        $('.standard-button, .retro-button').each((_, element) => {
+            $(element).css({
+                'background-color': 'var(--primary-color)',
+                'color': 'var(--bg-color)'
+            });
+        });
+
+        // Update panels
+        $('.tags-panel').css({
+            'background-color': 'var(--panel-bg)',
+            'color': 'var(--text-color)',
+            'border-color': 'var(--border-color)'
+        });
+
+        // Update checkboxes
+        $('.standard-checkbox, .retro-checkbox').css({
+            'border-color': 'var(--primary-color)'
+        });
     }
 }
 

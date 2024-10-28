@@ -1,9 +1,18 @@
-:root {
+body.dark-mode{
     --primary-color: #00ff00;
     --bg-color: #000000;
     --panel-bg: #1a1a1a;
     --border-color: #00ff00;
     --text-color: #00ff00;
+}
+
+/* Light mode variables */
+body.light-mode {
+    --bg-color: #f4ecd8; /* Warm off-white, similar to old computer paper */
+    --text-color: #2b2b2b; /* Soft dark gray for text */
+    --panel-bg: #e4d5b7; /* Slightly darker warm tone for panels */
+    --border-color: #8b7355; /* Muted brown for borders */
+    --primary-color: #9b6b28; /* Amber-like color, reminiscent of old monitors */
 }
 
 body {
@@ -25,8 +34,27 @@ body {
 }
 
 .tags-panel {
-    width: 250px; /* Adjust this value as needed */
+    width: 250px;
     flex-shrink: 0;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.tags-panel.shortened {
+    max-height: calc(100vh - 250px); /* Account for letter details height (200px) + padding */
+}
+
+.tags-panel .panel-header {
+    cursor: pointer;
+    user-select: none;
+}
+
+.tags-panel .panel-header:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
 }
 
 .graph-panel {
@@ -243,8 +271,9 @@ body {
 
 /* Add these styles for the tags checkboxes */
 .tags-container {
-    max-height: 40vh;
+    flex: 1;
     overflow-y: auto;
+    min-height: 0; /* Important for flex container */
     border: 1px solid var(--primary-color);
     padding: 10px;
     margin-bottom: 15px;
@@ -362,6 +391,7 @@ svg {
     font-size: 12px;
     transform: translateY(100%);
     transition: transform 0.3s ease;
+    z-index: 5;
 }
 
 .letter-details.visible {
@@ -456,4 +486,16 @@ body.dark-mode .tags-panel {
 /* Ensure borders are visible in dark mode */
 body.dark-mode .metadata-popup {
     border-color: var(--border-color);
+}
+
+.tags-panel, .settings-section {
+    transition: transform 0.3s ease-out;
+}
+
+.tags-panel.retracted {
+    transform: translateX(-100%);
+}
+
+.settings-section.retracted {
+    transform: translateX(100%);
 }
