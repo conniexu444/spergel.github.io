@@ -467,3 +467,57 @@ input[type="range"]::-webkit-slider-thumb:hover {
     color: var(--hover-color);
     background: none;
 }
+
+/* Update link styles */
+.document-link {
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.document-link:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--bg-color) !important;
+    text-decoration: none !important;
+}
+
+/* Update dialog styles */
+.ui-dialog {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#dialog {
+    display: none; /* Initially hidden until opened */
+}
+
+/* Remove conflicting hover styles */
+a:hover {
+    background: transparent;
+}
+
+/* Update metadata item styling */
+.metadata-item {
+    background-color: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.letter-item {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.letter-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
