@@ -1,5 +1,6 @@
 class GenizaUI {
     constructor() {
+        this.addBackButton();
         this.graph = new NetworkGraph("#graph-container");
         this.timeRange = [250, 1850]; // Set default range
         this.currentDataMode = "2plus";
@@ -20,6 +21,31 @@ class GenizaUI {
         } else {
             $("body").removeClass("light-mode");
         }
+    }
+
+    addBackButton() {
+        // Create back button container
+        const backContainer = $('<div class="back-container"></div>').css({
+            'position': 'absolute',
+            'top': '10px',
+            'left': '10px',
+            'z-index': '1000'
+        });
+
+        // Create back button
+        const backButton = $('<button class="retro-button back-button">← BACK</button>').css({
+            'font-family': 'var(--retro-font)',  // Match the retro style
+            'padding': '5px 15px'
+        });
+
+        // Add click handler
+        backButton.on('click', () => {
+            window.location.href = '../geniza.html';
+        });
+
+        // Add button to container and container to body
+        backContainer.append(backButton);
+        $('body').append(backContainer);
     }
 
     initializeUI() {

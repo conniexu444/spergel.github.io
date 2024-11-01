@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Spergel's Personal</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div id="header-container"></div>
+    <div class="container">
+        
+        <h1>: </h1>
+        
+        <div class="coffee-stain" style="top: 100px; right: 50px;"></div>
+        
+        <main>
+            <section>
+               
+
+                </neither> </p>
+            </section>
+            
+            <section>
+                <h2>Explore My Works:</h2>
+                <div class="links">
+                    <ul>
+                        <li><a href="/blog/blog.html">Blog</a></li>
+                        <li><a href="/geniza_graph/geniza.html">Geniza Graph Project</a></li>
+                        <li><a href="/events/event-list.html">Events (Under Development)</a></li>
+                        <li><a href="/translation_game/translation_game.html">Translation Game (Under Development)</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        <div class="coffee-stain" style="bottom: 50px; left: 30px;"></div>
+        
+    </div>
+    <div id="footer"></div>
+    <script src="/header-and-footer.js"></script>
+    <script src="/eyes.js"></script>
+    <script>
+        loadHeaderAndFooter('header.html', 'footer.html');
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>

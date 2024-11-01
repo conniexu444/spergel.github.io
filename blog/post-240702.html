@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="..styles.css">
     <title>Cairo Geniza Pet Projects</title>
 </head>
 <body>
     <div class="container">
+        <div id="header"></div>
+
         <header>
             <a href="/index.html">Joshua's Retro Web Corner</a>
         </header>
@@ -58,5 +60,10 @@
             </div>
         </article>
     </div>
+    <div id="footer"></div>
+
+    <script>
+        loadHeaderAndFooter('../header.html', '../footer.html');
+    </script>
 </body>
 </html>

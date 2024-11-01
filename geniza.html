@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geniza Digital Tools</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Header placeholder -->
+    <div id="header"></div>
+
+    <div class="container">
+        <section class="blog-post">
+            <h1>Welcome to Geniza Digital Tools</h1>
+            <p>Explore our interactive tools for studying the Cairo Geniza documents.</p>
+        </section>
+
+        <section class="blog-post">
+            <h2>Network Graph Visualization</h2>
+            <p>Explore connections between Geniza documents through an interactive network graph. Visualize relationships between different texts, authors, and time periods.</p>
+            <a href="geniza_graph/graph.html" class="back-link">Launch Network Graph</a>
+        </section>
+
+        <section class="blog-post">
+            <h2>Translation Guessing Game</h2>
+            <p>Test your expertise! Can you distinguish between human and AI translations of Geniza texts? This interactive game helps understand the nuances between different translation approaches.</p>
+            <a href="translation_game/translation_game.html" class="back-link">Play Translation Game</a>
+        </section>
+    </div>
+
+    <!-- Footer placeholder -->
+    <div id="footer"></div>
+
+    <!-- Load the header and footer script -->
+    <script src="/header-and-footer.js"></script>
+    <script src="/eyes.js"></script>
+    
+    <script>
+        // Once the DOM is loaded, load the header and footer
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHeaderAndFooter('/header.html', '/footer.html');
+        });
+    </script>
+</body>
+</html>

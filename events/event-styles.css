@@ -1,23 +1,28 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+    
 }
 
 main {
-    display: block;  /* Changed from flex to block */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     padding: 1rem;
-    margin-right: 250px;  /* Make space for the floating filter */
+    position: relative;
 }
 
+/* Content Layout */
+.content-wrapper {
+    flex: 1;
+    min-width: 0;
+    position: relative;
+}
+
+/* Event List Styles */
 #events-list {
     width: 100%;
     margin: 0;
@@ -54,36 +59,35 @@ main {
 }
 
 .floating-filter {
-    position: fixed;
-    top: 80px;  /* Adjusted to be below the header */
-    right: 20px;
+    width: 280px;
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid #8B4513;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-height: calc(100vh - 100px);  /* Adjusted to fit below header */
+    box-shadow: 0 2px 10px rgba(139, 69, 19, 0.1);
+    position: sticky;
+    top: 1rem;
+    align-self: flex-start;
+    max-height: calc(100vh - 2rem);
     overflow-y: auto;
-    width: 200px;  /* Set a fixed width */
+    scrollbar-width: thin;
+    scrollbar-color: #8B4513 #F5EDE5;
 }
 
-#source-filters {
-    display: flex;
-    flex-direction: column;
+.filter-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 15px;
 }
 
-.source-filter {
-    margin-bottom: 5px;
+.filter-section h4 {
+    grid-column: 1 / -1;
+    margin: 10px 0 5px 0;
+    color: #8B4513;
+    font-size: 1em;
 }
 
-.department-filter {
-    display: block;
-    margin-bottom: 5px;
-}
-
-#source-filters h3 {
-    margin-top: 20px;
-}
 
 /* Styles for the calendar page */
 #calendar-container, #events-container {
@@ -91,11 +95,34 @@ main {
     margin: 1rem 0;
 }
 
-#calendar-header {
+.filter-item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    gap: 4px;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+
+.filter-buttons {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+/* Calendar Styles */
+#calendar-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
 }
 
 #calendar {
@@ -104,88 +131,125 @@ main {
     gap: 5px;
 }
 
-.calendar-day {
-    border: 1px solid #ccc;
-    padding: 5px;
+.weekday-header {
     text-align: center;
-    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    background: #8B4513;
+    color: #F5EDE5;
 }
 
-.calendar-day.has-events {
-    background-color: #e6f3ff;
+.calendar-day {
+    padding: 10px;
+    min-height: 80px;
+    background: rgba(245, 237, 229, 0.9);
+    border: 1px solid #8B4513;
+    cursor: pointer;
+    position: relative;
+}
+
+.calendar-day:hover {
+    background: rgba(139, 69, 19, 0.1);
 }
 
 .calendar-day.selected {
-    background-color: #003366;
-    color: white;
+    background: rgba(139, 69, 19, 0.3);
+    border: 2px solid #8B4513;
+    font-weight: bold;
+    color: #8B4513;
 }
 
-@media (max-width: 768px) {
-    main {
-        margin-right: 0;  /* Remove margin on small screens */
-    }
-
-    .floating-filter {
-        position: static;  /* Make filter non-floating on small screens */
-        width: auto;
-        max-height: none;
-        margin-bottom: 20px;
-    }
+.calendar-day.today {
+    background: rgba(139, 69, 19, 0.2);
+    font-weight: bold;
 }
 
-.custom-header {
-    background-color: white;
-    width: 100%;
-    padding: 0.5rem 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.calendar-day.has-events::after {
+    content: "•";
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #8B4513;
+    font-size: 1.5em;
 }
 
-.header-content {
-    max-width: 1200px;
-    margin: 0 auto;
+/* View Toggle Styles */
+.view-toggle {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #8B4513;
+    padding-bottom: 1rem;
+}
+
+.toggle-buttons {
     display: flex;
+    gap: 0.5rem;
     justify-content: center;
-    align-items: center;
-    padding: 0 1rem;
 }
 
-.custom-header nav {
-    display: flex;
-    gap: 1rem;
-}
-
-.nav-button {
-    background-color: #007bff;
-    color: white;
+.toggle-button {
+    background-color: #F5EDE5;
+    color: #8B4513;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
 }
 
-.nav-button:hover {
-    background-color: #0056b3;
+.toggle-button:hover {
+    background-color: #E5D5C5;
 }
 
-.nav-button.active {
-    background-color: #003d80;
+.toggle-button.active {
+    background-color: #8B4513;
+    color: #F5EDE5;
 }
 
-.university-container {
-    margin-bottom: 10px;
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .floating-filter {
+        width: 100%;
+        position: static;
+        order: -1;
+        max-height: none;
+        overflow-y: visible;
+    }
+
+    .calendar-day {
+        min-height: 60px;
+        font-size: 0.9em;
+    }
+    
+    .weekday-header {
+        font-size: 0.9em;
+        padding: 5px;
+    }
 }
 
-.department-container {
-    margin-left: 20px;
-    display: none;
+/* Scrollbar Styles */
+.floating-filter::-webkit-scrollbar {
+    width: 8px;
 }
 
-.university-container > label {
-    font-weight: bold;
-    cursor: pointer;
+.floating-filter::-webkit-scrollbar-track {
+    background: #F5EDE5;
 }
 
-.department-container label {
-    font-weight: normal;
+.floating-filter::-webkit-scrollbar-thumb {
+    background-color: #8B4513;
+    border-radius: 4px;
+}
+
+/* Remove the duplicate .container definition and update it to be more specific */
+.container.events-page {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(245, 237, 229, 0.95);
+    border: 2px solid #8B4513;
+    box-shadow: 0 0 20px rgba(139, 69, 19, 0.3);
+    position: relative;
 }

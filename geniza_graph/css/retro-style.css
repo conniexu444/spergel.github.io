@@ -499,3 +499,20 @@ body.dark-mode .metadata-popup {
 .settings-section.retracted {
     transform: translateX(100%);
 }
+
+.back-button {
+    transition: all 0.2s ease;
+}
+
+.back-button:hover {
+    transform: translateX(-5px);
+}
+
+.back-container {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.back-container:hover {
+    opacity: 1;
+}
