@@ -12,7 +12,6 @@ class GenizaUI {
         this.initializeUI();
         this.loadData();
         this.initializeLetterDetails();
-        this.initializeDialog(); // Add this new method call
 
         // Initialize theme based on stored preference or default to light mode
         const storedTheme = localStorage.getItem('theme') || 'light';
@@ -133,6 +132,23 @@ class GenizaUI {
         // Initialize theme based on stored preference or default to light mode
         const storedTheme = localStorage.getItem('theme') || 'light';
         this.setTheme(storedTheme);
+
+        // Add panel toggle functionality
+        $('.tags-panel .panel-header').on('click', () => {
+            $('.tags-panel').toggleClass('open');
+        });
+
+        // Optional: Close panel when clicking outside
+        $(document).on('click', (e) => {
+            if (!$(e.target).closest('.tags-panel').length && $('.tags-panel').hasClass('open')) {
+                $('.tags-panel').removeClass('open');
+            }
+        });
+
+        // Prevent panel from closing when clicking inside it
+        $('.tags-panel').on('click', (e) => {
+            e.stopPropagation();
+        });
     }
 
     addHoverEffects() {

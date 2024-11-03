@@ -36,40 +36,24 @@ body {
 .tags-panel {
     width: 250px;
     flex-shrink: 0;
-    transition: all 0.3s ease;
     position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
+    background: var(--panel-bg);
+    border: 2px solid var(--border-color);
+    height: 40px;
+    overflow: hidden;
+    transition: height 0.3s ease;
 }
 
-.tags-panel.shortened {
-    max-height: calc(100vh - 250px); /* Account for letter details height (200px) + padding */
+.tags-panel.open {
+    height: 80vh;
 }
 
 .tags-panel .panel-header {
     cursor: pointer;
     user-select: none;
-}
-
-.tags-panel .panel-header:hover {
-    background-color: var(--bg-color);
-    color: var(--primary-color);
-}
-
-.graph-panel {
-    flex-grow: 1;
-}
-
-.panel {
-    border: 2px solid var(--border-color);
-    background: var(--panel-bg);
-    box-shadow: 0 0 10px var(--border-color);
-    max-height: 100vh;
-    overflow: auto;
-}
-
-.panel-header {
     background: var(--primary-color);
     color: var(--bg-color);
     padding: clamp(5px, 1vh, 10px);
@@ -78,10 +62,18 @@ body {
     position: sticky;
     top: 0;
     z-index: 1;
+    min-height: 20px;
+}
+
+.tags-panel .panel-header:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
 }
 
 .panel-content {
     padding: clamp(10px, 2vh, 20px);
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 #graph-container {

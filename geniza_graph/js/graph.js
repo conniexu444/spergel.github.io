@@ -1,25 +1,39 @@
 class NetworkGraph {
     constructor(containerId) {
         this.container = d3.select(containerId);
-        // Double the width and height
-        this.width = this.container.node().getBoundingClientRect().width * 2;
-        this.height = window.innerHeight * 1.6; // 2 * 0.8 = 1.6
+        
+        // Use full viewport dimensions
+        this.width = window.innerWidth;
+        this.height = window.innerHeight;
+        
+        // Initialize SVG with full dimensions
+        this.svg = this.container.append("svg")
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .attr("viewBox", `0 0 ${this.width} ${this.height}`)
+            .style("background-color", "var(--bg-color)");
+        
+        // Initialize zoom behavior
+        const zoom = d3.zoom()
+            .scaleExtent([0.1, 4])
+            .on("zoom", () => this.g.attr("transform", d3.event.transform));
+        
+        this.svg.call(zoom);
+        
+        // Center the initial view
+        const initialTransform = d3.zoomIdentity
+            .translate(this.width/2, this.height/2)
+            .scale(0.5);
+        this.svg.call(zoom.transform, initialTransform);
+        
+        // Create the main group for all graph elements
+        this.g = this.svg.append("g");
+        
         this.simulation = null;
         this.nodes = [];
         this.links = [];
         
-        // Initialize SVG with doubled dimensions
-        this.svg = this.container.append("svg")
-            .attr("width", this.width)
-            .attr("height", this.height)
-            .style("background-color", "var(--bg-color)")  // Use CSS variable
-            .call(d3.zoom()
-                .scaleExtent([0.1, 4]) // Allow more zoom range
-                .on("zoom", () => this.g.attr("transform", d3.event.transform)))
-                .call(d3.zoom().transform, d3.zoomIdentity.scale(0.5).translate(this.width/2, this.height/2)); // Initial zoom to fit
-            
         // Add zoom capabilities with initial zoom to fit
-        this.g = this.svg.append("g");
         this.svg.call(d3.zoom()
             .scaleExtent([0.1, 4]) // Allow more zoom range
             .on("zoom", () => this.g.attr("transform", d3.event.transform)))
