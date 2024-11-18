@@ -31,6 +31,7 @@ body {
     width: 100%;
     height: 100vh;
     padding: 0.25rem;
+    box-sizing: border-box;
 }
 
 .tags-panel {
@@ -79,6 +80,8 @@ body {
 #graph-container {
     width: 100%;
     height: 100%;
+    flex-grow: 1;
+    position: relative;
 }
 
 .retro-button {
@@ -478,18 +481,6 @@ body.dark-mode .tags-panel {
 /* Ensure borders are visible in dark mode */
 body.dark-mode .metadata-popup {
     border-color: var(--border-color);
-}
-
-.tags-panel, .settings-section {
-    transition: transform 0.3s ease-out;
-}
-
-.tags-panel.retracted {
-    transform: translateX(-100%);
-}
-
-.settings-section.retracted {
-    transform: translateX(100%);
 }
 
 .back-button {

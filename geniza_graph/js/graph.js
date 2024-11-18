@@ -13,11 +13,18 @@ class NetworkGraph {
             .attr("viewBox", `0 0 ${this.width} ${this.height}`)
             .style("background-color", "var(--bg-color)");
         
-        // Initialize zoom behavior
+        // Create the main group for all graph elements first
+        this.g = this.svg.append("g");
+        
+        // Initialize zoom behavior with d3.event -> event change
         const zoom = d3.zoom()
             .scaleExtent([0.1, 4])
-            .on("zoom", () => this.g.attr("transform", d3.event.transform));
+            .on("zoom", () => {
+                const event = d3.event;
+                this.g.attr("transform", event.transform);
+            });
         
+        // Apply zoom to SVG
         this.svg.call(zoom);
         
         // Center the initial view
@@ -25,14 +32,11 @@ class NetworkGraph {
             .translate(this.width/2, this.height/2)
             .scale(0.5);
         this.svg.call(zoom.transform, initialTransform);
-        
-        // Create the main group for all graph elements
-        this.g = this.svg.append("g");
-        
+
         this.simulation = null;
         this.nodes = [];
         this.links = [];
-        
+
         // Add zoom capabilities with initial zoom to fit
         this.svg.call(d3.zoom()
             .scaleExtent([0.1, 4]) // Allow more zoom range
@@ -69,10 +73,12 @@ class NetworkGraph {
 
     initializeSimulation() {
         this.simulation = d3.forceSimulation()
-            .force("link", d3.forceLink().id(d => d.id).distance(100))
-            .force("charge", d3.forceManyBody().strength(-300))
+            .force("link", d3.forceLink().id(d => d.id).distance(50))
+            .force("charge", d3.forceManyBody().strength(-200))
             .force("center", d3.forceCenter(this.width / 2, this.height / 2))
-            .force("collision", d3.forceCollide().radius(30));
+            .force("collision", d3.forceCollide().radius(40))
+            .force("x", d3.forceX(this.width / 2).strength(0.1))
+            .force("y", d3.forceY(this.height / 2).strength(0.1));
     }
 
     updateData(nodes, links) {
@@ -96,10 +102,12 @@ class NetworkGraph {
 
         // Reinitialize the simulation with new data
         this.simulation = d3.forceSimulation(this.nodes)
-            .force("link", d3.forceLink(this.links).id(d => d.id).distance(100))
-            .force("charge", d3.forceManyBody().strength(-300))
+            .force("link", d3.forceLink(this.links).id(d => d.id).distance(50))
+            .force("charge", d3.forceManyBody().strength(-200))
             .force("center", d3.forceCenter(this.width / 2, this.height / 2))
-            .force("collision", d3.forceCollide().radius(30));
+            .force("collision", d3.forceCollide().radius(40))
+            .force("x", d3.forceX(this.width / 2).strength(0.1))
+            .force("y", d3.forceY(this.height / 2).strength(0.1));
 
         // Render the updated graph
         this.render();
@@ -222,11 +230,22 @@ class NetworkGraph {
 
         // Adjust forces for better distribution
         this.simulation
-            .force("charge", d3.forceManyBody().strength(-2000)) // Stronger repulsion
+            .force("link", d3.forceLink(this.links).id(d => d.id)
+                .distance(d => {
+                    // Increase distance for linked nodes with longer labels
+                    const sourceLen = d.source.id.length;
+                    const targetLen = d.target.id.length;
+                    return Math.max(50, Math.min(sourceLen, targetLen) * 2);
+                }))
+            .force("charge", d3.forceManyBody().strength(-1000)) // Reduced repulsion
             .force("center", d3.forceCenter(this.width / 2, this.height / 2))
-            .force("collision", d3.forceCollide().radius(60)) // Larger collision radius
-            .force("x", d3.forceX(this.width / 2).strength(0.02)) // Weaker x centering
-            .force("y", d3.forceY(this.height / 2).strength(0.02)); // Weaker y centering
+            .force("collision", d3.forceCollide().radius(d => {
+                // Make collision radius consider label length
+                const labelLength = d.id.length;
+                return Math.max(40, labelLength * 2);
+            }))
+            .force("x", d3.forceX(this.width / 2).strength(0.1))
+            .force("y", d3.forceY(this.height / 2).strength(0.1));
 
         this.simulation.alpha(1).restart();
     }

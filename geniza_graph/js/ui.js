@@ -651,10 +651,6 @@ class GenizaUI {
         const toContent = details.find('.letter-column.to .letter-content');
         const metadataContent = details.find('.metadata-content');
 
-        // Retract UI panels before showing letter details
-        $('.tags-panel').addClass('retracted');
-        $('.settings-section').addClass('retracted');
-
         fromContent.empty();
         toContent.empty();
         metadataContent.empty();
@@ -713,11 +709,6 @@ class GenizaUI {
         }
 
         details.addClass('visible');
-
-        // Add close handler to restore UI panels
-        $('.close-details').one('click', () => {
-            $('.tags-panel, .settings-section').removeClass('retracted');
-        });
     }
 
     renderLetters(letters, container, sourceName, targetName) {
