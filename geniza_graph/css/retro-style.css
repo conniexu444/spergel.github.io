@@ -29,9 +29,10 @@ body {
 .container {
     display: flex;
     width: 100%;
-    height: 100vh;
-    padding: 0.25rem;
+    height: calc(100vh - 90px);
+    padding: 0.1rem;
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 .tags-panel {
@@ -43,12 +44,6 @@ body {
     flex-direction: column;
     background: var(--panel-bg);
     border: 2px solid var(--border-color);
-    height: 40px;
-    overflow: hidden;
-    transition: height 0.3s ease;
-}
-
-.tags-panel.open {
     height: 80vh;
 }
 
@@ -498,4 +493,35 @@ body.dark-mode .metadata-popup {
 
 .back-container:hover {
     opacity: 1;
+}
+
+.retro-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background: var(--panel-bg);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.retro-header h1 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-family: "Courier New", monospace;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.retro-header .back-button {
+    margin-right: 20px;
+    padding: 3px 10px;
+    font-size: 0.8rem;
+    width: auto;
+    min-width: unset;
+    flex: 0 0 auto;
+}
+
+/* Override any general retro-button styles that might be setting width */
+.retro-button.back-button {
+    width: auto !important;
 }
