@@ -300,3 +300,103 @@
 .nav-links li:nth-child(5) .planet {
     background-image: url("../images/planets/jupiter.png");
 }
+
+/* Add media queries for responsive design */
+@media screen and (max-width: 900px) {
+    .nav-links {
+        width: 600px;
+        height: 600px;
+    }
+
+    .eyes-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .home-container {
+        width: 300px;
+        height: 350px;
+    }
+
+    .nav-links li {
+        width: 90px;
+        height: 90px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        height: auto;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .eyes-container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        transform: none;
+        left: auto;
+        top: auto;
+        margin: 20px 0;
+    }
+
+    .home-container {
+        position: relative;
+        width: 200px;
+        height: 250px;
+        transform: none;
+        left: auto;
+        top: auto;
+        margin: 20px 0;
+    }
+
+    .nav-links {
+        position: relative;
+        width: 100%;
+        height: auto;
+        transform: none;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        position: relative;
+        width: 100%;
+        height: 100px;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        padding-top: 0;
+    }
+
+    .nav-links li a {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-links li a::before {
+        content: '';
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+    }
+}

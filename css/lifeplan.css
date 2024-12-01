@@ -1,0 +1,109 @@
+/* 70s/Terminal-style theme */
+body {
+    background-color: #000;
+    color: #33ff33;  /* Classic terminal green */
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #33ff33;
+}
+
+h1, h2, h3 {
+    color: #33ff33;
+    border-bottom: 1px solid #33ff33;
+    padding-bottom: 5px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+/* Blinking cursor effect at the end of the page */
+body::after {
+    content: "_";
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Old-school link styling */
+a:link, a:visited {
+    color: #33ff33;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #33ff33;
+    color: #000;
+}
+
+/* Section dividers */
+hr {
+    border: none;
+    border-top: 1px dashed #33ff33;
+    margin: 20px 0;
+}
+
+/* Add some basic hover effects to list items */
+li:hover {
+    background-color: #0a290a;
+}
+
+/* Flex container for Books and Money sections */
+.stats-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.stats-box {
+    flex: 1;
+    min-width: 200px;
+    border: 1px solid #33ff33;
+    padding: 15px;
+    margin: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    .stats-container {
+        gap: 10px;
+    }
+    
+    .stats-box {
+        min-width: calc(100% - 40px);
+        margin: 10px;
+    }
+    
+    ol, ul {
+        padding-left: 20px;
+    }
+}
+
+/* Back button styling */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #33ff33;
+    color: #33ff33;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    background-color: #33ff33;
+    color: #000;
+} 
