@@ -23,12 +23,7 @@ ol {
 
 /* Blinking cursor effect at the end of the page */
 body::after {
-    content: "_";
-    animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-    50% { opacity: 0; }
+    content: none;  /* Remove existing cursor */
 }
 
 /* Old-school link styling */
@@ -106,4 +101,9 @@ li:hover {
 .back-button:hover {
     background-color: #33ff33;
     color: #000;
+}
+
+
+@keyframes blink {
+    50% { opacity: 0; }
 } 
