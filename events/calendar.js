@@ -1,7 +1,29 @@
 let currentDate = new Date();
 let selectedDate = null;
 
+function initializeMobileFilters() {
+    const filterContainer = document.getElementById('filter-container');
+    const toggleButton = document.createElement('button');
+    toggleButton.className = 'mobile-filter-toggle';
+    toggleButton.textContent = 'Toggle Filters';
+    
+    filterContainer.parentNode.insertBefore(toggleButton, filterContainer);
+    
+    toggleButton.addEventListener('click', () => {
+        filterContainer.classList.toggle('hidden');
+        toggleButton.textContent = filterContainer.classList.contains('hidden') 
+            ? 'Show Filters' 
+            : 'Hide Filters';
+    });
+
+    // Initially hide filters on mobile
+    if (window.innerWidth <= 768) {
+        filterContainer.classList.add('hidden');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
+    initializeMobileFilters();
     const calendar = document.getElementById('calendar');
     const selectedDateSpan = document.getElementById('selected-date');
     const eventsList = document.getElementById('events-list');
@@ -53,6 +75,17 @@ document.addEventListener('DOMContentLoaded', function() {
             dayEl.addEventListener('click', () => handleDayClick(dayEl, date));
             calendarEl.appendChild(dayEl);
         }
+
+        // Add touch support for calendar days
+        const days = document.querySelectorAll('.calendar-day');
+        days.forEach(day => {
+            day.addEventListener('touchend', (e) => {
+                e.preventDefault();
+                if (day.textContent) {
+                    handleDayClick(day, new Date(currentDate.getFullYear(), currentDate.getMonth(), parseInt(day.textContent)));
+                }
+            });
+        });
     }
 
     function createCalendarDay(content, hasEvents = false) {

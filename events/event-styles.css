@@ -206,8 +206,15 @@ main {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .container.events-page {
+        max-width: 100%;
+        padding: 10px;
+    }
+
     main {
         flex-direction: column;
+        padding: 0.5rem;
+        gap: 10px;
     }
 
     .floating-filter {
@@ -216,16 +223,80 @@ main {
         order: -1;
         max-height: none;
         overflow-y: visible;
+        padding: 10px;
+    }
+
+    /* Calendar specific mobile styles */
+    #calendar-container {
+        padding: 10px;
     }
 
     .calendar-day {
-        min-height: 60px;
+        min-height: 40px;
         font-size: 0.9em;
+        padding: 5px;
     }
     
     .weekday-header {
-        font-size: 0.9em;
+        font-size: 0.8em;
         padding: 5px;
+    }
+
+    /* Abbreviate weekday headers on mobile */
+    .weekday-header:nth-child(1) { content: "S"; }
+    .weekday-header:nth-child(2) { content: "M"; }
+    .weekday-header:nth-child(3) { content: "T"; }
+    .weekday-header:nth-child(4) { content: "W"; }
+    .weekday-header:nth-child(5) { content: "T"; }
+    .weekday-header:nth-child(6) { content: "F"; }
+    .weekday-header:nth-child(7) { content: "S"; }
+
+    /* Event styles for mobile */
+    .event {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .event h3 {
+        font-size: 1.1em;
+    }
+
+    /* Filter adjustments for mobile */
+    .filter-section {
+        grid-template-columns: 1fr;
+    }
+
+    .toggle-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .toggle-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Add styles for a mobile menu toggle */
+.mobile-filter-toggle {
+    display: none;
+    width: 100%;
+    padding: 10px;
+    background: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .mobile-filter-toggle {
+        display: block;
+    }
+
+    .floating-filter.hidden {
+        display: none;
     }
 }
 
