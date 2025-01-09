@@ -56,7 +56,7 @@ li:hover {
     gap: 20px;
     flex-wrap: wrap;
     margin: 20px 0;
-    width: 100%;
+    width: calc(100% - 2px);  /* Account for border */
 }
 
 .stats-box {
@@ -64,27 +64,58 @@ li:hover {
     min-width: 200px;
     border: 1px solid #33ff33;
     padding: 15px;
-    margin: 10px;
+    margin: 10px 0;  /* Remove horizontal margin */
+    box-sizing: border-box;  /* Include padding and border in width calculation */
 }
 
 /* Responsive design */
 @media (max-width: 600px) {
     body {
-        margin: 20px;
+        margin: 10px;
         padding: 10px;
+        font-size: 16px;
+        max-width: 100%;
     }
     
     .stats-container {
-        gap: 10px;
+        flex-direction: column;
+        gap: 15px;
     }
     
     .stats-box {
-        min-width: calc(100% - 40px);
-        margin: 10px;
+        min-width: auto;
+        width: 100%;  /* Full width */
+        margin: 5px 0;  /* Vertical margin only */
+        box-sizing: border-box;
     }
     
-    ol, ul {
-        padding-left: 20px;
+    ol {
+        padding-left: 25px;
+        margin-left: 10px;
+        list-style-position: outside;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+        margin: 15px 0;
+    }
+
+    .back-button {
+        padding: 8px 15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+}
+
+/* Add touch-friendly improvements */
+@media (hover: none) {
+    li:hover {
+        background-color: transparent;
+    }
+    
+    a:active {
+        background-color: #33ff33;
+        color: #000;
     }
 }
 
