@@ -1,0 +1,141 @@
+.header {
+    background-image: url("../images/headerbackground-2.png");
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+/* Globe face styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.eyes-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    cursor: pointer;
+}
+
+.base-image,
+.eyeballs {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.eyeballs {
+    z-index: 1;
+}
+
+.home-text {
+    color: #F5EDE5;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
+
+/* Navigation styles */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.planet {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-links li a span {
+    color: #F5EDE5;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
+
+/* Mobile menu button */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: #F5EDE5;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .home-container {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .planet {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Planet images */
+.nav-links li:nth-child(1) .planet { background-image: url("../images/planets/moon-1.png"); }
+.nav-links li:nth-child(2) .planet { background-image: url("../images/planets/satellite.png"); }
+.nav-links li:nth-child(3) .planet { background-image: url("../images/planets/saturn.png"); }
+.nav-links li:nth-child(4) .planet { background-image: url("../images/planets/mars.png"); }
+.nav-links li:nth-child(5) .planet { background-image: url("../images/planets/jupiter.png"); } 
