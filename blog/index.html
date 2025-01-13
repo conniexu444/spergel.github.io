@@ -41,15 +41,7 @@
         </div>
     </div>
     <div id="footer"></div>
-    <script src="../header-and-footer.js"></script>
-    <script src="../eyes.js"></script>
-    <script>
-        loadHeaderAndFooter('/header.html', '/footer.html');
-        fetch('/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header-container').innerHTML = data;
-            });
-    </script>
+    <script src="../js/header.js"></script>
+    <script src="../js/eyes.js"></script>
 </body>
 </html>

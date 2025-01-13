@@ -2,7 +2,7 @@ function showAllEvents() {
     const eventsListEl = document.getElementById('events-list');
     const filteredEvents = EventUtils.getFilteredEvents();
     
-    eventsListEl.innerHTML = ''; // Clear existing content
+    eventsListEl.innerHTML = '';
     
     filteredEvents.forEach(event => {
         const eventDiv = document.createElement('div');
@@ -12,7 +12,10 @@ function showAllEvents() {
     });
 }
 
-EventUtils.loadEvents(() => {
-    EventUtils.createSourceFilters(showAllEvents);
-    showAllEvents();
+document.addEventListener('DOMContentLoaded', function() {
+    EventUtils.initializeMobileFilters();
+    EventUtils.loadEvents(() => {
+        EventUtils.createSourceFilters(showAllEvents);
+        showAllEvents();
+    });
 });

@@ -1,29 +1,8 @@
 let currentDate = new Date();
 let selectedDate = null;
 
-function initializeMobileFilters() {
-    const filterContainer = document.getElementById('filter-container');
-    const toggleButton = document.createElement('button');
-    toggleButton.className = 'mobile-filter-toggle';
-    toggleButton.textContent = 'Toggle Filters';
-    
-    filterContainer.parentNode.insertBefore(toggleButton, filterContainer);
-    
-    toggleButton.addEventListener('click', () => {
-        filterContainer.classList.toggle('hidden');
-        toggleButton.textContent = filterContainer.classList.contains('hidden') 
-            ? 'Show Filters' 
-            : 'Hide Filters';
-    });
-
-    // Initially hide filters on mobile
-    if (window.innerWidth <= 768) {
-        filterContainer.classList.add('hidden');
-    }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-    initializeMobileFilters();
+    EventUtils.initializeMobileFilters();
     const calendar = document.getElementById('calendar');
     const selectedDateSpan = document.getElementById('selected-date');
     const eventsList = document.getElementById('events-list');

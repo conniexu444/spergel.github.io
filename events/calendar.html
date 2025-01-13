@@ -13,6 +13,8 @@
 
     <div class="container events-page">
         <main>
+
+
             <!-- Filters -->
             <div id="filter-container" class="floating-filter">
                 <div id="source-filters"></div>
@@ -50,20 +52,10 @@
     <div id="footer"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.3/purify.min.js"></script>
-    <script src="/header-and-footer.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/eyes.js"></script>
     <script src="filter.js"></script>
     <script src="utils.js"></script>
     <script src="calendar.js"></script>
-    <script src="/eyes.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            loadHeaderAndFooter('/header.html', '/footer.html');
-            fetch('/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header-container').innerHTML = data;
-            });
-        });
-    </script>
 </body>
 </html>

@@ -99,8 +99,8 @@
 
 .nav-links li {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     transform-origin: center;
     background-size: contain;
@@ -110,47 +110,22 @@
 }
 
 .nav-links li a {
-    color: #F5EDE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
-    display: block;
+    position: relative;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 80px;
 }
 
-/* Modify each planet with different sizes */
-.nav-links li:nth-child(1) a {
-    background-image: url("../images/planets/moon-1.png");
-}
-
-.nav-links li:nth-child(2) a {
-    background-image: url("../images/planets/satellite.png");
-}
-
-.nav-links li:nth-child(3) a {
-    background-image: url("../images/planets/saturn.png");
-}
-
-.nav-links li:nth-child(4) a {
-    background-image: url("../images/planets/mars.png");
-}
-
-.nav-links li:nth-child(5) a {
-    background-image: url("../images/planets/jupiter.png");
-}
-
-.nav-links li:nth-child(6) a {
-    background-image: url("../images/planets/neptune.png");
+.nav-links li a .planet {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease;
 }
 
 /* Link styles */
@@ -252,15 +227,6 @@
     transition: all 0.3s ease;
 }
 
-.nav-links li a .planet {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: all 0.3s ease;
-}
-
 .nav-links li a span {
     color: #F5EDE5;
     font-weight: bold;
@@ -337,66 +303,87 @@
         flex-direction: column;
         align-items: center;
         height: auto;
+        padding-top: 20px;
     }
 
     .eyes-container {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         transform: none;
         left: auto;
         top: auto;
-        margin: 20px 0;
+        margin: 0;
     }
 
     .home-container {
         position: relative;
-        width: 200px;
-        height: 250px;
+        width: 150px;
+        height: 200px;
         transform: none;
         left: auto;
         top: auto;
-        margin: 20px 0;
+        margin: 0 0 20px 0;
+        order: -1;
     }
 
     .nav-links {
-        position: relative;
+        position: static;
         width: 100%;
+        max-width: 400px;
         height: auto;
         transform: none;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
     .nav-links li {
-        position: relative;
+        position: static;
         width: 100%;
-        height: 100px;
+        height: auto;
+        padding: 10px;
+        transform: none;
+    }
+
+    .nav-links li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .nav-links li a .planet {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        flex-shrink: 0;
+    }
+
+    .nav-links li a span {
+        font-size: 1.2em;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    /* Override all nth-child positioning for mobile */
+    .nav-links li:nth-child(1),
+    .nav-links li:nth-child(2),
+    .nav-links li:nth-child(3),
+    .nav-links li:nth-child(4),
+    .nav-links li:nth-child(5),
+    .nav-links li:nth-child(6) {
+        position: static;
         top: auto;
         left: auto;
         right: auto;
         bottom: auto;
         transform: none;
-        padding-top: 0;
-    }
-
-    .nav-links li a {
-        padding-top: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .nav-links li a::before {
-        content: '';
-        width: 50px;
-        height: 50px;
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin-bottom: 10px;
     }
 }

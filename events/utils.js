@@ -75,5 +75,32 @@ window.EventUtils = {
             <p><strong>Department:</strong> ${this.sanitizeHTML(event.department || event['department-program'] || 'N/A')}</p>
             <div class="event-description">${sanitizedDescription}</div>
         `;
+    },
+
+    initializeMobileFilters: function() {
+        const filterContainer = document.getElementById('filter-container');
+        if (!filterContainer) return;
+
+        // Remove existing button if any
+        const existingButton = document.querySelector('.mobile-filter-toggle');
+        if (existingButton) existingButton.remove();
+
+        const toggleButton = document.createElement('button');
+        toggleButton.className = 'mobile-filter-toggle';
+        toggleButton.textContent = 'Toggle Filters';
+        
+        filterContainer.parentNode.insertBefore(toggleButton, filterContainer);
+        
+        toggleButton.addEventListener('click', () => {
+            filterContainer.classList.toggle('hidden');
+            toggleButton.textContent = filterContainer.classList.contains('hidden') 
+                ? 'Show Filters' 
+                : 'Hide Filters';
+        });
+
+        // Initially hide filters on mobile
+        if (window.innerWidth <= 768) {
+            filterContainer.classList.add('hidden');
+        }
     }
 };
