@@ -374,12 +374,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
     color: #666;
 }
 
-/* Remove the custom metadata popup styles */
-.metadata-popup,
-.metadata-overlay {
-    display: none;
-}
-
 /* jQuery UI Dialog customization */
 .ui-dialog {
     position: fixed !important;
@@ -520,4 +514,131 @@ a:hover {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+/* Letter Details Panel (Standard Theme) */
+.letter-details {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--panel-bg);
+    border-top: 2px solid var(--border-color);
+    padding: 15px;
+    height: 250px; /* Adjust height as needed */
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    z-index: 998; /* Below tags panel, above graph */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.letter-details.visible {
+    transform: translateY(0);
+}
+
+.letter-column {
+    flex: 1;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 10px;
+    overflow-y: auto;
+    background: var(--bg-color);
+}
+
+.letter-column-header {
+    position: sticky;
+    top: -10px; /* Adjust to align with padding */
+    background: var(--panel-bg);
+    color: var(--text-color);
+    padding: 8px 10px;
+    margin: -10px -10px 10px -10px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.letter-item {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: var(--bg-color);
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.letter-item:hover {
+    background: var(--hover-color, lightgray); /* Add a hover color variable or fallback */
+    border-color: var(--primary-color);
+}
+
+.letter-item strong {
+    color: var(--primary-color);
+}
+
+.close-details {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.close-details:hover {
+    background: var(--primary-color);
+    color: white; /* Assuming primary color contrasts with white */
+    border-color: var(--primary-color);
+}
+
+.metadata-section {
+    border-left: 1px solid var(--border-color);
+    padding-left: 15px;
+    flex-basis: 200px; /* Adjust size as needed */
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
+.metadata-header {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.metadata-item {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Scrollbar styling for details panel */
+.letter-column::-webkit-scrollbar,
+.metadata-section::-webkit-scrollbar {
+    width: 8px;
+}
+
+.letter-column::-webkit-scrollbar-track,
+.metadata-section::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+.letter-column::-webkit-scrollbar-thumb,
+.metadata-section::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+.letter-column::-webkit-scrollbar-thumb:hover,
+.metadata-section::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
 }

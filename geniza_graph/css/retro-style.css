@@ -453,11 +453,6 @@ svg {
     margin: 5px 0;
 }
 
-/* Hide popup elements in retro mode */
-.metadata-popup,
-.metadata-overlay {
-    display: none !important;
-}
 /* Ensure text colors update with mode */
 body.dark-mode .metadata-title,
 body.dark-mode .metadata-item,
